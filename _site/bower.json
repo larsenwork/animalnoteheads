@@ -1,0 +1,8 @@
+{
+  "name": "AnimalNoteHeads",
+  "description": "Makes music fun",
+  "version": "0.0.1",
+  "dependencies": {
+    "typesettings": "~2.4.0"
+  }
+}
