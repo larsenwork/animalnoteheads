@@ -285,7 +285,7 @@ body {
   -moz-justify-content: center;
   justify-content: center;
   height: 80vh;
-  background: url("../assets/img/jumbo.jpeg");
+  background: url("../assets/img/jumbo.jpg");
   background-size: cover; }
   /* line 21, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/general.scss */
   #jumbo * {
