@@ -1,18 +1,88 @@
-@charset "UTF-8";
-/*!
-Theme Name: Animal NoteHeads 
-Theme URI: http://animalnoteheads.com/
-Version: 0.0.1
-Description: 
-Author: Andreas Larsen
-Author URI: http://andreaslarsen.github.io
-*/
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
-/* line 18, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/reset.scss */
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
   margin: 0;
   padding: 0;
   border: 0;
@@ -21,275 +91,321 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   vertical-align: baseline; }
 
 /* HTML5 display-role reset for older browsers */
-/* line 28, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/reset.scss */
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
   display: block; }
 
-/* line 31, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/reset.scss */
-body {
-  line-height: 1; }
-
-/* line 34, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/reset.scss */
-ol, ul {
+ol,
+ul {
   list-style: none; }
 
-/* line 37, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/reset.scss */
-blockquote, q {
+blockquote,
+q {
   quotes: none; }
 
-/* line 41, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/reset.scss */
-blockquote:before, blockquote:after, q:before, q:after {
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
   content: '';
   content: none; }
 
-/* line 45, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/reset.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-@font-face {
-  font-family: 'Comic Neue Angular';
-  src: url('fonts/ComicNeue-Angular-Light.eot');
-  src: url('fonts/ComicNeue-Angular-Light.eot?#iefix') format('embedded-opentype'), url('fonts/ComicNeue-Angular-Light.woff') format('woff'), url('fonts/ComicNeue-Angular-Light.woff2') format('woff2'), url('fonts/ComicNeue-Angular-Light.ttf') format('truetype');
-  font-weight: 100; }
-
-@font-face {
-  font-family: 'Comic Neue';
-  src: url('fonts/ComicNeue-Bold.eot');
-  src: url('fonts/ComicNeue-Bold.eot?#iefix') format('embedded-opentype'), url('fonts/ComicNeue-Bold.woff') format('woff'), url('fonts/ComicNeue-Bold.woff2') format('woff2'), url('fonts/ComicNeue-Bold.ttf') format('truetype');
-  font-weight: 700; }
-
-/* line 203, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/bower_components/typesettings/_typesettings.scss */
 html {
-  font-size: 200%; }
+  font-family: "Source Sans Pro", "sans-serif";
+  font-weight: 300;
+  color: #666;
+  font-size: 12px;
+  line-height: 1.75em; }
+  @media (min-width: 600px) {
+    html {
+      font-size: calc( 12px + (20 - 12) * ((100vw - 600px) / (1140 - 600)) ); } }
+  @media (min-width: 1140px) {
+    html {
+      font-size: 20px; } }
 
-/* line 207, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/bower_components/typesettings/_typesettings.scss */
-body {
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
   margin: 0;
-  padding: 0;
-  line-height: 1.25; }
+  padding: 0; }
 
-/* line 219, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/bower_components/typesettings/_typesettings.scss */
-html {
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%; }
+p, blockquote, pre,
+address,
+dl, ol, ul,
+table {
+  margin-bottom: 1.75em; }
 
-/* line 224, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/bower_components/typesettings/_typesettings.scss */
-body {
-  margin: 0;
-  padding: 0;
-  font-family: 'Comic Neue Angular', sans-serif;
-  font-weight: 400;
-  color: #000; }
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat", "sans-serif";
+  font-weight: 500;
+  color: #111;
+  clear: both; }
 
-/* line 237, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/bower_components/typesettings/_typesettings.scss */
-h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
-  margin-top: 0;
-  padding-top: 0;
-  padding-bottom: 0;
-  font-family: 'Comic Neue', sans-serif;
-  font-weight: bold; }
+h1 {
+  font-size: 27.85439px;
+  margin-top: 0.9424em;
+  line-height: 1.13088em;
+  margin-bottom: 0.18848em; }
+  @media (min-width: 600px) {
+    h1 {
+      font-size: calc( 27.85439px + (46.42398 - 27.85439) * ((100vw - 600px) / (1140 - 600)) ); } }
+  @media (min-width: 1140px) {
+    h1 {
+      font-size: 46.42398px;
+      margin-top: 0.9424em;
+      line-height: 1.13088em;
+      margin-bottom: 0.18848em; } }
 
-/* line 255, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/bower_components/typesettings/_typesettings.scss */
-h1, .h1 {
-  margin-bottom: 0.1563em;
-  font-size: 1.9994em;
-  line-height: 0.93778; }
-  @media (min-width: 43.75em) {
-    h1, .h1 {
-      margin-bottom: 0.11054em;
-      font-size: 2.82715em;
-      line-height: 0.88428; } }
-  @media (min-width: 56.25em) {
-    h1, .h1 {
-      margin-bottom: 0.07817em;
-      font-size: 3.99758em;
-      line-height: 0.78172; } }
+h2 {
+  font-size: 23.537px;
+  margin-top: 1.11527em;
+  line-height: 1.33832em;
+  margin-bottom: 0.25148em; }
+  @media (min-width: 600px) {
+    h2 {
+      font-size: calc( 23.537px + (39.22834 - 23.537) * ((100vw - 600px) / (1140 - 600)) ); } }
+  @media (min-width: 1140px) {
+    h2 {
+      font-size: 39.22834px;
+      margin-top: 1.11527em;
+      line-height: 1.33832em;
+      margin-bottom: 0.24011em; } }
 
-/* line 271, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/bower_components/typesettings/_typesettings.scss */
-h2, .h2 {
-  margin-bottom: 0.221em;
-  font-size: 1.414em;
-  line-height: 1.10502; }
-  @media (min-width: 43.75em) {
-    h2, .h2 {
-      margin-bottom: 0.1563em;
-      font-size: 1.9994em;
-      line-height: 0.93778; } }
-  @media (min-width: 56.25em) {
-    h2, .h2 {
-      margin-bottom: 0.11054em;
-      font-size: 2.82715em;
-      line-height: 0.88428; } }
+h3 {
+  font-size: 19.8888px;
+  margin-top: 1.31984em;
+  line-height: 1.58381em;
+  margin-bottom: 0.30378em; }
+  @media (min-width: 600px) {
+    h3 {
+      font-size: calc( 19.8888px + (33.14801 - 19.8888) * ((100vw - 600px) / (1140 - 600)) ); } }
+  @media (min-width: 1140px) {
+    h3 {
+      font-size: 33.14801px;
+      margin-top: 1.31984em;
+      line-height: 1.58381em;
+      margin-bottom: 0.28786em; } }
 
-/* line 286, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/bower_components/typesettings/_typesettings.scss */
-h3, .h3 {
-  margin-bottom: 0.221em;
-  font-size: 1.414em;
-  line-height: 1.10502; }
-  @media (min-width: 56.25em) {
-    h3, .h3 {
-      margin-bottom: 0.1563em;
-      font-size: 1.9994em;
-      line-height: 0.93778; } }
+h4 {
+  font-size: 16.80607px;
+  margin-top: 1.56194em;
+  line-height: 1.87432em;
+  margin-bottom: 0.36815em; }
+  @media (min-width: 600px) {
+    h4 {
+      font-size: calc( 16.80607px + (28.01012 - 16.80607) * ((100vw - 600px) / (1140 - 600)) ); } }
+  @media (min-width: 1140px) {
+    h4 {
+      font-size: 28.01012px;
+      margin-top: 1.56194em;
+      line-height: 1.87432em;
+      margin-bottom: 0.34585em; } }
 
-/* line 296, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/bower_components/typesettings/_typesettings.scss */
-h4, .h4 {
-  margin-bottom: 0.221em;
-  font-size: 1.414em;
-  line-height: 1.10502; }
+h5 {
+  font-size: 14.20116px;
+  margin-top: 1.84844em;
+  line-height: 2.21813em;
+  margin-bottom: 0.36969em; }
+  @media (min-width: 600px) {
+    h5 {
+      font-size: calc( 14.20116px + (23.66859 - 14.20116) * ((100vw - 600px) / (1140 - 600)) ); } }
+  @media (min-width: 1140px) {
+    h5 {
+      font-size: 23.66859px;
+      margin-top: 1.84844em;
+      line-height: 2.21813em;
+      margin-bottom: 0.36969em; } }
 
-/* line 302, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/bower_components/typesettings/_typesettings.scss */
-h5, .h5, h6, .h6 {
-  margin-bottom: 0.3125em;
-  font-size: 1em;
-  line-height: 1.25; }
+h6 {
+  font-size: 12px;
+  margin-top: 2.1875em;
+  line-height: 2.625em;
+  margin-bottom: 0.51042em; }
+  @media (min-width: 600px) {
+    h6 {
+      font-size: calc( 12px + (20 - 12) * ((100vw - 600px) / (1140 - 600)) ); } }
+  @media (min-width: 1140px) {
+    h6 {
+      font-size: 20px;
+      margin-top: 2.1875em;
+      line-height: 2.625em;
+      margin-bottom: 0.47396em; } }
 
-/* line 307, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/bower_components/typesettings/_typesettings.scss */
-p {
-  margin-top: 0;
-  margin-bottom: 1.25em;
-  padding-top: 0;
-  padding-bottom: 0;
-  max-width: 30em;
-  -webkit-hyphens: auto;
-  -epub-hyphens: auto;
-  -moz-hyphens: auto;
-  -ms-hyphens: auto;
-  -o-hyphens: auto;
-  hyphens: auto;
-  word-wrap: break-word; }
-  @media (min-width: 43.75em) {
-    p {
-      text-align: justify; } }
-
-/* line 329, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/bower_components/typesettings/_typesettings.scss */
-p + p {
-  margin-top: -1.25em;
-  text-indent: 1.25em; }
-
-/* line 336, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/bower_components/typesettings/_typesettings.scss */
-small, .font-small {
-  font-size: 0.70721em;
-  line-height: 1.32563; }
-
-/* line 340, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/bower_components/typesettings/_typesettings.scss */
-em {
-  font-style: italic; }
-
-/* line 344, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/bower_components/typesettings/_typesettings.scss */
-strong {
-  font-weight: bold; }
-
-/* line 348, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/bower_components/typesettings/_typesettings.scss */
 blockquote {
-  margin-top: 1.25em;
-  margin-bottom: 1.25em;
-  margin-left: 0;
-  padding-top: 0;
-  padding-bottom: 0;
-  padding-left: 1.25em;
-  border-left: 10px solid gray;
-  font-family: 'Comic Neue Angular', sans-serif; }
-  /* line 358, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/bower_components/typesettings/_typesettings.scss */
-  blockquote p {
-    margin-bottom: 0.625em; }
-  /* line 364, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/bower_components/typesettings/_typesettings.scss */
-  blockquote footer cite:before {
-    content: " – "; }
+  font-style: italic; }
+  blockquote cite {
+    display: block;
+    font-style: normal; }
 
-/* line 372, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/bower_components/typesettings/_typesettings.scss */
-pre, code {
-  font-family: 'Lucida Console', Monaco, monospace; }
+pre {
+  padding: 0.875em;
+  margin-bottom: 1.75em; }
+  pre code {
+    padding: 0; }
 
-/* line 377, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/bower_components/typesettings/_typesettings.scss */
-time, .time {
-  text-transform: uppercase; }
+code {
+  font-family: "Courier New", "Courier", "Lucida Sans Typewriter", "Lucida Typewriter", "monospace";
+  padding: 0.0875em 0.2625em;
+  line-height: 0; }
 
-/* line 383, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/bower_components/typesettings/_typesettings.scss */
-ol, ul, dl {
-  margin-top: 0;
-  margin-bottom: 1.25em;
-  margin-left: 1.25em;
-  padding-top: 0;
-  padding-bottom: 0; }
+big, small, sub, sup {
+  line-height: 0; }
 
-/* line 393, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/bower_components/typesettings/_typesettings.scss */
-ul ul, ol ol, dl dl {
-  margin-left: 0; }
-
-/* line 397, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/bower_components/typesettings/_typesettings.scss */
-ul {
-  list-style: disc; }
-
-/* line 401, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/bower_components/typesettings/_typesettings.scss */
-ol {
-  list-style: decimal; }
-
-/* line 406, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/bower_components/typesettings/_typesettings.scss */
-abbr {
-  font-variant: small-caps;
-  font-weight: 600;
-  text-transform: lowercase; }
-
-/* line 413, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/bower_components/typesettings/_typesettings.scss */
-abbr[title]:hover {
+abbr, acronym {
+  border-bottom: 1px dotted currentColor;
   cursor: help; }
 
-/* line 419, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/bower_components/typesettings/_typesettings.scss */
-hr {
-  margin-top: 1.25em;
-  margin-bottom: 0;
-  border: none;
-  border-top-color: #000;
-  border-top-style: solid;
-  border-top-width: 1px;
-  padding-top: 1.21875em; }
+address {
+  font-style: normal; }
 
-/* line 30, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/typography.scss */
-body {
-  font-weight: 100; }
+dt {
+  color: #111;
+  font-weight: bold; }
 
-/* line 35, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/typography.scss */
-.wrap h1 {
-  font-size: 8vw; }
+ul {
+  padding-left: 1.1em; }
 
-/* line 1, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/general.scss */
-* {
-  box-sizing: border-box;
-  font-feature-settings: "kern";
-  -moz-font-feature-settings: "kern";
-  -webkit-font-feature-settings: "kern"; }
+ol {
+  padding-left: 1.4em; }
 
-/* line 8, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/general.scss */
-#pagewrap {
-  margin: 10vh auto;
-  max-width: 1100px;
-  padding: 0 10%; }
+fieldset {
+  padding: 0.875em 1.75em 1.75em;
+  border-width: 1px;
+  border-style: solid;
+  max-width: 100%;
+  margin-bottom: 1.8375em; }
+  @media (min-width: 1140px) {
+    fieldset {
+      margin-bottom: 2.07813em; } }
+  fieldset button, fieldset input[type="submit"] {
+    margin-bottom: 0; }
 
-/* line 14, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/general.scss */
+legend {
+  color: #111;
+  font-weight: bold; }
+
+input[type="text"], input[type="email"], input[type="password"], textarea {
+  display: block;
+  max-width: 100%;
+  padding: 0.4375em;
+  font-size: 12px;
+  margin-bottom: 1.18125em; }
+  @media (min-width: 600px) {
+    input[type="text"], input[type="email"], input[type="password"], textarea {
+      font-size: calc( 12px + (20 - 12) * ((100vw - 600px) / (1140 - 600)) ); } }
+  @media (min-width: 1140px) {
+    input[type="text"], input[type="email"], input[type="password"], textarea {
+      font-size: 20px;
+      margin-bottom: 0.51406em; } }
+
+input[type="submit"], button {
+  display: block;
+  cursor: pointer;
+  font-size: 12px;
+  padding: 0.4375em 1.75em;
+  margin-bottom: 1.18125em; }
+  @media (min-width: 600px) {
+    input[type="submit"], button {
+      font-size: calc( 12px + (20 - 12) * ((100vw - 600px) / (1140 - 600)) ); } }
+  @media (min-width: 1140px) {
+    input[type="submit"], button {
+      font-size: 20px;
+      margin-bottom: 1.3125em; } }
+
+label {
+  display: block;
+  padding-bottom: 0.21875em;
+  margin-bottom: -0.21875em; }
+
+table {
+  width: 100%;
+  border-spacing: 0;
+  border-collapse: collapse;
+  margin-bottom: 2.1875em; }
+  @media (min-width: 1140px) {
+    table {
+      margin-bottom: 2.0125em; } }
+
+th {
+  text-align: left;
+  color: #111;
+  padding: 0.21875em 0.875em; }
+  @media (min-width: 1140px) {
+    th {
+      padding: 0.4375em 0.875em; } }
+
+td {
+  padding: 0.875em;
+  padding: 0.21875em 0.875em; }
+  @media (min-width: 1140px) {
+    td {
+      padding: 0.4375em 0.875em; } }
+
 #jumbo {
+  height: calc(30vh + 15vw);
+  background-image: url("img/jumbo.jpg");
+  background-size: cover;
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  -webkit-align-items: center;
-  -moz-align-items: center;
-  align-items: center;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   -webkit-justify-content: center;
   -moz-justify-content: center;
   justify-content: center;
-  height: 80vh;
-  background: url("../assets/img/jumbo.jpeg");
-  background-size: cover; }
-  /* line 21, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/general.scss */
-  #jumbo * {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  align-items: center; }
+  #jumbo h1 {
+    font-size: 8vw;
     color: white;
     margin: 0; }
+
+img {
+  max-width: 100%; }
+
+ol {
+  list-style: decimal; }
+
+ul {
+  list-style: disc; }
+
+ul,
+ol,
+p {
+  margin-bottom: 0; }
+
+.wrap {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 10vh 10px; }
+
+footer {
+  font-size: 0.9em;
+  padding: 10vh 0;
+  margin: 0 auto;
+  text-align: center; }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,30 @@
+{
+  "name": "typographic",
+  "author": {
+    "name": "Cory Simmons"
+  },
+  "main": "stylus/typographic.js",
+  "version": "2.9.3",
+  "description": "Responsive typography with modular scale, font stacks, and more.",
+  "keywords": [
+    "stylus",
+    "css",
+    "typography",
+    "responsive"
+  ],
+  "categories": [
+    "css",
+    "typography",
+    "stylus"
+  ],
+  "github": "http://github.com/corysimmons/typographic",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/corysimmons/typographic.git"
+  },
+  "bugs": {
+    "url": "https://github.com/corysimmons/typographic/issues"
+  },
+  "readme": "https://github.com/corysimmons/typographic/blob/master/README.md",
+  "homepage": "https://github.com/corysimmons/typographic"
+}

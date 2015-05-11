@@ -1,14 +1,48 @@
-/*!
-Theme Name: Animal NoteHeads 
-Theme URI: http://animalnoteheads.com/
-Version: 0.0.1
-Description: 
-Author: Andreas Larsen
-Author URI: http://andreaslarsen.github.io
-*/
+@import '../bower_components/reset-scss/reset.scss';
+@import '../bower_components/sass-flex-mixin/_flexbox';
+@import 'variables';
+@import 'typography';
+#jumbo {
+  height: calc(30vh + 15vw);
+  background-image: url('img/jumbo.jpg');
+  background-size: cover;
+  @include flexbox;
+  @include justify-content(center);
+  @include align-items(center);
+  h1 {
+    font-size: 8vw;
+    color: white;
+    margin: 0;
+  }
+}
 
-// Import Bootstrap styles
-@import 'reset.scss';
-@import 'typography.scss';
-@import 'flexbox.scss';
-@import 'general.scss';
+img {
+  max-width: 100%;
+}
+
+ol {
+  list-style: decimal;
+}
+
+ul {
+  list-style: disc;
+}
+
+ul,
+ol,
+p {
+  margin-bottom: 0;
+}
+
+.wrap {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 10vh 10px;
+}
+
+footer {
+  font-size: 0.9em;
+  padding: 10vh 0;
+  margin: 0 auto;
+  text-align: center;
+}

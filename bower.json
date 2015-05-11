@@ -3,6 +3,8 @@
   "description": "Makes music fun",
   "version": "0.0.1",
   "dependencies": {
-    "typesettings": "~2.4.0"
+    "typographic": "~2.9.3",
+    "sass-flex-mixin": "~1.0.1",
+    "reset-scss": "*"
   }
 }
