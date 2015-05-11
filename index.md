@@ -2,6 +2,10 @@
 published: true
 layout: default
 title: Animal Note Heads
+author: Andreas Larsen
+description: Makes note learning easy and fun. It's currently under construction. The goal is to create an free database with sheets using Animal Note Heads.
+year: 2015
+image: AnimalNoteHeadsMockup.png
 ---
 # Animal Note Heads
 
