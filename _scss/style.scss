@@ -4,8 +4,8 @@
 @import 'typography';
 @import 'social';
 #jumbo {
-  height: calc(20vh + 35vw);
-  max-height: 100vh;
+  height: 70vh;
+  padding-bottom: 30vh;
   background: linear-gradient( hsla(0, 0%, 100%, 0.5) 0%, hsla(0, 0%, 100%, 0.9) 63%, hsla(0, 0%, 100%, 1) 100%), url('img/jumbo.jpg') no-repeat center bottom fixed;
   background-size: cover;
   @include flexbox;
@@ -52,8 +52,8 @@ p {
 
 .wrap {
   max-width: 800px;
-  margin: 0 auto;
-  padding: 0 10px 10vh;
+  margin: -30vh auto 0;
+  padding: 0 10px;
   .social-likes__widget {
     border-radius: 5px;
     height: 28px !important;

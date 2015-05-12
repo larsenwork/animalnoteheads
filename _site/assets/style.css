@@ -297,26 +297,30 @@ td {
   font-style: normal; }
 
 /* line 10, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/typography.scss */
+#jumbo {
+  letter-spacing: -0.2em; }
+
+/* line 14, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/typography.scss */
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   letter-spacing: -0.05em; }
 
-/* line 18, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/typography.scss */
+/* line 22, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/typography.scss */
 p, li, footer {
   letter-spacing: 0.05em; }
 
-/* line 22, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/typography.scss */
+/* line 26, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/typography.scss */
 a {
   color: #188bd8;
   text-decoration: none; }
 
-/* line 27, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/typography.scss */
+/* line 31, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/typography.scss */
 ::-moz-selection {
   color: white;
   background-color: #126aa5; }
 
-/* line 32, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/typography.scss */
+/* line 36, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/typography.scss */
 ::selection {
   color: white;
   background-color: #126aa5; }
@@ -742,8 +746,8 @@ a {
 
 /* line 6, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/style.scss */
 #jumbo {
-  height: calc(20vh + 35vw);
-  max-height: 100vh;
+  height: 70vh;
+  padding-bottom: 30vh;
   background: linear-gradient(rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0.9) 63%, #ffffff 100%), url('img/jumbo.jpg') no-repeat center bottom fixed;
   background-size: cover;
   display: -webkit-box;
@@ -799,8 +803,8 @@ ul, ol, p {
 /* line 53, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/style.scss */
 .wrap {
   max-width: 800px;
-  margin: 0 auto;
-  padding: 0 10px 10vh; }
+  margin: -30vh auto 0;
+  padding: 0 10px; }
   /* line 57, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/style.scss */
   .wrap .social-likes__widget {
     border-radius: 5px;
