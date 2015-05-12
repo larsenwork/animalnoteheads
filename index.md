@@ -15,7 +15,8 @@ Substitute note heads with cute and colorful animals - e.g. alligator for "A". T
 
 ### Guides
 
-- Choose the correct paper size: [A4](assets/pdf/AnimalNoteHeads-keys-en-A4.pdf){:target="_blank"} / [US Letter](assets/pdf/AnimalNoteHeads-keys-en-Letter.pdf){:target="_blank"}
+- Color [A4](assets/pdf/AnimalNoteHeads-keys-en-A4.pdf){:target="_blank"} - [US Letter](assets/pdf/AnimalNoteHeads-keys-en-Letter.pdf){:target="_blank"}
+- ÷Color [A4](assets/pdf/AnimalNoteHeads-keys-en-bw-A4.pdf){:target="_blank"} - [US Letter](assets/pdf/AnimalNoteHeads-keys-en-bw-Letter.pdf){:target="_blank"}
 - Print (100%) and cut it
 - Put it just above the keys on the piano
 
