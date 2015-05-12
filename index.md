@@ -18,7 +18,7 @@ The ambition is to make a huge collection of sheets that people can use freely.
 ### Guides
 
 Print and cut the pdf and put it just above the keys on the piano. Choose the correct paper size: [A4](assets/pdf/AnimalNoteHeads-keys-en-A4.pdf) / [US Letter](assets/pdf/AnimalNoteHeads-keys-en-Letter.pdf).
-![AnimalNoteHeadskeys](assets/img/AnimalNoteHeadskeys.png)
+![AnimalNoteHeadskeys](assets/img/AnimalNoteHeadskey.png)
 
 ### Sheets
 
