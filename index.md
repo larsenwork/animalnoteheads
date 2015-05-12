@@ -31,12 +31,9 @@ Substitute note heads with cute and colorful animals - e.g. alligator for "A". T
 1. Temporary website
 1. Font + Lilypond template
 1. Figure out the license so we can start making sheets
-1. Language support - ~~en + dk + se~~ + fr + es
+1. Support more languages - such as fr + es
 1. Website update - to browse all the sheets
-
-### Contribute
-
-Head over to [GitHub](https://github.com/andreaslarsen/animalnoteheads) with your skills and ideas
+1. And much more - see the [issues on GitHub](https://github.com/andreaslarsen/animalnoteheads/issues) where you can contribute with your skills and ideas
 
 ### Contributors
 
