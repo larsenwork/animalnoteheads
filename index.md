@@ -11,7 +11,7 @@ image: AnimalNoteHeadsMockup.png
 
 ### Concept
 
-Substitute note heads with cute and colorful animals - e.g. alligator for "A". The ambition is, with your help, to make a huge collection of sheets in multiple languages that people can use freely.
+Substitute note heads with cute and colorful animals - e.g. alligator for "A". The ambition is, with your help, to make a huge collection of sheets in multiple languages that everyone can use freely.
 
 ### Guides
 
@@ -24,6 +24,8 @@ Substitute note heads with cute and colorful animals - e.g. alligator for "A". T
 
 ### Sheets
 
+Comming soon...
+
 ![AnimalNoteHeadsMockup](https://raw.githubusercontent.com/andreaslarsen/animalnoteheads/gh-pages/assets/img/AnimalNoteHeadsMockup.png)
 
 ### To do
@@ -31,7 +33,7 @@ Substitute note heads with cute and colorful animals - e.g. alligator for "A". T
 1. Note head design
 1. Temporary website
 1. Font + Lilypond template
-1. Figure out the license so we can start making sheets
+1. Start making sheets
 1. Support more languages - such as fr + es
 1. Website update - to browse all the sheets
 1. And much more - see [issues on GitHub](https://github.com/andreaslarsen/animalnoteheads/issues)
@@ -45,12 +47,12 @@ Substitute note heads with cute and colorful animals - e.g. alligator for "A". T
 
 ### Support me
 
-Support me and this project on [patreon](https://www.patreon.com/andreaslarsen){:target="_blank"} and/or send money via [paypal](https://www.paypal.com/webapps/mpp/send-money-online){:target="_blank"} to andreaslarsen86@gmail.com  
-I'm also very thankful for every social share and GitHub star;)
+$upport me on [patreon](https://www.patreon.com/andreaslarsen){:target="_blank"} or buy an AnimalNoteHeads item (ideas...?) that I'll put up soon.  
+Every little tweet, like, pin, forum share etc. is also great! It gives me more time to create great content for you:)
 
 ### License
-
-Any legal [help](https://github.com/andreaslarsen/animalnoteheads/issues/1){:target="_blank"} is much appreciated. I'd like to
-
-* Font - &copy; 2015 Andreas Larsen, free for private use
-* Generated sheets CC-BY-ND-4.0 License
+* © 2015 Andreas Larsen, free for private use
+* The guides and generated sheets are [CC-BY-ND-4.0](https://creativecommons.org/licenses/by-nd/4.0/)
+  * You can share or even sell them (and only them) as long as they are unmodifed 
+  * So e.g. music teachers can use and webmasters share them (and only them)
+* Any other commercial use of AnimalNoteheads requires my written consent. [Contact me](https://twitter.com/andreaslarsendk){:target="_blank"} for details
