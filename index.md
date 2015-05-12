@@ -36,11 +36,11 @@ Comming soon...
 1. Start making sheets
 1. Support more languages - such as fr + es
 1. Website update - to browse all the sheets
-1. And much more - see [issues on GitHub](https://github.com/andreaslarsen/animalnoteheads/issues)
+1. And much more - it's still early stages
 
 ### Contributors
 <span id="contri">
-<span>![You](assets/img/you.jpg) <span>You?</span></span>  
+![You](assets/img/you.jpg) You? - Your ideas and skills at [GitHub](https://github.com/andreaslarsen/animalnoteheads/issues)  
 ![Abraham](assets/img/abraham.jpg) [Abraham](http://fonts.openlilylib.org){:target="_blank"} - Lilypond template  
 ![Andreas](assets/img/me.jpg) [Andreas](https://twitter.com/andreaslarsendk){:target="_blank"} - Follow/contact me on Twitter
 </span>
@@ -52,14 +52,12 @@ Every little tweet, like, pin, forum share etc. is also great! It gives me more 
 
 ### Are you a company?
 
-I'm interested in talking with companies that would support me financially in turn for e.g. "brought to you by YOUR COMPANY" or something else similarly unobtrusive for the end user. That way I could devote more time on the project and make it completely free for everyone to use.
+I'm interested in talking with companies that would support me financially in turn for som unobtrusive publicity e.g. "brought to you by YOUR COMPANY". I would like to devote more time on the project and make it completely free for everyone to use.
 
 ### License
-* © 2015 Andreas Larsen, free for private use
-* The guides and generated sheets are [CC-BY-ND-4.0](https://creativecommons.org/licenses/by-nd/4.0/)
-  * You can share or even sell them (and only them) as long as they are unmodifed 
-  * So e.g. music teachers can use and webmasters share them (and only them)
-  * Any other commercial use of AnimalNoteheads requires my written consent. 
+© 2015 Andreas Larsen, free for private use.  
+The guides and generated sheets are [CC-BY-ND-4.0](https://creativecommons.org/licenses/by-nd/4.0/) which means that you can use, share or even sell them (and only them) unmodifed.  
+Any other commercial use of AnimalNoteheads requires a separate licens.
 
 ### Contact
-[@andreaslarsendk](https://twitter.com/andreaslarsendk){:target="_blank"} & andreaslarsen86@gmail.com
+[@andreaslarsendk](https://twitter.com/andreaslarsendk){:target="_blank"} & [andreas@animalnoteheads.com](mailto:andreas@animalnoteheads.com)

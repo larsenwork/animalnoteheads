@@ -39,14 +39,14 @@ html {
   font-family: 'gidoleregular', 'sans-serif';
   font-weight: 300;
   color: #4c5961;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.75em; }
   @media (min-width: 600px) {
     html {
-      font-size: calc( 16px + (26 - 16) * ((100vw - 600px) / (1140 - 600))); } }
+      font-size: calc( 14px + (22 - 14) * ((100vw - 600px) / (1140 - 600))); } }
   @media (min-width: 1140px) {
     html {
-      font-size: 26px; } }
+      font-size: 22px; } }
 
 /* line 605, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/bower_components/typographic/scss/typographic.scss */
 h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
@@ -66,99 +66,99 @@ h1, h2, h3, h4, h5, h6 {
 
 /* line 620, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/bower_components/typographic/scss/typographic.scss */
 h1 {
-  font-size: 37.13919px;
+  font-size: 32.49679px;
   margin-top: 0.9424em;
   line-height: 1.13088em;
   margin-bottom: 0.18848em; }
   @media (min-width: 600px) {
     h1 {
-      font-size: calc( 37.13919px + (60.35118 - 37.13919) * ((100vw - 600px) / (1140 - 600))); } }
+      font-size: calc( 32.49679px + (51.06638 - 32.49679) * ((100vw - 600px) / (1140 - 600))); } }
   @media (min-width: 1140px) {
     h1 {
-      font-size: 60.35118px;
+      font-size: 51.06638px;
       margin-top: 0.9424em;
       line-height: 1.13088em;
       margin-bottom: 0.18848em; } }
 
 /* line 624, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/bower_components/typographic/scss/typographic.scss */
 h2 {
-  font-size: 31.38267px;
+  font-size: 27.45984px;
   margin-top: 1.11527em;
   line-height: 1.33832em;
-  margin-bottom: 0.24438em; }
+  margin-bottom: 0.24742em; }
   @media (min-width: 600px) {
     h2 {
-      font-size: calc( 31.38267px + (50.99684 - 31.38267) * ((100vw - 600px) / (1140 - 600))); } }
+      font-size: calc( 27.45984px + (43.15117 - 27.45984) * ((100vw - 600px) / (1140 - 600))); } }
   @media (min-width: 1140px) {
     h2 {
-      font-size: 50.99684px;
+      font-size: 43.15117px;
       margin-top: 1.11527em;
       line-height: 1.33832em;
-      margin-bottom: 0.23617em; } }
+      margin-bottom: 0.23856em; } }
 
 /* line 628, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/bower_components/typographic/scss/typographic.scss */
 h3 {
-  font-size: 26.51841px;
+  font-size: 23.20361px;
   margin-top: 1.31984em;
   line-height: 1.58381em;
-  margin-bottom: 0.29383em; }
+  margin-bottom: 0.2981em; }
   @media (min-width: 600px) {
     h3 {
-      font-size: calc( 26.51841px + (43.09241 - 26.51841) * ((100vw - 600px) / (1140 - 600))); } }
+      font-size: calc( 23.20361px + (36.46281 - 23.20361) * ((100vw - 600px) / (1140 - 600))); } }
   @media (min-width: 1140px) {
     h3 {
-      font-size: 43.09241px;
+      font-size: 36.46281px;
       margin-top: 1.31984em;
       line-height: 1.58381em;
-      margin-bottom: 0.28234em; } }
+      margin-bottom: 0.28569em; } }
 
 /* line 632, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/bower_components/typographic/scss/typographic.scss */
 h4 {
-  font-size: 22.4081px;
+  font-size: 19.60708px;
   margin-top: 1.56194em;
   line-height: 1.87432em;
-  margin-bottom: 0.35421em; }
+  margin-bottom: 0.36018em; }
   @media (min-width: 600px) {
     h4 {
-      font-size: calc( 22.4081px + (36.41315 - 22.4081) * ((100vw - 600px) / (1140 - 600))); } }
+      font-size: calc( 19.60708px + (30.81113 - 19.60708) * ((100vw - 600px) / (1140 - 600))); } }
   @media (min-width: 1140px) {
     h4 {
-      font-size: 36.41315px;
+      font-size: 30.81113px;
       margin-top: 1.56194em;
       line-height: 1.87432em;
-      margin-bottom: 0.33812em; } }
+      margin-bottom: 0.3428em; } }
 
 /* line 636, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/bower_components/typographic/scss/typographic.scss */
 h5 {
-  font-size: 18.93488px;
+  font-size: 16.56802px;
   margin-top: 1.84844em;
   line-height: 2.21813em;
   margin-bottom: 0.36969em; }
   @media (min-width: 600px) {
     h5 {
-      font-size: calc( 18.93488px + (30.76917 - 18.93488) * ((100vw - 600px) / (1140 - 600))); } }
+      font-size: calc( 16.56802px + (26.03545 - 16.56802) * ((100vw - 600px) / (1140 - 600))); } }
   @media (min-width: 1140px) {
     h5 {
-      font-size: 30.76917px;
+      font-size: 26.03545px;
       margin-top: 1.84844em;
       line-height: 2.21813em;
       margin-bottom: 0.36969em; } }
 
 /* line 640, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/bower_components/typographic/scss/typographic.scss */
 h6 {
-  font-size: 16px;
+  font-size: 14px;
   margin-top: 2.1875em;
   line-height: 2.625em;
-  margin-bottom: 0.49219em; }
+  margin-bottom: 0.5em; }
   @media (min-width: 600px) {
     h6 {
-      font-size: calc( 16px + (26 - 16) * ((100vw - 600px) / (1140 - 600))); } }
+      font-size: calc( 14px + (22 - 14) * ((100vw - 600px) / (1140 - 600))); } }
   @media (min-width: 1140px) {
     h6 {
-      font-size: 26px;
+      font-size: 22px;
       margin-top: 2.1875em;
       line-height: 2.625em;
-      margin-bottom: 0.46484em; } }
+      margin-bottom: 0.46875em; } }
 
 /* line 644, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/bower_components/typographic/scss/typographic.scss */
 blockquote {
@@ -214,10 +214,10 @@ fieldset {
   border-width: 1px;
   border-style: solid;
   max-width: 100%;
-  margin-bottom: 1.81731em; }
+  margin-bottom: 1.82955em; }
   @media (min-width: 1140px) {
     fieldset {
-      margin-bottom: 2.10337em; } }
+      margin-bottom: 2.08807em; } }
   /* line 498, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/bower_components/typographic/scss/typographic.scss */
   fieldset button, fieldset input[type="submit"] {
     margin-bottom: 0; }
@@ -232,46 +232,46 @@ input[type="text"], input[type="email"], input[type="password"], textarea {
   display: block;
   max-width: 100%;
   padding: 0.4375em;
-  font-size: 16px;
-  margin-bottom: 1.11058em; }
+  font-size: 14px;
+  margin-bottom: 1.15341em; }
   @media (min-width: 600px) {
     input[type="text"], input[type="email"], input[type="password"], textarea {
-      font-size: calc( 16px + (26 - 16) * ((100vw - 600px) / (1140 - 600))); } }
+      font-size: calc( 14px + (22 - 14) * ((100vw - 600px) / (1140 - 600))); } }
   @media (min-width: 1140px) {
     input[type="text"], input[type="email"], input[type="password"], textarea {
-      font-size: 26px;
-      margin-bottom: 0.49639em; } }
+      font-size: 22px;
+      margin-bottom: 0.5071em; } }
 
 /* line 692, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/bower_components/typographic/scss/typographic.scss */
 input[type="submit"], button {
   display: block;
   cursor: pointer;
-  font-size: 16px;
+  font-size: 14px;
   padding: 0.4375em 1.75em;
-  margin-bottom: 1.21154em; }
+  margin-bottom: 1.19318em; }
   @media (min-width: 600px) {
     input[type="submit"], button {
-      font-size: calc( 16px + (26 - 16) * ((100vw - 600px) / (1140 - 600))); } }
+      font-size: calc( 14px + (22 - 14) * ((100vw - 600px) / (1140 - 600))); } }
   @media (min-width: 1140px) {
     input[type="submit"], button {
-      font-size: 26px;
+      font-size: 22px;
       margin-bottom: 1.3125em; } }
 
 /* line 696, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/bower_components/typographic/scss/typographic.scss */
 label {
   display: block;
   padding-bottom: 0.21875em;
-  margin-bottom: -0.26923em; }
+  margin-bottom: -0.23864em; }
 
 /* line 700, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/bower_components/typographic/scss/typographic.scss */
 table {
   width: 100%;
   border-spacing: 0;
   border-collapse: collapse;
-  margin-bottom: 2.08654em; }
+  margin-bottom: 2.14773em; }
   @media (min-width: 1140px) {
     table {
-      margin-bottom: 1.95192em; } }
+      margin-bottom: 1.98864em; } }
 
 /* line 704, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/bower_components/typographic/scss/typographic.scss */
 th {
