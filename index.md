@@ -33,16 +33,18 @@ Substitute note heads with cute and colorful animals - e.g. alligator for "A". T
 1. Figure out the license so we can start making sheets
 1. Support more languages - such as fr + es
 1. Website update - to browse all the sheets
-1. And much more - see the [issues on GitHub](https://github.com/andreaslarsen/animalnoteheads/issues) where you can contribute with your skills and ideas
+1. And much more - see [issues on GitHub](https://github.com/andreaslarsen/animalnoteheads/issues)
 
 ### Contributors
-
-* [Abraham Lee](http://fonts.openlilylib.org){:target="_blank"} - Lilypond template
-* You? 
+<span id="contri">
+<span>![You](assets/img/you.jpg) <span>You?</span></span>  
+![Abraham](assets/img/abraham.jpg) [Abraham Lee](http://fonts.openlilylib.org){:target="_blank"} - Lilypond template  
+![Andreas](assets/img/me.jpg) [Andreas Larsen](https://twitter.com/intent/follow?screen_name=andreaslarsendk){:target="_blank"} - click to follow
+</span>
 
 ### Support me
 
-Support me and this project on [patreon](https://www.patreon.com/andreaslarsen){:target="_blank"} and/or send money via [paypal](https://www.paypal.com/webapps/mpp/send-money-online){:target="_blank"} to andreaslarsen86@gmail.com  
+Support me (Andreas) and this project on [patreon](https://www.patreon.com/andreaslarsen){:target="_blank"} and/or send money via [paypal](https://www.paypal.com/webapps/mpp/send-money-online){:target="_blank"} to andreaslarsen86@gmail.com  
 I'm also very thankful for every social share and GitHub star;)
 
 ### License

@@ -87,20 +87,25 @@ p {
     top: 0px;
   }
 }
+#contri {
+  img {
+    height: vr-block(2);
+    vertical-align: middle;
+    margin: vr-block(.25) 10px vr-block(.25) 0;
+  }
+  > span {
+    display: inline-block;
+    position:relative;
+    > span {
+      display:inline-block; 
+      vertical-align:middle 
+    }
+  }
+}
 
 footer {
   font-size: 0.9em;
   padding: 10vh 0;
   margin: 0 auto;
   text-align: center;
-  .img {
-    margin: 20px auto;
-    width: 30vw;
-    height: 30vw;
-    max-height: 200px;
-    max-width: 200px;
-    border-radius: 100px;
-    background: radial-gradient( hsla(0, 0%, 0%, 0.0) 0%, hsla(0, 0%, 0%, 0.15) 50%, hsla(0, 0%, 0%, 0.6) 70%, hsla(0, 0%, 0%, 1) 80%), url('img/me.jpg');
-    background-size: 100%;
-  }
 }
