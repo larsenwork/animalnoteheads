@@ -843,5 +843,15 @@ footer {
   padding: 10vh 0;
   margin: 0 auto;
   text-align: center; }
+  /* line 96, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/style.scss */
+  footer .img {
+    margin: 20px auto;
+    width: 30vw;
+    height: 30vw;
+    max-height: 200px;
+    max-width: 200px;
+    border-radius: 100px;
+    background: radial-gradient(transparent 0%, rgba(0, 0, 0, 0.1) 63%, #000000 100%), url('img/me.jpg');
+    background-size: 100%; }
 
 /*# sourceMappingURL=style.css.map */

@@ -93,9 +93,14 @@ footer {
   padding: 10vh 0;
   margin: 0 auto;
   text-align: center;
-  img {
+  .img {
+    margin: 20px auto;
     width: 30vw;
+    height: 30vw;
+    max-height: 200px;
     max-width: 200px;
-    border-radius: 100px:
+    border-radius: 100px;
+    background: radial-gradient( hsla(0, 0%, 0%, 0.0) 0%, hsla(0, 0%, 0%, 0.1) 63%, hsla(0, 0%, 0%, 1) 100%), url('img/me.jpg');
+    background-size: 100%;
   }
 }
