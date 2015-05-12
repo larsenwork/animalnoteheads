@@ -25,7 +25,6 @@
   <meta property="og:type" content="website">
   <meta property="og:image" content="http://animalnoteheads.com/assets/img/AnimalNoteHeadsMockup.png">
 
-  <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300|Montserrat:700' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="assets/style.css">
   <!--[if lt IE 9]>
 <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -35,58 +34,69 @@
 </head>
 
 <body>
-
-  <!--
-<div id="jumbo">
-  <h1>Animal Note Heads</h1>
-</div>-->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.3&appId=123806314476188";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script> 
+  <div id="jumbo">
+    <div>
+      <h1>Animal Note Heads</h1>
+      <p>Makes note learning easy and fun</p>
+    </div>
+  </div>
   <div class="wrap">
-    <h1 id="animal-note-heads">Animal Note Heads</h1>
+  <div class="social">
+    <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://animalnoteheads.com" data-via="andreaslarsendk" data-hashtags="AnimalNoteHeads">Tweet</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script><div class="fb-like" data-href="http://animalnoteheads.com" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div><iframe src="https://ghbtns.com/github-btn.html?user=andreaslarsen&repo=animalnoteheads&type=star&count=true" frameborder="0" scrolling="0" width="170px" height="20px"></iframe>
 
-<p>Makes note learning easy and fun</p>
+</div>
+    <h3 id="concept">Concept</h3>
 
-<h4 id="sketch">Sketch</h4>
+<p>Substitute note heads with cute and colorful animals.<br />
+“A” for alligator, “B” for bear etc.
+The ambition is to make a huge collection of sheets that people can use freely.</p>
 
-<p><img src="assets/img/AnimalNoteHeadsMockup.png" alt="mockup" /></p>
+<h3 id="guides">Guides</h3>
 
-<h4 id="pdf">PDF</h4>
+<p>Print and cut the pdf and put it just above the keys on the piano. Choose the correct paper size: <a href="assets/pdf/AnimalNoteHeads-keys-en-A4.pdf">A4</a> / <a href="assets/pdf/AnimalNoteHeads-keys-en-Letter.pdf">US Letter</a>.
+<img src="assets/img/AnimalNoteHeadskeys.png" alt="AnimalNoteHeadskeys" /></p>
 
-<p>The piano keys pdf template (to print out and put above the keys)
-<a href="assets/pdf/AnimalNoteHeads-keys-en-A4.pdf">A4</a> - <a href="assets/pdf/AnimalNoteHeads-keys-en-Letter.pdf">US Letter</a></p>
+<h3 id="sheets">Sheets</h3>
 
-<h4 id="project">Project</h4>
+<p>Will look something like this - see roadmap for details
+<img src="assets/img/AnimalNoteHeadsMockup.png" alt="AnimalNoteHeadsMockup" /></p>
 
-<p>The ambition is to create a free database of easy to play childrens songs in many languages with the help of the online community.</p>
+<h3 id="contribute">Contribute</h3>
 
-<h4 id="contribute">Contribute</h4>
+<p>You can help me with this project in many ways - head over to <a href="https://github.com/andreaslarsen/animalnoteheads">GitHub</a> with your skills and ideas.</p>
 
-<p>See the roadmap below and head over <a href="https://github.com/andreaslarsen/animalnoteheads">GitHub</a> with your skills and ideas.</p>
+<h3 id="support-me">Support me</h3>
 
-<h4 id="roadmap">Roadmap</h4>
+<p>You can me if this helped you by being be my <a href="https://www.patreon.com/andreaslarsen">patron</a>.</p>
+
+<h3 id="roadmap">Roadmap</h3>
 
 <ol>
-  <li>Design the Note Heads done</li>
-  <li>Design the font - WIP with the help of <a href="http://fonts.openlilylib.org">Abraham Lee</a></li>
-  <li>License - see below</li>
-  <li>Lilypond template - technical, any <a href="http://www.lilypond.org">lilypond</a> experts out there?
-    <ul>
-      <li>The concept will be to create multiple fonts for the different layers. 1 for black and 2 for the colors. And then utilise lilyponds ability to <a href="http://lsr.di.unimi.it/LSR/Item?id=572">color</a> and change note heads based on pitch or maybe the <a href="http://lsr.di.unimi.it/LSR/Item?id=904">smiley function</a>?</li>
-    </ul>
-  </li>
-  <li>Language support - currently en, dk - would like to add fr+es</li>
+  <li>Design the Note Heads</li>
+  <li>Make temporary website</li>
+  <li>Design the font - with the help of <a href="http://fonts.openlilylib.org">Abraham Lee</a></li>
+  <li>Lilypond template - with the help of <a href="http://fonts.openlilylib.org">Abraham Lee</a></li>
+  <li>Find a store where I can sell stickers - any suggestions?</li>
+  <li>Figure out the license so we all can</li>
+  <li>Start adding sheets</li>
+  <li>Language support - currently en+dk+se - I’d like to add at least fr+es</li>
   <li>Website update - to browse all the sheets</li>
 </ol>
 
-<h4 id="license">License</h4>
+<h3 id="license">License</h3>
 
-<p>Any legal <a href="https://github.com/andreaslarsen/animalnoteheads/issues/1">help</a> to construct this is much appreciated. I would like to:</p>
+<p>Any legal <a href="https://github.com/andreaslarsen/animalnoteheads/issues/1">help</a> is much appreciated. I’d like to:</p>
 
 <ul>
-  <li>Font/graphics
-    <ul>
-      <li>@me, free for private use only.</li>
-    </ul>
-  </li>
+  <li>Font/graphics - © 2015 Andreas Larsen, free for private use only.</li>
   <li>Generated sheets e.g.
     <ul>
       <li><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Frère Jacques</span> Arranged by <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">John Doe</span> is licensed under a <a href="http://creativecommons.org/licenses/by-nd/4.0/">Creative Commons Attribution-NoDerivatives 4.0 International License</a>. Based on a work at <a href="http://animalnoteheads.com">animalnoteheads.com</a>.</li>
@@ -95,10 +105,6 @@
 </ul>
 
   </div>
-
-  <!-- SCRIPTS -->
-  <!-- Example: <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> -->
-
   <footer>&copy; 2015 Andreas Larsen</footer>
 </body>
 

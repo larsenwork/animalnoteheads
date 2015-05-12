@@ -3,16 +3,27 @@
 @import 'variables';
 @import 'typography';
 #jumbo {
-  height: calc(30vh + 15vw);
-  background-image: url('img/jumbo.jpg');
+  height: calc(20vh + 35vw);
+  max-height: 100vh;
+  background: linear-gradient(
+      hsla(0, 0%, 100%, 0.5) 0%,
+      hsla(0, 0%, 100%, 0.9) 63%,
+      hsla(0, 0%, 100%, 1) 100%
+    ), url('img/jumbo.jpg') no-repeat center bottom fixed;
   background-size: cover;
   @include flexbox;
   @include justify-content(center);
   @include align-items(center);
+  div {
+    * {
+      margin: 0;
+    }
+  }
   h1 {
-    font-size: 8vw;
-    color: white;
-    margin: 0;
+    font-size: 11vw;
+  }
+  p {
+    font-size: 4vw;
   }
 }
 
@@ -22,10 +33,18 @@ img {
 
 ol {
   list-style: decimal;
+  @for $i from 1 through 2 {
+    > li:nth-child(#{$i}) {
+      text-decoration: line-through;
+    }
+  }
 }
 
 ul {
   list-style: disc;
+  ul {
+    list-style: circle;
+  }
 }
 
 ul,
@@ -37,7 +56,13 @@ p {
 .wrap {
   max-width: 800px;
   margin: 0 auto;
-  padding: 10vh 10px;
+  padding: 0 10px 10vh;
+  .social {
+    text-align: center;
+    iframe, > span {
+      vertical-align: middle;
+    }
+  }
 }
 
 footer {

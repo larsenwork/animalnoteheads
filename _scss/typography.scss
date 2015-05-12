@@ -1,3 +1,30 @@
 @import '../bower_components/typographic/scss/typographic';
 @include typographic();
-//@include grid-overlay(blue, 2);
+@font-face {
+  font-family: 'gidoleregular';
+  src: url('fonts/gidole-regular.woff2') format('woff2'), url('fonts/gidole-regular.woff') format('woff'), url('fonts/gidole-regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  letter-spacing: -0.05em;  
+}
+p, li, footer {
+  letter-spacing: 0.05em;
+}
+a {
+  color: hsl(204, 80%, 47%);
+  text-decoration: none;
+}
+::-moz-selection { 
+  color: white;
+  color: hsl(204, 80%, 36%);
+}
+::selection {
+  color: white; 
+  color: hsl(204, 80%, 36%);
+}

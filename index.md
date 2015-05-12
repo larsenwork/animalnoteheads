@@ -2,47 +2,53 @@
 published: true
 layout: default
 title: Animal Note Heads
+tag: Makes note learning easy and fun
 author: Andreas Larsen
 description: Makes note learning easy and fun. It's currently under construction. The goal is to create an free database with sheets using Animal Note Heads.
 year: 2015
 image: AnimalNoteHeadsMockup.png
 ---
-# Animal Note Heads
 
-Makes note learning easy and fun
+### Concept
 
-#### Sketch
+Substitute note heads with cute and colorful animals.  
+"A" for alligator, "B" for bear etc.
+The ambition is to make a huge collection of sheets that people can use freely.
 
-![mockup](assets/img/AnimalNoteHeadsMockup.png)
+### Guides
 
-#### PDF
+Print and cut the pdf and put it just above the keys on the piano. Choose the correct paper size: [A4](assets/pdf/AnimalNoteHeads-keys-en-A4.pdf) / [US Letter](assets/pdf/AnimalNoteHeads-keys-en-Letter.pdf).
+![AnimalNoteHeadskeys](assets/img/AnimalNoteHeadskeys.png)
 
-The piano keys pdf template (to print out and put above the keys)
-[A4](assets/pdf/AnimalNoteHeads-keys-en-A4.pdf) - [US Letter](assets/pdf/AnimalNoteHeads-keys-en-Letter.pdf)
+### Sheets
 
-#### Project
+Will look something like this - see roadmap for details
+![AnimalNoteHeadsMockup](assets/img/AnimalNoteHeadsMockup.png)
 
-The ambition is to create a free database of easy to play childrens songs in many languages with the help of the online community.
+### Contribute
 
-#### Contribute
+You can help me with this project in many ways - head over to [GitHub](https://github.com/andreaslarsen/animalnoteheads) with your skills and ideas.
 
-See the roadmap below and head over [GitHub](https://github.com/andreaslarsen/animalnoteheads) with your skills and ideas. 
+### Support me
 
-#### Roadmap
+You can me if this helped you by being be my [patron](https://www.patreon.com/andreaslarsen).
 
-1. Design the Note Heads done
-2. Design the font - WIP with the help of [Abraham Lee](http://fonts.openlilylib.org)  
-3. License - see below  
-4. Lilypond template - technical, any [lilypond](http://www.lilypond.org) experts out there?
-  * The concept will be to create multiple fonts for the different layers. 1 for black and 2 for the colors. And then utilise lilyponds ability to [color](http://lsr.di.unimi.it/LSR/Item?id=572) and change note heads based on pitch or maybe the [smiley function](http://lsr.di.unimi.it/LSR/Item?id=904)? 
-5. Language support - currently en, dk - would like to add fr+es  
-6. Website update - to browse all the sheets
+### Roadmap
 
-#### License
+1. Design the Note Heads
+1. Make temporary website
+1. Design the font - with the help of [Abraham Lee](http://fonts.openlilylib.org)  
+1. Lilypond template - with the help of [Abraham Lee](http://fonts.openlilylib.org)  
+1. Find a store where I can sell stickers - any suggestions?
+1. Figure out the license so we all can  
+1. Start adding sheets
+1. Language support - currently en+dk+se - I'd like to add at least fr+es
+1. Website update - to browse all the sheets
 
-Any legal [help](https://github.com/andreaslarsen/animalnoteheads/issues/1) to construct this is much appreciated. I would like to:  
+### License
 
-* Font/graphics 
-  * @me, free for private use only.  
+Any legal [help](https://github.com/andreaslarsen/animalnoteheads/issues/1) is much appreciated. I'd like to:  
+
+* Font/graphics - &copy; 2015 Andreas Larsen, free for private use only.  
 * Generated sheets e.g.
   * <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Frère Jacques</span> Arranged by <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">John Doe</span> is licensed under a [Creative Commons Attribution-NoDerivatives 4.0 International License](http://creativecommons.org/licenses/by-nd/4.0/). Based on a work at [animalnoteheads.com](http://animalnoteheads.com).

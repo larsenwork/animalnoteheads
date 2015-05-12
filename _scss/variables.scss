@@ -1,4 +1,13 @@
-$body-font: 'Source Sans Pro',
+$body-font: 'gidoleregular',
 'sans-serif';
-$header-font: 'Montserrat',
+$header-font: 'gidoleregular',
 'sans-serif';
+$temperature: 203;
+$header-color: hsl($temperature,
+13%,
+28%);
+$body-color: hsl($temperature,
+12%,
+34%);
+$min-font: 16px;
+$max-font: 26px;
