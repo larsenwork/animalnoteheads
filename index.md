@@ -45,7 +45,7 @@ Comming soon...
 ![Andreas](assets/img/me.jpg) [Andreas](https://twitter.com/andreaslarsendk){:target="_blank"} - Follow/contact me on Twitter
 </span>
 
-### Support me
+### Karma
 
 $upport me on [patreon](https://www.patreon.com/andreaslarsen){:target="_blank"} or buy an AnimalNoteHeads item (ideas...?) that I'll put up soon.  
 Every little tweet, like, pin, forum share etc. is also great! It gives me more time to create great content for you:)
