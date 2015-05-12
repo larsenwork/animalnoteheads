@@ -16,7 +16,7 @@ Substitute note heads with cute and colorful animals - e.g. alligator for "A". T
 ### Guides
 
 - Color [A4](assets/pdf/AnimalNoteHeads-keys-en-A4.pdf){:target="_blank"} - [US Letter](assets/pdf/AnimalNoteHeads-keys-en-Letter.pdf){:target="_blank"}
-- ÷Color [A4](assets/pdf/AnimalNoteHeads-keys-en-bw-A4.pdf){:target="_blank"} - [US Letter](assets/pdf/AnimalNoteHeads-keys-en-bw-Letter.pdf){:target="_blank"}
+- Black outline [A4](assets/pdf/AnimalNoteHeads-keys-en-bw-A4.pdf){:target="_blank"} - [US Letter](assets/pdf/AnimalNoteHeads-keys-en-bw-Letter.pdf){:target="_blank"}
 - Print (100%) and cut it
 - Put it just above the keys on the piano
 
@@ -50,9 +50,16 @@ Comming soon...
 $upport me on [patreon](https://www.patreon.com/andreaslarsen){:target="_blank"} or buy an AnimalNoteHeads item (ideas...?) that I'll put up soon.  
 Every little tweet, like, pin, forum share etc. is also great! It gives me more time to create great content for you:)
 
+### Are you a company?
+
+I'm interested in talking with companies that would support me financially in turn for e.g. "brought to you by YOUR COMPANY" or something else similarly unobtrusive for the end user. That way I could devote more time on the project and make it completely free for everyone to use.
+
 ### License
 * © 2015 Andreas Larsen, free for private use
 * The guides and generated sheets are [CC-BY-ND-4.0](https://creativecommons.org/licenses/by-nd/4.0/)
   * You can share or even sell them (and only them) as long as they are unmodifed 
   * So e.g. music teachers can use and webmasters share them (and only them)
-* Any other commercial use of AnimalNoteheads requires my written consent. [Contact me](https://twitter.com/andreaslarsendk){:target="_blank"} for details
+  * Any other commercial use of AnimalNoteheads requires my written consent. 
+
+### Contact
+[@andreaslarsendk](https://twitter.com/andreaslarsendk){:target="_blank"} & andreaslarsen86@gmail.com
