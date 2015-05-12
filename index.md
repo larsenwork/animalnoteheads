@@ -11,46 +11,46 @@ image: AnimalNoteHeadsMockup.png
 
 ### Concept
 
-Substitute note heads with cute and colorful animals.  
-"A" for alligator, "B" for bear etc.
-The ambition is to make a huge collection of sheets that people can use freely.
+Substitute note heads with cute and colorful animals - e.g. alligator for "A". The ambition is, with your help, to make a huge collection of sheets in multiple languages that people can use freely.
 
 ### Guides
 
-Print and cut the pdf and put it just above the keys on the piano. Choose the correct paper size: [A4](assets/pdf/AnimalNoteHeads-keys-en-A4.pdf) / [US Letter](assets/pdf/AnimalNoteHeads-keys-en-Letter.pdf).
+- Choose the correct paper size: [A4](assets/pdf/AnimalNoteHeads-keys-en-A4.pdf){:target="_blank"} / [US Letter](assets/pdf/AnimalNoteHeads-keys-en-Letter.pdf){:target="_blank"}
+- Print and cut the pdf
+- Put it just above the keys on the piano
 
 ![AnimalNoteHeadskeys](https://raw.githubusercontent.com/andreaslarsen/animalnoteheads/gh-pages/assets/img/AnimalNoteHeadsKey.png)
 
 ### Sheets
 
-It will look something like this - see roadmap for details
-
 ![AnimalNoteHeadsMockup](https://raw.githubusercontent.com/andreaslarsen/animalnoteheads/gh-pages/assets/img/AnimalNoteHeadsMockup.png)
+
+### To do
+
+1. Note head design
+1. Temporary website
+1. Font + Lilypond template
+1. Figure out the license so we can start making sheets
+1. Language support - ~~en + dk + se~~ + fr + es
+1. Website update - to browse all the sheets
 
 ### Contribute
 
-You can help me with this project in many ways - head over to [GitHub](https://github.com/andreaslarsen/animalnoteheads) with your skills and ideas.
+Head over to [GitHub](https://github.com/andreaslarsen/animalnoteheads) with your skills and ideas
+
+### Contributors
+
+* [Abraham Lee](http://fonts.openlilylib.org){:target="_blank"} - Lilypond template
+* You? 
 
 ### Support me
 
-You can me if this helped you by being be my [patron](https://www.patreon.com/andreaslarsen).
-
-### Roadmap
-
-1. Design the Note Heads
-1. Make temporary website
-1. Design the font - with the help of [Abraham Lee](http://fonts.openlilylib.org)  
-1. Lilypond template - with the help of [Abraham Lee](http://fonts.openlilylib.org)  
-1. Find a store where I can sell stickers - any suggestions?
-1. Figure out the license so we all can  
-1. Start adding sheets
-1. Language support - currently en+dk+se - I'd like to add at least fr+es
-1. Website update - to browse all the sheets
+Support me and this project on [patreon](https://www.patreon.com/andreaslarsen){:target="_blank"} and/or send money via [paypal](https://www.paypal.com/webapps/mpp/send-money-online){:target="_blank"} to andreaslarsen86@gmail.com  
+I'm also very thankful for every social share and GitHub star;)
 
 ### License
 
-Any legal [help](https://github.com/andreaslarsen/animalnoteheads/issues/1) is much appreciated. I'd like to:  
+Any legal [help](https://github.com/andreaslarsen/animalnoteheads/issues/1){:target="_blank"} is much appreciated. I'd like to
 
-* Font/graphics - &copy; 2015 Andreas Larsen, free for private use only.  
-* Generated sheets e.g.
-  * <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Frère Jacques</span> Arranged by <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">John Doe</span> is licensed under a [Creative Commons Attribution-NoDerivatives 4.0 International License](http://creativecommons.org/licenses/by-nd/4.0/). Based on a work at [animalnoteheads.com](http://animalnoteheads.com).
+* Font - &copy; 2015 Andreas Larsen, free for private use
+* Generated sheets CC-BY-ND-4.0 License

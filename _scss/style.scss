@@ -2,14 +2,11 @@
 @import '../bower_components/sass-flex-mixin/_flexbox';
 @import 'variables';
 @import 'typography';
+@import 'social';
 #jumbo {
   height: calc(20vh + 35vw);
   max-height: 100vh;
-  background: linear-gradient(
-      hsla(0, 0%, 100%, 0.5) 0%,
-      hsla(0, 0%, 100%, 0.9) 63%,
-      hsla(0, 0%, 100%, 1) 100%
-    ), url('img/jumbo.jpg') no-repeat center bottom fixed;
+  background: linear-gradient( hsla(0, 0%, 100%, 0.5) 0%, hsla(0, 0%, 100%, 0.9) 63%, hsla(0, 0%, 100%, 1) 100%), url('img/jumbo.jpg') no-repeat center bottom fixed;
   background-size: cover;
   @include flexbox;
   @include justify-content(center);
@@ -57,11 +54,37 @@ p {
   max-width: 800px;
   margin: 0 auto;
   padding: 0 10px 10vh;
-  .social {
-    text-align: center;
-    iframe, > span {
-      vertical-align: middle;
-    }
+  .social-likes__widget {
+    border-radius: 5px;
+    height: 28px !important;
+  }
+  .social-likes__button, 
+  .social-likes__counter {
+    font-family: 'gidoleregular';
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: normal;
+    padding-top: 2px;
+    padding-bottom: 2px;
+  }
+  .social-likes__counter {
+    padding-top: 3px;    
+  }
+  .social-likes__icon {
+    font-size: 20px;
+  }
+  .social-likes__button {
+    padding-left: 28px;
+  }
+  .social-likes__icon_twitter {
+    top: 1px;
+  }
+  .social-likes__icon_pinterest {
+    top: -1px;
+  }
+  .social-likes__icon_facebook {
+    font-size: 19px;
+    top: 0px;
   }
 }
 

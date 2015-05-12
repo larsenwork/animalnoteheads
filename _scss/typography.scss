@@ -7,24 +7,29 @@
   font-style: normal;
 }
 
-
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  letter-spacing: -0.05em;  
+  letter-spacing: -0.05em;
 }
-p, li, footer {
+
+p,
+li,
+footer {
   letter-spacing: 0.05em;
 }
+
 a {
   color: hsl(204, 80%, 47%);
   text-decoration: none;
 }
-::-moz-selection { 
+
+::-moz-selection {
   color: white;
-  color: hsl(204, 80%, 36%);
+  background-color: hsl(204, 80%, 36%);
 }
+
 ::selection {
-  color: white; 
-  color: hsl(204, 80%, 36%);
+  color: white;
+  background-color: hsl(204, 80%, 36%);
 }
