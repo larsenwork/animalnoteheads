@@ -38,7 +38,7 @@ table {
 html {
   font-family: 'gidoleregular', 'sans-serif';
   font-weight: 300;
-  color: #4c5961;
+  color: #42494d;
   font-size: 14px;
   line-height: 1.75em; }
   @media (min-width: 600px) {
@@ -61,7 +61,7 @@ p, blockquote, pre, address, dl, ol, ul, table {
 h1, h2, h3, h4, h5, h6 {
   font-family: 'gidoleregular', 'sans-serif';
   font-weight: 500;
-  color: #3e4a51;
+  color: #373f43;
   clear: both; }
 
 /* line 620, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/bower_components/typographic/scss/typographic.scss */
@@ -197,7 +197,7 @@ address {
 
 /* line 668, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/bower_components/typographic/scss/typographic.scss */
 dt {
-  color: #3e4a51;
+  color: #373f43;
   font-weight: bold; }
 
 /* line 672, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/bower_components/typographic/scss/typographic.scss */
@@ -224,7 +224,7 @@ fieldset {
 
 /* line 684, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/bower_components/typographic/scss/typographic.scss */
 legend {
-  color: #3e4a51;
+  color: #373f43;
   font-weight: bold; }
 
 /* line 688, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/bower_components/typographic/scss/typographic.scss */
@@ -276,7 +276,7 @@ table {
 /* line 704, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/bower_components/typographic/scss/typographic.scss */
 th {
   text-align: left;
-  color: #3e4a51;
+  color: #373f43;
   padding: 0.21875em 0.875em; }
   @media (min-width: 1140px) {
     th {
@@ -325,66 +325,84 @@ a {
   color: white;
   background-color: #126aa5; }
 
+/** My custom */
+/* line 3, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
+.wrap {
+  max-width: 800px;
+  margin: -30vh auto 0;
+  padding: 0 10px; }
+  /* line 7, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
+  .wrap .social-likes__widget {
+    border-radius: 5px; }
+  /* line 11, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
+  .wrap .social-likes__button, .wrap .social-likes__counter {
+    font-family: 'gidoleregular';
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: normal;
+    padding-right: .3em; }
+  /* line 18, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
+  .wrap .social-likes__icon {
+    font-size: 20px; }
+  /* line 21, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
+  .wrap .social-likes__button {
+    padding-left: 28px; }
+  /* line 26, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
+  .wrap .social-likes__icon_facebook, .wrap .social-likes__icon_pinterest, .wrap .social-likes__icon_plusone {
+    font-size: 19px;
+    top: -1px; }
+
+/* line 31, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
+.social-likes__widget > * {
+  -webkit-transform: translateY(-6px);
+  -ms-transform: translateY(-6px);
+  transform: translateY(-6px); }
+
+/* line 34, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
+.social-likes__widget_github {
+  background: #9b9b9b; }
+
+/* line 37, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
+.social-likes__widget_facebook {
+  background: #3d5b95; }
+
+/* line 40, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
+.social-likes__widget_twitter {
+  background: #24aadd; }
+
+/* line 43, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
+.social-likes__widget_plusone {
+  background: #d23e30; }
+
+/* line 46, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
+.social-likes__widget_pinterest {
+  background: #cb132d; }
+
 /*! Social Likes v3.0.14 by Artem Sapegin - http://sapegin.github.com/social-likes - Licensed MIT */
-/* line 2, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
+/* line 52, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
 .social-likes, .social-likes__widget {
   display: inline-block;
-  padding: 0;
-  vertical-align: middle !important;
-  word-spacing: 0 !important;
-  text-indent: 0 !important;
-  list-style: none !important; }
+  height: 28px; }
 
-/* line 2, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
-.social-likes {
-  opacity: 0; }
-
-/* line 2, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
-.social-likes_visible {
-  opacity: 1;
-  transition: opacity .1s ease-in; }
-
-/* line 2, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
-.social-likes > * {
-  display: inline-block;
-  visibility: hidden; }
-
-/* line 2, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
-.social-likes_vertical > * {
-  display: block; }
-
-/* line 2, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
-.social-likes_visible > * {
-  visibility: inherit; }
-
-/* line 2, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
+/* line 56, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
 .social-likes__widget {
-  display: inline-block;
   position: relative;
   white-space: nowrap; }
 
-/* line 2, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
+/* line 62, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
 .social-likes__widget:before, .social-likes__widget:after {
   display: none !important; }
 
-/* line 2, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
-.social-likes_vertical .social-likes__widget {
-  display: block;
-  float: left;
-  clear: left; }
-
-/* line 2, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
+/* line 67, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
 .social-likes__button, .social-likes__icon, .social-likes__counter {
   text-decoration: none;
   text-rendering: optimizeLegibility; }
 
-/* line 2, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
+/* line 73, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
 .social-likes__button, .social-likes__counter {
-  display: inline-block;
-  margin: 0;
-  outline: 0; }
+  display: inline-block; }
 
-/* line 2, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
+/* line 77, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
 .social-likes__button {
   position: relative;
   cursor: pointer;
@@ -393,59 +411,45 @@ a {
   -ms-user-select: none;
   user-select: none; }
 
-/* line 2, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
+/* line 86, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
 .social-likes__button:before {
   content: "";
   display: inline-block; }
 
-/* line 2, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
+/* line 91, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
 .social-likes__icon {
   position: absolute; }
 
-/* line 2, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
+/* line 95, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
 .social-likes__counter {
   display: none;
   position: relative; }
 
-/* line 2, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
+/* line 100, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
 .social-likes_ready .social-likes__counter, .social-likes__counter_single {
   display: inline-block; }
 
-/* line 2, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
+/* line 103, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
 .social-likes_ready .social-likes__counter_empty {
   display: none; }
 
-/* line 2, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
-.social-likes_vertical .social-likes__widget {
-  display: block; }
-
-/* line 2, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
+/* line 106, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
 .social-likes_notext .social-likes__button {
   padding-left: 0; }
 
-/* line 2, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
+/* line 110, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
 .social-likes_single-w {
   position: relative;
   display: inline-block; }
 
-/* line 2, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
+/* line 115, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
 .social-likes_single {
   position: absolute;
   text-align: left;
   z-index: 99999;
-  visibility: hidden;
-  opacity: 0;
-  transition: visibility 0s .11s, opacity .1s ease-in;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden; }
+  visibility: hidden; }
 
-/* line 2, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
-.social-likes_single.social-likes_opened {
-  visibility: visible;
-  opacity: 1;
-  transition: opacity .15s ease-out; }
-
-/* line 2, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
+/* line 122, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
 .social-likes__button_single {
   position: relative; }
 
@@ -455,83 +459,36 @@ a {
   font-weight: 400;
   font-style: normal; }
 
-/* line 2, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
+/* line 132, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
 .social-likes__icon_facebook:before {
   content: "\f101"; }
 
-/* line 2, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
+/* line 135, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
 .social-likes__icon_github:before {
   content: "\f102"; }
 
-/* line 2, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
-.social-likes__icon_mailru:before {
-  content: "\f103"; }
-
-/* line 2, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
-.social-likes__icon_odnoklassniki:before {
-  content: "\f104"; }
-
-/* line 2, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
+/* line 138, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
 .social-likes__icon_pinterest:before {
   content: "\f105"; }
 
-/* line 2, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
+/* line 141, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
 .social-likes__icon_plusone:before {
   content: "\f106"; }
 
-/* line 2, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
-.social-likes__icon_single:before {
-  content: "\f107"; }
-
-/* line 2, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
+/* line 144, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
 .social-likes__icon_twitter:before {
   content: "\f108"; }
 
-/* line 2, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
-.social-likes__icon_vkontakte:before {
-  content: "\f109"; }
-
-/* line 2, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
-.social-likes {
-  min-height: 36px;
-  margin: -.5em;
-  -webkit-transform: translate3d(0, 0, 0);
-  transform: translate3d(0, 0, 0); }
-
-/* line 2, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
-.social-likes, .social-likes_single-w {
-  line-height: 1.5; }
-
-/* line 2, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
-.social-likes, .social-likes__widget_single {
-  font-size: 14px; }
-
-/* line 2, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
+/* line 147, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
 .social-likes__widget {
-  margin: .5em;
-  line-height: 1.5;
-  border: 0;
   text-align: left;
-  cursor: pointer; }
-
-/* line 2, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
-.social-likes__button, .social-likes__counter {
-  box-sizing: border-box;
-  font-family: "Helvetica Neue",Arial,sans-serif;
-  vertical-align: baseline;
+  cursor: pointer;
   color: #fff; }
 
-/* line 2, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
-.social-likes__button {
-  padding: .04em .7em .18em 1.65em;
-  font-weight: 700;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; }
-
-/* line 2, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
+/* line 152, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
 .social-likes__icon {
-  top: 0;
-  left: .21em;
+  top: 1px;
+  left: .2em;
   font-family: "social-likes";
   font-weight: 400;
   font-style: normal;
@@ -539,210 +496,6 @@ a {
   text-transform: none;
   font-size: 1.15em;
   vertical-align: baseline; }
-
-/* line 2, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
-.social-likes__counter {
-  padding-right: .5em;
-  font-weight: 400;
-  font-size: .85em; }
-
-/* line 2, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
-.social-likes_vertical .social-likes__widget {
-  min-width: 13em; }
-
-/* line 2, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
-.social-likes_vertical .social-likes__counter {
-  position: absolute;
-  top: 0;
-  right: 0;
-  margin-top: .3em; }
-
-/* line 2, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
-.social-likes_light .social-likes__widget {
-  min-width: 0;
-  background: 0 0; }
-
-/* line 2, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
-.social-likes_light .social-likes__button, .social-likes_single-light + .social-likes__button {
-  min-width: 0;
-  padding-left: 1.35em;
-  font-weight: 400;
-  text-decoration: underline;
-  -webkit-font-smoothing: subpixel-antialiased;
-  -moz-osx-font-smoothing: auto; }
-
-/* line 2, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
-.social-likes_light .social-likes__icon {
-  margin-top: -.1em;
-  margin-left: -.25em; }
-
-/* line 2, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
-.social-likes_light .social-likes__counter, .social-likes_single-light + .social-likes__button + .social-likes__counter {
-  position: static;
-  margin-top: 0;
-  color: #999; }
-
-/* line 2, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
-.social-likes_notext .social-likes__button {
-  width: 1.85em; }
-
-/* line 2, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
-.social-likes_notext .social-likes__icon {
-  margin-left: .1em; }
-
-/* line 2, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
-.social-likes_notext.social-likes_light, .social-likes_notext.social-likes_light .social-likes__widget, .social-likes_notext.social-likes_light .social-likes__icon {
-  margin: 0;
-  left: 0; }
-
-/* line 2, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
-.social-likes_notext.social-likes_light .social-likes__button {
-  width: 1.4em;
-  padding-left: 0; }
-
-/* line 2, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
-.social-likes_single {
-  margin-top: -1.2em;
-  padding: .5em;
-  background: #fff;
-  border: 1px solid #ddd; }
-
-/* line 2, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
-.social-likes__widget_single {
-  height: 1.7em;
-  margin: 0;
-  padding: .1em 0;
-  line-height: 1.5;
-  background: #007aff; }
-
-/* line 2, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
-.social-likes_single-light + .social-likes__widget_single {
-  color: #007aff; }
-
-/* line 2, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
-.social-likes__icon_single {
-  left: .4em;
-  font-size: 1.1em; }
-
-/* line 2, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
-.social-likes__widget_facebook {
-  background: #3d5b95; }
-
-/* line 2, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
-.social-likes_light .social-likes__button_facebook {
-  color: #3d5b95; }
-
-/* line 2, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
-.social-likes__icon_facebook {
-  left: .25em;
-  top: .05em;
-  font-size: 1.1em; }
-
-/* line 2, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
-.social-likes_notext .social-likes__icon_facebook {
-  margin-left: .15em; }
-
-/* line 2, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
-.social-likes__widget_twitter {
-  background: #24aadd; }
-
-/* line 2, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
-.social-likes_light .social-likes__button_twitter {
-  color: #24aadd; }
-
-/* line 2, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
-.social-likes__icon_twitter {
-  top: .1em;
-  left: .25em; }
-
-/* line 2, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
-.social-likes_light .social-likes__icon_twitter {
-  left: .1em; }
-
-/* line 2, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
-.social-likes__widget_plusone {
-  background: #d23e30; }
-
-/* line 2, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
-.social-likes_light .social-likes__button_plusone {
-  color: #d23e30; }
-
-/* line 2, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
-.social-likes_notext .social-likes__icon_plusone {
-  margin-left: 0; }
-
-/* line 2, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
-.social-likes__icon_plusone {
-  left: .25em; }
-
-/* line 2, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
-.social-likes_light .social-likes__icon_plusone {
-  margin-top: 0; }
-
-/* line 2, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
-.social-likes__widget_mailru {
-  background: #00468c; }
-
-/* line 2, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
-.social-likes_light .social-likes__button_mailru {
-  color: #00468c; }
-
-/* line 2, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
-.social-likes__icon_mailru {
-  left: .25em; }
-
-/* line 2, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
-.social-likes_light .social-likes__icon_mailru {
-  left: .1em; }
-
-/* line 2, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
-.social-likes_notext .social-likes__icon_mailru {
-  margin-left: .075em; }
-
-/* line 2, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
-.social-likes__widget_vkontakte {
-  background: #587e9f; }
-
-/* line 2, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
-.social-likes_light .social-likes__button_vkontakte {
-  color: #587e9f; }
-
-/* line 2, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
-.social-likes__icon_vkontakte {
-  top: .2em;
-  left: .25em; }
-
-/* line 2, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
-.social-likes__widget_odnoklassniki {
-  background: #f59310; }
-
-/* line 2, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
-.social-likes_light .social-likes__button_odnoklassniki {
-  color: #f59310; }
-
-/* line 2, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
-.social-likes__icon_odnoklassniki {
-  left: .4em; }
-
-/* line 2, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
-.social-likes_light .social-likes__icon_odnoklassniki {
-  left: .25em; }
-
-/* line 2, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
-.social-likes_notext.social-likes_light .social-likes__button_odnoklassniki {
-  width: 1em; }
-
-/* line 2, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
-.social-likes__widget_pinterest {
-  background: #cb132d; }
-
-/* line 2, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
-.social-likes_light .social-likes__button_pinterest {
-  color: #cb132d; }
-
-/* line 2, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
-.social-likes_light .social-likes__icon_pinterest {
-  left: .1em; }
 
 /* line 6, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/style.scss */
 #jumbo {
@@ -800,58 +553,21 @@ ul {
 ul, ol, p {
   margin-bottom: 0; }
 
-/* line 53, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/style.scss */
-.wrap {
-  max-width: 800px;
-  margin: -30vh auto 0;
-  padding: 0 10px; }
-  /* line 57, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/style.scss */
-  .wrap .social-likes__widget {
-    border-radius: 5px;
-    height: 28px !important; }
-  /* line 62, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/style.scss */
-  .wrap .social-likes__button, .wrap .social-likes__counter {
-    font-family: 'gidoleregular';
-    font-weight: 400;
-    font-size: 16px;
-    letter-spacing: normal;
-    padding-top: 2px;
-    padding-bottom: 2px; }
-  /* line 70, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/style.scss */
-  .wrap .social-likes__counter {
-    padding-top: 3px; }
-  /* line 73, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/style.scss */
-  .wrap .social-likes__icon {
-    font-size: 20px; }
-  /* line 76, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/style.scss */
-  .wrap .social-likes__button {
-    padding-left: 28px; }
-  /* line 79, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/style.scss */
-  .wrap .social-likes__icon_twitter {
-    top: 1px; }
-  /* line 82, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/style.scss */
-  .wrap .social-likes__icon_pinterest {
-    top: -1px; }
-  /* line 85, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/style.scss */
-  .wrap .social-likes__icon_facebook {
-    font-size: 19px;
-    top: 0px; }
-
-/* line 91, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/style.scss */
+/* line 54, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/style.scss */
 #contri img {
   height: 3.5em;
   vertical-align: middle;
   margin: 0.4375em 10px 0.4375em 0; }
-/* line 96, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/style.scss */
+/* line 59, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/style.scss */
 #contri > span {
   display: inline-block;
   position: relative; }
-  /* line 99, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/style.scss */
+  /* line 62, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/style.scss */
   #contri > span > span {
     display: inline-block;
     vertical-align: middle; }
 
-/* line 106, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/style.scss */
+/* line 69, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/style.scss */
 footer {
   max-width: 800px;
   font-size: 0.6em;

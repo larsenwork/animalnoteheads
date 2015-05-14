@@ -24,7 +24,7 @@ Substitute note heads with cute and colorful animals - e.g. alligator for "A". T
 
 ### Sheets
 
-Comming soon...
+Comming soon... :)
 
 ![AnimalNoteHeadsMockup](https://raw.githubusercontent.com/andreaslarsen/animalnoteheads/gh-pages/assets/img/AnimalNoteHeadsMockup.png)
 
@@ -60,4 +60,4 @@ The guides and generated sheets are [CC-BY-ND-4.0](https://creativecommons.org/l
 Any other commercial use of AnimalNoteheads requires a separate licens.
 
 ### Contact
-[@andreaslarsendk](https://twitter.com/andreaslarsendk){:target="_blank"} & [andreas@animalnoteheads.com](mailto:andreas@animalnoteheads.com)
+[@andreaslarsendk](https://twitter.com/andreaslarsendk){:target="_blank"} & [andreaslarsen86@gmail.com](mailto:andreaslarsen86@gmail.com)

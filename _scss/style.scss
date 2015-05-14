@@ -50,43 +50,6 @@ p {
   margin-bottom: 0;
 }
 
-.wrap {
-  max-width: 800px;
-  margin: -30vh auto 0;
-  padding: 0 10px;
-  .social-likes__widget {
-    border-radius: 5px;
-    height: 28px !important;
-  }
-  .social-likes__button, 
-  .social-likes__counter {
-    font-family: 'gidoleregular';
-    font-weight: 400;
-    font-size: 16px;
-    letter-spacing: normal;
-    padding-top: 2px;
-    padding-bottom: 2px;
-  }
-  .social-likes__counter {
-    padding-top: 3px;    
-  }
-  .social-likes__icon {
-    font-size: 20px;
-  }
-  .social-likes__button {
-    padding-left: 28px;
-  }
-  .social-likes__icon_twitter {
-    top: 1px;
-  }
-  .social-likes__icon_pinterest {
-    top: -1px;
-  }
-  .social-likes__icon_facebook {
-    font-size: 19px;
-    top: 0px;
-  }
-}
 #contri {
   img {
     height: vr-block(2);

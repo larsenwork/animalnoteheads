@@ -41,12 +41,13 @@
     </div>
   </div>
   <div class="wrap">
-<div class="social-likes">
-	<div class="facebook" title="Share link on Facebook">Facebook</div>
-	<div class="twitter" data-via="andreaslarsendk" data-hashtags="AnimalNoteHeads" title="Share link on Twitter">Twitter</div>
-	<div class="plusone" title="Share link on Google+">Google+</div>
-	<div class="pinterest" title="Share image on Pinterest" data-media="https://raw.githubusercontent.com/andreaslarsen/animalnoteheads/gh-pages/assets/img/AnimalNoteHeadsMockup.png">Pinterest</div>
-</div>
+    <div class="social-likes">
+      <div class="facebook" title="Share link on Facebook">Facebook</div>
+      <div class="twitter" data-via="andreaslarsendk" data-hashtags="AnimalNoteHeads" title="Share link on Twitter">Twitter</div>
+      <div class="plusone" title="Share link on Google+">Google+</div>
+      <div class="pinterest" title="Share image on Pinterest" data-media="https://raw.githubusercontent.com/andreaslarsen/animalnoteheads/gh-pages/assets/img/AnimalNoteHeadsMockup.png">Pinterest</div>
+      <div class="github" title="Star on GitHub">GitHub</div>
+    </div>
     <h3 id="concept">Concept</h3>
 
 <p>Substitute note heads with cute and colorful animals - e.g. alligator for “A”. The ambition is, with your help, to make a huge collection of sheets in multiple languages that everyone can use freely.</p>
@@ -64,7 +65,7 @@
 
 <h3 id="sheets">Sheets</h3>
 
-<p>Comming soon…</p>
+<p>Comming soon… :)</p>
 
 <p><img src="https://raw.githubusercontent.com/andreaslarsen/animalnoteheads/gh-pages/assets/img/AnimalNoteHeadsMockup.png" alt="AnimalNoteHeadsMockup" /></p>
 
@@ -102,12 +103,23 @@ The guides and generated sheets are <a href="https://creativecommons.org/license
 Any other commercial use of AnimalNoteheads requires a separate licens.</p>
 
 <h3 id="contact">Contact</h3>
-<p><a href="https://twitter.com/andreaslarsendk" target="_blank">@andreaslarsendk</a> &amp; <a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#097;&#110;&#100;&#114;&#101;&#097;&#115;&#064;&#097;&#110;&#105;&#109;&#097;&#108;&#110;&#111;&#116;&#101;&#104;&#101;&#097;&#100;&#115;&#046;&#099;&#111;&#109;">&#097;&#110;&#100;&#114;&#101;&#097;&#115;&#064;&#097;&#110;&#105;&#109;&#097;&#108;&#110;&#111;&#116;&#101;&#104;&#101;&#097;&#100;&#115;&#046;&#099;&#111;&#109;</a></p>
+<p><a href="https://twitter.com/andreaslarsendk" target="_blank">@andreaslarsendk</a> &amp; <a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#097;&#110;&#100;&#114;&#101;&#097;&#115;&#108;&#097;&#114;&#115;&#101;&#110;&#056;&#054;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;">&#097;&#110;&#100;&#114;&#101;&#097;&#115;&#108;&#097;&#114;&#115;&#101;&#110;&#056;&#054;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;</a></p>
 
   </div>
   <footer></footer>
   <script src="assets/js/jquery.v2.1.min.js"></script>
   <script src="assets/js/social.min.js"></script>
+  <script>
+    var socialLikesButtons = {
+      github: {
+        counterUrl: 'https://api.github.com/repos/andreaslarsen/animalnoteheads?callback=?',
+        convertNumber: function (data) {
+          return data.data.watchers_count;
+        },
+        clickUrl: 'https://github.com/andreaslarsen/animalnoteheads/'
+      }
+    };
+  </script>
 </body>
 
 </html>

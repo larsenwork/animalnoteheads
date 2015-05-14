@@ -10,17 +10,29 @@
     </div>
   </div>
   <div class="wrap">
-<div class="social-likes">
-	<div class="facebook" title="Share link on Facebook">Facebook</div>
-	<div class="twitter" data-via="andreaslarsendk" data-hashtags="AnimalNoteHeads" title="Share link on Twitter">Twitter</div>
-	<div class="plusone" title="Share link on Google+">Google+</div>
-	<div class="pinterest" title="Share image on Pinterest" data-media="https://raw.githubusercontent.com/andreaslarsen/animalnoteheads/gh-pages/assets/img/AnimalNoteHeadsMockup.png">Pinterest</div>
-</div>
+    <div class="social-likes">
+      <div class="facebook" title="Share link on Facebook">Facebook</div>
+      <div class="twitter" data-via="andreaslarsendk" data-hashtags="AnimalNoteHeads" title="Share link on Twitter">Twitter</div>
+      <div class="plusone" title="Share link on Google+">Google+</div>
+      <div class="pinterest" title="Share image on Pinterest" data-media="https://raw.githubusercontent.com/andreaslarsen/animalnoteheads/gh-pages/assets/img/AnimalNoteHeadsMockup.png">Pinterest</div>
+      <div class="github" title="Star on GitHub">GitHub</div>
+    </div>
     {{ content }}
   </div>
   <footer>{{ page.footer }}</footer>
   <script src="assets/js/jquery.v2.1.min.js"></script>
   <script src="assets/js/social.min.js"></script>
+  <script>
+    var socialLikesButtons = {
+      github: {
+        counterUrl: 'https://api.github.com/repos/andreaslarsen/animalnoteheads?callback=?',
+        convertNumber: function (data) {
+          return data.data.watchers_count;
+        },
+        clickUrl: 'https://github.com/andreaslarsen/animalnoteheads/'
+      }
+    };
+  </script>
 </body>
 
 </html>
