@@ -11,9 +11,9 @@ image: AnimalNoteHeadsMockup.png
 
 ### Concept
 
-Alphabetical substitution of note heads with cute and colorful animals so it's easy and fun to learn musical notation.  
-We will launch great things soon: an iOS piano app, sheet music library, tools to create your own sheet music and much more. It will all be free and most of it even for commercial use.  
-I'll also be adding more physical products (posters, more stickers...other ideas?) that you can buy where I'll get a dollar or two from where I'm selling them.
+Alphabetical substitution of note heads with cute and colorful animals.  
+An iOS piano app, sheet music library, tools to create your own sheet music and much more will be ready soon. It will all be free and most of it even for commercial use.  
+I'll also be adding more physical products (posters, more stickers...other ideas?) that you can buy.
 
 ### Printable Piano Guides
 
