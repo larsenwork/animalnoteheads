@@ -31,6 +31,7 @@ They'll look something like this:
 ### Karma
 
 Be my [patreon](https://www.patreon.com/andreaslarsen) or get a free ride to nirvana with a tweet, like, pin, forum share etc. - I'm thankful either way:)
+
 <div class="social-likes">
   <div class="facebook" title="Share link on Facebook">Facebook</div>
   <div class="twitter" data-via="andreaslarsendk" data-hashtags="AnimalNoteHeads" title="Share link on Twitter">Twitter</div>
