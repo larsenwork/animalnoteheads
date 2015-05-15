@@ -5,12 +5,14 @@
 @import 'social';
 #jumbo {
   height: 70vh;
-  padding-bottom: 30vh;
-  background: linear-gradient( hsla(0, 0%, 100%, 0.5) 0%, hsla(0, 0%, 100%, 0.9) 63%, hsla(0, 0%, 100%, 1) 100%), url('img/jumbo.jpg') no-repeat center bottom fixed;
+  padding-bottom: 50vh;
+  background: -webkit-linear-gradient(top, hsla(0, 0%, 100%, 0.5) 0%, hsla(0, 0%, 100%, 0.9) 63%, hsla(0, 0%, 100%, 1) 100%), url('img/jumbo.jpg') no-repeat center bottom fixed;
+  background: linear-gradient(to bottom, hsla(0, 0%, 100%, 0.5) 0%, hsla(0, 0%, 100%, 0.9) 63%, hsla(0, 0%, 100%, 1) 100%), url('img/jumbo.jpg') no-repeat center bottom fixed;
   background-size: cover;
   @include flexbox;
   @include justify-content(center);
   @include align-items(center);
+  color: darken($header-color, 20%);
   div {
     * {
       margin: 0;
@@ -50,9 +52,15 @@ p {
   margin-bottom: 0;
 }
 
+.wrap {
+  max-width: 800px;
+  margin: -50vh auto 0;
+  padding: 0 10px;
+}
+
 #contri {
   img {
-    height: vr-block(2);
+    height: vr-block(1.5);
     vertical-align: middle;
     margin: vr-block(.25) 10px vr-block(.25) 0;
   }

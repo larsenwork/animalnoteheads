@@ -6,7 +6,15 @@
             "sass.options": {
                 "outputDir": "../assets/"
             },
-            "me.drewh.jsbeautify.on_save": false
+            "me.drewh.jsbeautify.on_save": false,
+            "mikaeljorhult.bracketsAutoprefixer.visualCascade": false,
+            "mikaeljorhult.bracketsAutoprefixer.browsers": [
+                "> 1%",
+                "last 2 versions",
+                "Firefox ESR",
+                "Opera 12.1"
+            ],
+            "linting.collapsed": true
         }
     }
 }

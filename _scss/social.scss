@@ -1,72 +1,74 @@
 /** My custom */
 
-.wrap {
-  max-width: 800px;
-  margin: -30vh auto 0;
-  padding: 0 10px;
-  .social-likes__widget {
-    border-radius: 5px;
-  }
-  .social-likes__button, 
-  .social-likes__counter {
-    font-family: 'gidoleregular';
-    font-weight: 400;
-    font-size: 16px;
-    letter-spacing: normal;
-    padding-right: .3em;
-  }
-  .social-likes__icon {
-    font-size: 20px;
-  }
-  .social-likes__button {
-    padding-left: 28px;
-  }
-  .social-likes__icon_facebook, 
-  .social-likes__icon_pinterest, 
-  .social-likes__icon_plusone {
-    font-size: 19px;
-    top: -1px;
-  }
+.social-likes__button,
+.social-likes__counter {
+  font-family: 'gidoleregular';
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: normal;
 }
-.social-likes__widget > * {
-  -webkit-transform: translateY(-6px);  -ms-transform: translateY(-6px);  transform: translateY(-6px);
+
+.social-likes__icon {
+  font-size: 20px;
 }
+
+.social-likes__button {
+  padding-left: 28px;
+}
+
+.social-likes__icon_facebook,
+.social-likes__icon_pinterest,
+.social-likes__icon_plusone {
+  font-size: 19px;
+}
+
 .social-likes__widget_github {
-  background: #9b9b9b;
+  color: $body-color;
 }
 .social-likes__widget_facebook {
-  background: #3d5b95
+  color: #3d5b95
 }
+
 .social-likes__widget_twitter {
-  background: #24aadd
+  color: #24aadd
 }
+
 .social-likes__widget_plusone {
-  background: #d23e30
+  color: #d23e30
 }
+
 .social-likes__widget_pinterest {
-  background: #cb132d
+  color: #cb132d
 }
 /*! Social Likes v3.0.14 by Artem Sapegin - http://sapegin.github.com/social-likes - Licensed MIT */
 
-.social-likes,
-.social-likes__widget {
+.social-likes, .social-likes__widget {
+  width: 100%;
+  text-decoration: none !important;
   display: inline-block;
-  height: 28px;  
 }
 .social-likes__widget {
+  width: auto;
   position: relative;
-  white-space: nowrap
+  white-space: nowrap;
+  margin-right: 4%;
+  text-align: left;
+  cursor: pointer;
+}
+
+.social-likes__icon {
+  top: 0;
+  left: 0;
+  font-family: "social-likes";
+  font-weight: 400;
+  font-style: normal;
+  speak: none;
+  text-transform: none;
 }
 
 .social-likes__widget:before,
 .social-likes__widget:after {
   display: none!important
-}
-.social-likes__button,
-.social-likes__icon,
-.social-likes__counter {
-  text-decoration: none;
-  text-rendering: optimizeLegibility
 }
 
 .social-likes__button,
@@ -94,33 +96,17 @@
 
 .social-likes__counter {
   display: none;
-  position: relative
+  position: relative;
+  padding-left: 5px;
 }
+
 .social-likes_ready .social-likes__counter,
 .social-likes__counter_single {
   display: inline-block
 }
+
 .social-likes_ready .social-likes__counter_empty {
   display: none
-}
-.social-likes_notext .social-likes__button {
-  padding-left: 0
-}
-
-.social-likes_single-w {
-  position: relative;
-  display: inline-block
-}
-
-.social-likes_single {
-  position: absolute;
-  text-align: left;
-  z-index: 99999;
-  visibility: hidden;
-}
-
-.social-likes__button_single {
-  position: relative
 }
 
 @font-face {
@@ -129,34 +115,40 @@
   font-weight: 400;
   font-style: normal
 }
+
 .social-likes__icon_facebook:before {
   content: "\f101"
 }
+
 .social-likes__icon_github:before {
   content: "\f102"
 }
+
 .social-likes__icon_pinterest:before {
   content: "\f105"
 }
+
 .social-likes__icon_plusone:before {
   content: "\f106"
 }
+
 .social-likes__icon_twitter:before {
   content: "\f108"
 }
-.social-likes__widget {
-  text-align: left;
-  cursor: pointer;
-  color: #fff;
+.social-likes__icon_github, 
+.social-likes__icon_twitter {
+  top: 2px;
 }
-.social-likes__icon {
-  top: 1px;
-  left: .2em;
-  font-family: "social-likes";
-  font-weight: 400;
-  font-style: normal;
-  speak: none;
-  text-transform: none;
-  font-size: 1.15em;
-  vertical-align: baseline
+
+@media (max-width: 600px) {
+  .social-likes__button {
+    width: 0px;
+    visibility: hidden;
+    :before {
+      visibility: visible;
+    }
+  }
+  .social-likes__counter {
+    padding-left: 0px;
+  }
 }

@@ -2,8 +2,7 @@ $body-font: 'gidoleregular',
 'sans-serif';
 $header-font: 'gidoleregular',
 'sans-serif';
-$temperature: 203;
-$header-color: hsl($temperature,10%,24%);
-$body-color: hsl($temperature,8%,28%);
+$body-color: hsl(204,8%,28%);
+$header-color: darken($body-color, 20%);
 $min-font: 14px;
 $max-font: 22px;
