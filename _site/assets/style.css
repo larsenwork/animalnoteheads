@@ -328,50 +328,40 @@ a {
 /* line 4, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
 .social-likes__button, .social-likes__counter {
   font-family: 'gidoleregular';
-  font-weight: 400;
-  font-size: 16px;
   letter-spacing: normal; }
 
-/* line 11, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
-.social-likes__icon {
-  font-size: 20px; }
-
-/* line 15, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
+/* line 8, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
 .social-likes__button {
-  padding-left: 28px; }
+  padding-left: 1.3em; }
 
-/* line 21, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
-.social-likes__icon_facebook, .social-likes__icon_pinterest, .social-likes__icon_plusone {
-  font-size: 19px; }
-
-/* line 25, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
+/* line 12, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
 .social-likes__widget_github {
   color: #42494d; }
 
-/* line 28, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
+/* line 15, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
 .social-likes__widget_facebook {
   color: #3d5b95; }
 
-/* line 32, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
+/* line 19, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
 .social-likes__widget_twitter {
   color: #24aadd; }
 
-/* line 36, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
+/* line 23, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
 .social-likes__widget_plusone {
   color: #d23e30; }
 
-/* line 40, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
+/* line 27, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
 .social-likes__widget_pinterest {
   color: #cb132d; }
 
 /*! Social Likes v3.0.14 by Artem Sapegin - http://sapegin.github.com/social-likes - Licensed MIT */
-/* line 45, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
+/* line 32, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
 .social-likes, .social-likes__widget {
   width: 100%;
   text-decoration: none !important;
   display: inline-block; }
 
-/* line 50, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
+/* line 37, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
 .social-likes__widget {
   width: auto;
   position: relative;
@@ -380,7 +370,7 @@ a {
   text-align: left;
   cursor: pointer; }
 
-/* line 59, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
+/* line 46, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
 .social-likes__icon {
   top: 0;
   left: 0;
@@ -390,15 +380,15 @@ a {
   speak: none;
   text-transform: none; }
 
-/* line 70, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
+/* line 57, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
 .social-likes__widget:before, .social-likes__widget:after {
   display: none !important; }
 
-/* line 75, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
+/* line 62, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
 .social-likes__button, .social-likes__counter {
   display: inline-block; }
 
-/* line 79, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
+/* line 66, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
 .social-likes__button {
   position: relative;
   cursor: pointer;
@@ -407,26 +397,26 @@ a {
   -ms-user-select: none;
   user-select: none; }
 
-/* line 88, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
+/* line 75, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
 .social-likes__button:before {
   content: "";
   display: inline-block; }
 
-/* line 93, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
+/* line 80, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
 .social-likes__icon {
   position: absolute; }
 
-/* line 97, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
+/* line 84, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
 .social-likes__counter {
   display: none;
   position: relative;
   padding-left: 5px; }
 
-/* line 104, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
+/* line 91, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
 .social-likes_ready .social-likes__counter, .social-likes__counter_single {
   display: inline-block; }
 
-/* line 108, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
+/* line 95, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
 .social-likes_ready .social-likes__counter_empty {
   display: none; }
 
@@ -436,39 +426,39 @@ a {
   font-weight: 400;
   font-style: normal; }
 
-/* line 119, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
+/* line 106, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
 .social-likes__icon_facebook:before {
   content: "\f101"; }
 
-/* line 123, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
+/* line 110, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
 .social-likes__icon_github:before {
   content: "\f102"; }
 
-/* line 127, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
+/* line 114, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
 .social-likes__icon_pinterest:before {
   content: "\f105"; }
 
-/* line 131, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
+/* line 118, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
 .social-likes__icon_plusone:before {
   content: "\f106"; }
 
-/* line 135, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
+/* line 122, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
 .social-likes__icon_twitter:before {
   content: "\f108"; }
 
-/* line 139, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
+/* line 126, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
 .social-likes__icon_github, .social-likes__icon_twitter {
   top: 2px; }
 
 @media (max-width: 600px) {
-  /* line 144, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
+  /* line 131, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
   .social-likes__button {
     width: 0px;
     visibility: hidden; }
-    /* line 147, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
+    /* line 134, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
     .social-likes__button :before {
       visibility: visible; }
-  /* line 151, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
+  /* line 138, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
   .social-likes__counter {
     padding-left: 0px; } }
 
