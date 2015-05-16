@@ -63,4 +63,4 @@ Any other commercial use of AnimalNoteHeads requires a separate license.
 
 ### Contact
 Contact me if you have any questions. Follow me for updates.  
-[@andreaslarsendk](https://twitter.com/andreaslarsendk){:target="_blank"} // [andreaslarsen86@gmail.com](mailto:andreaslarsen86@gmail.com)
+[@andreaslarsendk](https://twitter.com/andreaslarsendk){:target="_blank"} // [andreas@animalnoteheads.com](mailto:andreas@animalnoteheads.com)
