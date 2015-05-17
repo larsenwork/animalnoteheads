@@ -15,9 +15,13 @@ image: AnimalNoteHeadsSocial.png
 Open source sheet music library, more languages, tools to create your own sheet music, iOS app and much more - all free.
 ![AnimalNoteHeadsMockup](assets/img/AnimalNoteHeadsMockup.png)
 
-### Piano Guides
+### Languages
 
-[Color](assets/pdf/AnimalNoteHeads-keys-en-A4.pdf){:target="_blank"} or with [black outlines](assets/pdf/AnimalNoteHeads-keys-en-bw-A4.pdf){:target="_blank"}. Print and put them behind the keys. Measure the octave length on your piano and divide it by 165mm (6.5") to get the print scale (99/165 = 60%).
+AnimalNoteHeads currently supports English, French, Spanish and Danish but I'll be adding more if you [tell me the names](https://github.com/andreaslarsen/animalnoteheads/issues/6){:target="_blank"}.
+
+### [PDF](assets/pdf/){:target="_blank"} Piano Guides
+
+Print, cut and put them behind the keys. Octave length on your piano divided by 165mm (6.5") equals print scale - e.g. 99mm / 165mm = 60%.
 
 ### Support me
 
