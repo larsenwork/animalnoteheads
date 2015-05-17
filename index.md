@@ -12,12 +12,12 @@ image: AnimalNoteHeadsSocial.png
 
 ### Comming soon
 
-Open source sheet music library, more languages, tools to create your own sheet music, iOS app and much more - all free.
+Open source sheet music library, tools to create your own sheet music, iOS app and much more - all free.
 ![AnimalNoteHeadsMockup](assets/img/AnimalNoteHeadsMockup.png)
 
 ### Languages
 
-AnimalNoteHeads currently supports English, French, Spanish and Danish but I'll be adding more if you [tell me the names](https://github.com/andreaslarsen/animalnoteheads/issues/6){:target="_blank"}.
+AnimalNoteHeads currently supports English, French, Spanish and Danish. I'll be adding more as you [tell me the names](https://github.com/andreaslarsen/animalnoteheads/issues/6){:target="_blank"} in your language.
 
 ### [PDF](assets/pdf/){:target="_blank"} Piano Guides
 
