@@ -7,7 +7,7 @@ socialtitle: Animal Note Heads - fun, free & easy note learning
 author: Andreas Larsen
 description: Make note learning easy and fun. It's currently under construction. The goal is to create an free database with sheets using Animal Note Heads.
 year: 2015
-image: AnimalNoteHeadsMockup.png
+image: AnimalNoteHeadsSocial.png
 ---
 
 ### Comming soon
