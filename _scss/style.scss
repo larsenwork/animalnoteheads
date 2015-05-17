@@ -53,8 +53,8 @@ p {
   @include justify-content(center);
   @include align-items(center);
   color: darken($header-color, 20%);
-  background: -webkit-linear-gradient(top, hsla(0, 0%, 100%, 0) 0%, hsla(0, 0%, 100%, 0.5) 100%);
-  background: linear-gradient(to bottom, hsla(0, 0%, 100%, 0) 0%, hsla(0, 0%, 100%, 0.5) 100%);    
+  background: -webkit-linear-gradient(top, hsla(0, 0%, 100%, 0) 0%, hsla(0, 0%, 100%, 0.4) 100%);
+  background: linear-gradient(to bottom, hsla(0, 0%, 100%, 0) 0%, hsla(0, 0%, 100%, 0.4) 100%);    
   div {
     * {
       margin: 0;
@@ -68,8 +68,8 @@ p {
   }
 }
 .bg { 
-  background: -webkit-linear-gradient(top, hsla(0, 0%, 100%, 0.5) 0%, hsla(0, 0%, 100%, 0.9) 100vh);
-  background: linear-gradient(to bottom, hsla(0, 0%, 100%, 0.5) 0%, hsla(0, 0%, 100%, 0.9) 100vh);    
+  background: -webkit-linear-gradient(top, hsla(0, 0%, 100%, 0.4) 0%, hsla(0, 0%, 100%, 0.9) 100vh);
+  background: linear-gradient(to bottom, hsla(0, 0%, 100%, 0.4) 0%, hsla(0, 0%, 100%, 0.9) 100vh);    
   .wrap {
     max-width: 800px;
     margin: 0 auto;
