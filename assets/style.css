@@ -492,12 +492,13 @@ ul, ol, p {
   position: absolute;
   top: 0;
   left: 0;
-  height: 150vh;
+  height: 100vh;
+  padding-bottom: 50vh;
   width: 100%;
   background: url('img/jumbo1.jpg') no-repeat center bottom fixed;
   background-size: cover;
   z-index: -1; }
-  /* line 42, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/style.scss */
+  /* line 43, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/style.scss */
   #jumbobg:before {
     content: "";
     position: absolute;
@@ -508,7 +509,7 @@ ul, ol, p {
     background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0.9) 63%, #ffffff 100%);
     background: linear-gradient(to bottom, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0.9) 63%, #ffffff 100%); }
 
-/* line 54, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/style.scss */
+/* line 55, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/style.scss */
 #jumbo {
   height: 70vh;
   padding-top: 10vh;
@@ -528,33 +529,33 @@ ul, ol, p {
   -moz-align-items: center;
   align-items: center;
   color: black; }
-  /* line 62, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/style.scss */
+  /* line 63, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/style.scss */
   #jumbo div * {
     margin: 0; }
-  /* line 66, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/style.scss */
+  /* line 67, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/style.scss */
   #jumbo h1 {
     font-size: 11vw; }
-  /* line 69, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/style.scss */
+  /* line 70, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/style.scss */
   #jumbo p {
     font-size: 4vw; }
 
-/* line 74, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/style.scss */
+/* line 75, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/style.scss */
 .wrap {
   max-width: 800px;
   margin: 0 auto 20vh;
   padding: 0 10px;
   z-index: 2; }
 
-/* line 82, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/style.scss */
+/* line 83, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/style.scss */
 #contri img {
   height: 2.625em;
   vertical-align: middle;
   margin: 0.4375em 10px 0.4375em 0; }
-/* line 87, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/style.scss */
+/* line 88, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/style.scss */
 #contri > span {
   display: inline-block;
   position: relative; }
-  /* line 90, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/style.scss */
+  /* line 91, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/style.scss */
   #contri > span > span {
     display: inline-block;
     vertical-align: middle; }
