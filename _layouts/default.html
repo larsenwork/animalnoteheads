@@ -4,14 +4,17 @@
 
 <body>
   <div id="jumbobg"></div>
+  <div id="jumbogradient"></div>
   <div id="jumbo">
     <div>
       <h1>{{ page.title }}</h1>
       <p>{{ page.tag }}</p>
     </div>
   </div>
-  <div class="wrap">
-    {{ content }}
+  <div class="bg">
+    <div class="wrap">
+      {{ content }}
+    </div>
   </div>
   <footer>{{ page.footer }}</footer>
   <script src="assets/js/jquery.v2.1.min.js"></script>
