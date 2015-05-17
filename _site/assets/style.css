@@ -450,17 +450,17 @@ a {
 .social-likes__icon_github, .social-likes__icon_twitter {
   top: 2px; }
 
-@media (max-width: 600px) {
-  /* line 131, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
-  .social-likes__button {
-    width: 0px;
-    visibility: hidden; }
-    /* line 134, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
-    .social-likes__button :before {
-      visibility: visible; }
-  /* line 138, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
-  .social-likes__counter {
-    padding-left: 0px; } }
+/* line 130, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
+.social-likes__button {
+  width: 0px;
+  visibility: hidden; }
+  /* line 133, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
+  .social-likes__button :before {
+    visibility: visible; }
+
+/* line 137, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
+.social-likes__counter {
+  padding-left: 0px; }
 
 /* line 7, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/style.scss */
 img {

@@ -32,15 +32,14 @@ Print, cut and put them behind the keys. Octave length on your piano divided by 
   * [Other ideas](https://github.com/andreaslarsen/animalnoteheads/issues/9){:target="_blank"}?
 * Hire me - I do font, icon and logo design as well as programming (web).
 
-### Get social
-
-<div class="social-likes">
+<h3><div class="social-likes">
   <div class="facebook" title="Share link on Facebook">Facebook</div>
   <div class="twitter" data-via="andreaslarsendk" data-hashtags="AnimalNoteHeads" title="Share link on Twitter">Twitter</div>
   <div class="plusone" title="Share link on Google+">Google+</div>
   <div class="pinterest" title="Share image on Pinterest" data-media="https://raw.githubusercontent.com/andreaslarsen/animalnoteheads/gh-pages/assets/img/AnimalNoteHeadsMockup.png">Pinterest</div>
   <div class="github" title="Star on GitHub">GitHub</div>
-</div>
+</div></h3>
+
 Thanks for every tweet, like, star, pin and forum post. Follow [me]((https://twitter.com/andreaslarsendk){:target="_blank"}) for updates.
 
 
