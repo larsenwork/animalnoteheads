@@ -45,10 +45,10 @@ Thanks for every tweet, like, star, pin and forum post. Follow [me]((https://twi
 
 ### Contributors
 <span id="contri">
-![You](assets/img/you.jpg) You? - Ideas, questions, translations, code, beta tests etc. at [GitHub](https://github.com/andreaslarsen/animalnoteheads/issues)  
-![Abraham](assets/img/abraham.jpg) [Abraham Lee](http://fonts.openlilylib.org){:target="_blank"} - Lilypond expert  
-![Tobias](assets/img/tobi.jpg) [Tobias Due Munk](https://twitter.com/tobiasdm){:target="_blank"} - iOS developer  
-![Andreas](assets/img/me.jpg) Andreas Larsen - I love open source [projects](https://github.com/andreaslarsen?tab=repositories){:target="_blank"}
+![You](assets/img/you.png) You? - Ideas, questions, translations, code, beta tests etc. at [GitHub](https://github.com/andreaslarsen/animalnoteheads/issues)  
+![Abraham](assets/img/abraham.png) [Abraham Lee](http://fonts.openlilylib.org){:target="_blank"} - Lilypond expert  
+![Tobias](assets/img/tobi.png) [Tobias Due Munk](https://twitter.com/tobiasdm){:target="_blank"} - iOS developer  
+![Andreas](assets/img/me.png) Andreas Larsen - I love open source [projects](https://github.com/andreaslarsen?tab=repositories){:target="_blank"}
 </span>
 
 ### Translators
