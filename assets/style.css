@@ -296,36 +296,36 @@ td {
   font-weight: normal;
   font-style: normal; }
 
-/* line 12, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_sass/typography.sass */
-body #jumbo {
-  letter-spacing: -0.2em; }
-/* line 15, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_sass/typography.sass */
-body body {
+/* line 11, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_sass/typography.sass */
+body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
-/* line 21, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_sass/typography.sass */
-body p, body li, body footer {
-  letter-spacing: 0.05em; }
-/* line 24, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_sass/typography.sass */
-body a {
-  color: #42494d;
-  text-decoration: none;
-  background: -webkit-linear-gradient(top, transparent 84.9%, #7ec6f7 85%, #7ec6f7 99.9%, transparent 100%);
-  background: linear-gradient(to bottom, transparent 84.9%, #7ec6f7 85%, #7ec6f7 99.9%, transparent 100%);
-  -webkit-transition: background .2s ease;
-  transition: background .2s ease; }
-  /* line 32, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_sass/typography.sass */
-  body a:hover {
-    background-color: #7ec6f7;
-    color: white; }
-/* line 36, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_sass/typography.sass */
-body ::-moz-selection {
-  color: white;
-  background-color: #7ec6f7; }
-/* line 40, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_sass/typography.sass */
-body ::selection {
-  color: white;
-  background-color: #7ec6f7; }
+  /* line 15, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_sass/typography.sass */
+  body #jumbo {
+    letter-spacing: -0.2em; }
+  /* line 20, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_sass/typography.sass */
+  body p, body li, body footer {
+    letter-spacing: 0.05em; }
+  /* line 23, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_sass/typography.sass */
+  body a {
+    color: #42494d;
+    text-decoration: none;
+    background: -webkit-linear-gradient(top, transparent 84.9%, #7ec6f7 85%, #7ec6f7 99.9%, transparent 100%);
+    background: linear-gradient(to bottom, transparent 84.9%, #7ec6f7 85%, #7ec6f7 99.9%, transparent 100%);
+    -webkit-transition: background .2s ease;
+    transition: background .2s ease; }
+    /* line 31, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_sass/typography.sass */
+    body a:hover {
+      background-color: #7ec6f7;
+      color: white; }
+  /* line 35, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_sass/typography.sass */
+  body ::-moz-selection {
+    color: white;
+    background-color: #7ec6f7; }
+  /* line 39, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_sass/typography.sass */
+  body ::selection {
+    color: white;
+    background-color: #7ec6f7; }
 
 /* line 2, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_sass/social.sass */
 .wrap .social-likes__widget_github {
