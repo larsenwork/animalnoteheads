@@ -1,4 +1,10 @@
 .wrap
+  table
+    a
+      background: none
+      &:hover
+        background: none
+        color: inherit
   td, th
     padding: 0 0 !important
     width: 1 / 6 * 100%
@@ -15,22 +21,20 @@
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
     -webkit-touch-callout: none
     cursor: pointer
-    
-    &:after
-      content: ""
-      visibility: hidden
-      display: inline-block
-      border-width: .25em
-      border-style: solid
-      border-color: transparent
-      margin-left: 10px
-
-    &[data-sorted="true"]:after
-      visibility: visible
 
     &[data-sorted-direction="descending"]:after
-      border-top-color: inherit
+      content: " ↑"
 
     &[data-sorted-direction="ascending"]:after
-      border-bottom-color: inherit
-      margin-bottom: .25em
+      content: " ↓"
+  
+  tr
+    -webkit-transition: 0.6s ease
+    transition: 0.6s ease
+
+  tr:hover
+      background-color: #f7f7f7
+      -webkit-transition: 0.3s ease
+      transition: 0.3s ease
+      color: $header-color
+  
