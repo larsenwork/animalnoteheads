@@ -310,7 +310,7 @@ body {
     letter-spacing: 0.02em; }
   /* line 23, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_sass/typography.sass */
   body a {
-    color: #525b60;
+    color: inherit;
     text-decoration: none;
     background: -webkit-linear-gradient(top, transparent 89.9%, #7ec6f7 89%, #7ec6f7 99.9%, transparent 100%);
     background: linear-gradient(to bottom, transparent 89.9%, #7ec6f7 89%, #7ec6f7 99.9%, transparent 100%);
