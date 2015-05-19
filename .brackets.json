@@ -1,7 +1,7 @@
 {
     "sass.enabled": false,
     "path": {
-        "_scss/style.scss": {
+        "_sass/style.sass": {
             "sass.enabled": true,
             "sass.options": {
                 "outputDir": "../assets/"
@@ -14,7 +14,7 @@
                 "Firefox ESR",
                 "Opera 12.1"
             ],
-            "linting.collapsed": true
+            "linting.collapsed": false
         }
     }
 }

@@ -1,0 +1,32 @@
+<table data-sortable>
+  <thead>
+    <tr>
+      <th><h3>English</h3></th>
+      <th>Date</th>
+      <th>Difficulty</th>
+    </tr>
+  </thead>
+  <tbody>
+  {% for post in site.categories.english %}
+    <tr>
+      <td><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></td>
+      <td>{{ post.date | date: "%-d/%-m/%Y" }}</td>
+      <td>{{ post.difficulty }}</td>
+    </tr>
+  {% endfor %}
+  </tbody>
+</table>
+<table data-sortable>
+  <tr>
+    <td><h3>Français</h3></td>
+    <td>Date</td>
+    <td>Difficulty</td>
+  </tr>
+  {% for post in site.categories.french %}
+    <tr>
+      <td><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></td>
+      <td>{{ post.date | date: "%-d/%-m/%Y" }}</td>
+      <td>{{ post.difficulty }}</td>
+    </tr>
+  {% endfor %}
+</table>

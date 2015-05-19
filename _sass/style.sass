@@ -1,0 +1,86 @@
+@import ../bower_components/reset-scss/reset.scss
+@import ../bower_components/sass-flex-mixin/_flexbox
+@import variables
+@import typography
+@import social
+@import table
+
+img
+  max-width: 100%
+
+ol
+  list-style: decimal
+  @for $i from 1 through 2
+    > li:nth-child(#{$i})
+      text-decoration: line-through
+
+ul
+  list-style: disc
+  ul
+    list-style: circle
+
+ul,
+ol,
+p
+  margin-bottom: 0
+
+#jumbobg
+  top: 0
+  left: 0
+  bottom: 0
+  right: 0
+  opacity: 0.4
+  background: url("img/jumbo1.jpg")
+  background-size: cover
+  -webkit-background-size: cover
+  -moz-background-size: cover
+  -o-background-size: cover
+  position: fixed
+  background-position: center center
+  background-repeat: no-repeat
+  z-index: -1
+
+#jumbo
+  height: 70vh
+  padding-top: 10vh
+  +flexbox
+  +justify-content(center)
+  +align-items(center)
+  color: darken($header-color, 20%)
+  background: linear-gradient(to bottom, hsla(0, 0%, 100%, 0) 0%, hsla(0, 0%, 100%, 0.7) 100%)
+  div
+    *
+      margin: 0
+  h1
+    font-size: 11vw
+  p
+    font-size: 4vw
+
+.bg
+  background: linear-gradient(to bottom, hsla(0, 0%, 100%, 0.7) 0%, hsla(0, 0%, 100%, 0.9) 30vh)
+
+footer
+  background: hsla(0, 0%, 100%, 0.9)
+  color: lighten($body-color, 30%)
+  a
+    color: lighten($body-color, 30%)
+
+.wrap
+  max-width: 800px
+  margin: 0 auto
+  padding: 0 10px 10vh
+  z-index: 2
+  h3:first-child
+    margin-top: 0
+
+#contri
+  img
+    height: vr-block(1.5)
+    vertical-align: middle
+    margin: vr-block(0.25) 10px vr-block(0.25) 0
+  > span
+    display: inline-block
+    position: relative
+    > span
+      display: inline-block
+      vertical-align: middle

@@ -47,12 +47,12 @@
     <div class="wrap">
       
       <h3><div class="social-likes">
-        <div class="facebook" title="Share link on Facebook">Facebook</div>
-        <div class="twitter" data-via="andreaslarsendk" data-hashtags="AnimalNoteHeads" title="Share link on Twitter">Twitter</div>
-        <div class="plusone" title="Share link on Google+">Google+</div>
-        <div class="pinterest" title="Share image on Pinterest" data-media="https://raw.githubusercontent.com/andreaslarsen/animalnoteheads/gh-pages/assets/img/AnimalNoteHeadsMockup.png">Pinterest</div>
-        <div class="github" title="Star on GitHub">GitHub</div>
-      </div></h3>
+  <div class="facebook" title="Share link on Facebook">Like</div>
+  <div class="twitter" data-via="andreaslarsendk" data-hashtags="AnimalNoteHeads" title="Share link on Twitter">Tweet</div>
+  <div class="plusone" title="Share link on Google+">G+</div>
+  <div class="pinterest" title="Share image on Pinterest" data-media="https://raw.githubusercontent.com/andreaslarsen/animalnoteheads/gh-pages/assets/img/AnimalNoteHeadsMockup.png">Pin</div>
+  <div class="github" title="Star on GitHub">Stargaze</div>
+</div></h3>
       <p>Comming soon: Open source sheet music library, tools to create your own sheet music, iOS app and much more - all free.
 <img src="assets/img/AnimalNoteHeadsMockup.png" alt="AnimalNoteHeadsMockup" /></p>
 
@@ -91,27 +91,30 @@
 <h3 id="affilliates">Affilliates</h3>
 <p>I’m interested in a company/organisation/foundation that would support the project in turn for e.g. “brought to you by …” - I’d like to devote more time to the project and possibly make it completely free for everyone to use.</p>
 
-<h3 id="license">License</h3>
-<p>© 2015 Andreas Larsen, free for private use (unless otherwise noted). The generated sheets will be <a href="https://creativecommons.org/licenses/by-nd/4.0/">CC-BY-ND-4.0</a>. Any other commercial use of AnimalNoteHeads requires a separate license.</p>
-
-<h3 id="contact">Contact</h3>
-<p><a href="https://twitter.com/andreaslarsendk">@andreaslarsendk</a> // <a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#097;&#110;&#100;&#114;&#101;&#097;&#115;&#064;&#097;&#110;&#105;&#109;&#097;&#108;&#110;&#111;&#116;&#101;&#104;&#101;&#097;&#100;&#115;&#046;&#099;&#111;&#109;">&#097;&#110;&#100;&#114;&#101;&#097;&#115;&#064;&#097;&#110;&#105;&#109;&#097;&#108;&#110;&#111;&#116;&#101;&#104;&#101;&#097;&#100;&#115;&#046;&#099;&#111;&#109;</a></p>
-
+      
     </div>
   </div>
-  <script src="../assets/js/jquery.v2.1.min.js"></script>
-  <script src="../assets/js/social.min.js"></script>
-  <script>
-    var socialLikesButtons = {
-      github: {
-        counterUrl: 'https://api.github.com/repos/andreaslarsen/animalnoteheads?callback=?',
-        convertNumber: function (data) {
-          return data.data.watchers_count;
-        },
-        clickUrl: 'https://github.com/andreaslarsen/animalnoteheads/'
-      }
-    };
-  </script>
+<script src="../bower_components/sortable/js/sortable.min.js"></script>
+<script src="../assets/js/jquery.v2.1.min.js"></script>
+<script src="../assets/js/social.min.js"></script>
+<script>
+  var socialLikesButtons = {
+    github: {
+      counterUrl: 'https://api.github.com/repos/andreaslarsen/animalnoteheads?callback=?',
+      convertNumber: function (data) {
+        return data.data.watchers_count;
+      },
+      clickUrl: 'https://github.com/andreaslarsen/animalnoteheads/'
+    }
+  };
+</script>
+<footer>
+  <div class="wrap">
+    <p>© 2015 Andreas Larsen, free for private use (sheets+guides are <a href="https://creativecommons.org/licenses/by-nd/4.0/">CC-BY-ND-4.0</a>).</p>
+    <p><a href="https://twitter.com/andreaslarsendk">@andreaslarsendk</a> // <a href="mailto:andreas@animalnoteheads.com">andreas@animalnoteheads.com</a>
+    </p>
+  </div>
+</footer>  
 </body>
 
 </html>

@@ -5,6 +5,7 @@
   "dependencies": {
     "typographic": "~2.9.3",
     "sass-flex-mixin": "~1.0.1",
-    "reset-scss": "*"
+    "reset-scss": "*",
+    "sortable": "~0.6.0"
   }
 }

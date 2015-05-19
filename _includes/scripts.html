@@ -1,0 +1,14 @@
+<script src="../bower_components/sortable/js/sortable.min.js"></script>
+<script src="../assets/js/jquery.v2.1.min.js"></script>
+<script src="../assets/js/social.min.js"></script>
+<script>
+  var socialLikesButtons = {
+    github: {
+      counterUrl: 'https://api.github.com/repos/andreaslarsen/animalnoteheads?callback=?',
+      convertNumber: function (data) {
+        return data.data.watchers_count;
+      },
+      clickUrl: 'https://github.com/andreaslarsen/animalnoteheads/'
+    }
+  };
+</script>

@@ -1,0 +1,42 @@
+@import ../bower_components/typographic/scss/typographic
+
++typographic
+
+@font-face
+  font-family: 'gidoleregular'
+  src: url("fonts/gidole-regular.woff2") format("woff2"), url("fonts/gidole-regular.woff") format("woff"), url("fonts/gidole-regular.ttf") format("truetype")
+  font-weight: normal
+  font-style: normal
+
+body
+	#jumbo
+		letter-spacing: -0.2em
+
+	body
+		-webkit-font-smoothing: antialiased
+		-moz-osx-font-smoothing: grayscale
+
+	p,
+	li,
+	footer
+		letter-spacing: 0.05em
+
+	a
+		color: $body-color
+		text-decoration: none
+		background: -webkit-linear-gradient(top, $transparent 84.9%, $href-color 85%, $href-color 99.9%, $transparent 100%)
+		background: linear-gradient(to bottom, $transparent 84.9%, $href-color 85%, $href-color 99.9%, $transparent 100%)
+		-webkit-transition: background .2s ease
+		transition: background .2s ease
+	
+		&:hover
+			background-color: $href-color
+			color: white
+
+	::-moz-selection
+		color: white
+		background-color: $href-color
+
+	::selection
+		color: white
+		background-color: $href-color

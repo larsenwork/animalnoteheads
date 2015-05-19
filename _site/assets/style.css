@@ -36,7 +36,7 @@ table {
 
 /* line 594, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/bower_components/typographic/scss/typographic.scss */
 html {
-  font-family: 'gidoleregular', 'sans-serif';
+  font-family: "gidoleregular", "sans-serif";
   font-weight: 300;
   color: #42494d;
   font-size: 14px;
@@ -59,7 +59,7 @@ p, blockquote, pre, address, dl, ol, ul, table {
 
 /* line 616, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/bower_components/typographic/scss/typographic.scss */
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'gidoleregular', 'sans-serif';
+  font-family: "gidoleregular", "sans-serif";
   font-weight: 500;
   color: #131516;
   clear: both; }
@@ -292,209 +292,144 @@ td {
 
 @font-face {
   font-family: 'gidoleregular';
-  src: url('fonts/gidole-regular.woff2') format('woff2'), url('fonts/gidole-regular.woff') format('woff'), url('fonts/gidole-regular.ttf') format('truetype');
+  src: url("fonts/gidole-regular.woff2") format("woff2"), url("fonts/gidole-regular.woff") format("woff"), url("fonts/gidole-regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal; }
 
-/* line 10, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/typography.scss */
-#jumbo {
+/* line 12, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_sass/typography.sass */
+body #jumbo {
   letter-spacing: -0.2em; }
-
-/* line 14, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/typography.scss */
-body {
+/* line 15, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_sass/typography.sass */
+body body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
-
-/* line 21, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/typography.scss */
-p, li, footer {
+/* line 21, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_sass/typography.sass */
+body p, body li, body footer {
   letter-spacing: 0.05em; }
-
-/* line 25, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/typography.scss */
-a {
-  color: #188bd8;
-  text-decoration: none; }
-
-/* line 30, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/typography.scss */
-::-moz-selection {
+/* line 24, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_sass/typography.sass */
+body a {
+  color: #42494d;
+  text-decoration: none;
+  background: -webkit-linear-gradient(top, transparent 84.9%, #7ec6f7 85%, #7ec6f7 99.9%, transparent 100%);
+  background: linear-gradient(to bottom, transparent 84.9%, #7ec6f7 85%, #7ec6f7 99.9%, transparent 100%);
+  -webkit-transition: background .2s ease;
+  transition: background .2s ease; }
+  /* line 32, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_sass/typography.sass */
+  body a:hover {
+    background-color: #7ec6f7;
+    color: white; }
+/* line 36, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_sass/typography.sass */
+body ::-moz-selection {
   color: white;
-  background-color: #126aa5; }
-
-/* line 35, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/typography.scss */
-::selection {
+  background-color: #7ec6f7; }
+/* line 40, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_sass/typography.sass */
+body ::selection {
   color: white;
-  background-color: #126aa5; }
+  background-color: #7ec6f7; }
 
-/** My custom */
-/* line 4, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
-.social-likes__button, .social-likes__counter {
-  font-family: 'gidoleregular';
-  letter-spacing: normal; }
-
-/* line 8, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
-.social-likes__button {
-  padding-left: 1.3em; }
-
-/* line 12, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
-.social-likes__widget_github {
+/* line 2, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_sass/social.sass */
+.wrap .social-likes__widget_github {
   color: #42494d; }
-
-/* line 15, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
-.social-likes__widget_facebook {
+/* line 5, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_sass/social.sass */
+.wrap .social-likes__widget_facebook {
   color: #3d5b95; }
-
-/* line 19, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
-.social-likes__widget_twitter {
+/* line 8, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_sass/social.sass */
+.wrap .social-likes__widget_twitter {
   color: #24aadd; }
-
-/* line 23, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
-.social-likes__widget_plusone {
+/* line 11, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_sass/social.sass */
+.wrap .social-likes__widget_plusone {
   color: #d23e30; }
-
-/* line 27, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
-.social-likes__widget_pinterest {
+/* line 14, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_sass/social.sass */
+.wrap .social-likes__widget_pinterest {
   color: #cb132d; }
-
-/*! Social Likes v3.0.14 by Artem Sapegin - http://sapegin.github.com/social-likes - Licensed MIT */
-/* line 32, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
-.social-likes, .social-likes__widget {
-  width: 100%;
+/* line 17, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_sass/social.sass */
+.wrap .social-likes__widget {
   text-decoration: none !important;
-  display: inline-block; }
-
-/* line 37, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
-.social-likes__widget {
-  width: auto;
-  position: relative;
-  white-space: nowrap;
-  margin-right: 4%;
-  text-align: left;
-  cursor: pointer; }
-
-/* line 46, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
-.social-likes__icon {
-  top: 0;
-  left: 0;
-  font-family: "social-likes";
-  font-weight: 400;
-  font-style: normal;
-  speak: none;
-  text-transform: none; }
-
-/* line 57, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
-.social-likes__widget:before, .social-likes__widget:after {
-  display: none !important; }
-
-/* line 62, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
-.social-likes__button, .social-likes__counter {
-  display: inline-block; }
-
-/* line 66, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
-.social-likes__button {
-  position: relative;
+  background: none !important;
+  display: inline-block;
   cursor: pointer;
+  padding-right: 0.2em; }
+/* line 24, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_sass/social.sass */
+.wrap .social-likes__counter:not(.social-likes__counter_empty) {
+  padding-left: 0.2em; }
+
+/* line 2, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_sass/table.sass */
+.wrap td, .wrap th {
+  padding: 0 0 !important;
+  width: 16.66667%;
+  font-weight: 400; }
+  /* line 6, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_sass/table.sass */
+  .wrap td:first-child, .wrap th:first-child {
+    width: 66.66667%; }
+/* line 9, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_sass/table.sass */
+.wrap th {
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
-  user-select: none; }
-
-/* line 75, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
-.social-likes__button:before {
-  content: "";
-  display: inline-block; }
-
-/* line 80, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
-.social-likes__icon {
-  position: absolute; }
-
-/* line 84, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
-.social-likes__counter {
-  display: none;
-  position: relative;
-  padding-left: 5px; }
-
-/* line 91, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
-.social-likes_ready .social-likes__counter, .social-likes__counter_single {
-  display: inline-block; }
-
-/* line 95, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
-.social-likes_ready .social-likes__counter_empty {
-  display: none; }
-
-@font-face {
-  font-family: "social-likes";
-  src: url("data:application/x-font-woff;charset=utf-8;base64,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") format("woff");
-  font-weight: 400;
-  font-style: normal; }
-
-/* line 106, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
-.social-likes__icon_facebook:before {
-  content: "\f101"; }
-
-/* line 110, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
-.social-likes__icon_github:before {
-  content: "\f102"; }
-
-/* line 114, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
-.social-likes__icon_pinterest:before {
-  content: "\f105"; }
-
-/* line 118, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
-.social-likes__icon_plusone:before {
-  content: "\f106"; }
-
-/* line 122, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
-.social-likes__icon_twitter:before {
-  content: "\f108"; }
-
-/* line 126, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
-.social-likes__icon_github, .social-likes__icon_twitter {
-  top: 2px; }
-
-/* line 130, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
-.social-likes__button {
-  width: 0px;
-  visibility: hidden; }
-  /* line 133, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
-  .social-likes__button :before {
+  -o-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  cursor: pointer; }
+  /* line 19, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_sass/table.sass */
+  .wrap th:after {
+    content: "";
+    visibility: hidden;
+    display: inline-block;
+    vertical-align: inherit;
+    height: 0;
+    width: 0;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent;
+    margin-right: 1px;
+    margin-left: 10px;
+    float: right; }
+  /* line 33, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_sass/table.sass */
+  .wrap th[data-sorted="true"]:after {
     visibility: visible; }
+  /* line 36, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_sass/table.sass */
+  .wrap th[data-sorted-direction="descending"]:after {
+    border-top-color: inherit;
+    margin-top: 8px; }
+  /* line 40, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_sass/table.sass */
+  .wrap th[data-sorted-direction="ascending"]:after {
+    border-bottom-color: inherit;
+    margin-top: 3px; }
 
-/* line 137, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/social.scss */
-.social-likes__counter {
-  padding-left: 0px; }
-
-/* line 6, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/style.scss */
+/* line 8, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_sass/style.sass */
 img {
   max-width: 100%; }
 
-/* line 10, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/style.scss */
+/* line 11, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_sass/style.sass */
 ol {
   list-style: decimal; }
-  /* line 13, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/style.scss */
+  /* line 14, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_sass/style.sass */
   ol > li:nth-child(1) {
     text-decoration: line-through; }
-  /* line 13, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/style.scss */
+  /* line 14, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_sass/style.sass */
   ol > li:nth-child(2) {
     text-decoration: line-through; }
 
-/* line 19, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/style.scss */
+/* line 17, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_sass/style.sass */
 ul {
   list-style: disc; }
-  /* line 21, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/style.scss */
+  /* line 19, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_sass/style.sass */
   ul ul {
     list-style: circle; }
 
-/* line 28, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/style.scss */
+/* line 24, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_sass/style.sass */
 ul, ol, p {
   margin-bottom: 0; }
 
-/* line 32, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/style.scss */
+/* line 27, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_sass/style.sass */
 #jumbobg {
   top: 0;
   left: 0;
   bottom: 0;
   right: 0;
   opacity: 0.4;
-  background: url('img/jumbo1.jpg');
+  background: url("img/jumbo1.jpg");
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -504,7 +439,7 @@ ul, ol, p {
   background-repeat: no-repeat;
   z-index: -1; }
 
-/* line 49, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/style.scss */
+/* line 43, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_sass/style.sass */
 #jumbo {
   height: 70vh;
   padding-top: 10vh;
@@ -525,49 +460,50 @@ ul, ol, p {
   align-items: center;
   color: black;
   background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.7) 100%); }
-  /* line 58, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/style.scss */
+  /* line 52, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_sass/style.sass */
   #jumbo div * {
     margin: 0; }
-  /* line 62, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/style.scss */
+  /* line 54, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_sass/style.sass */
   #jumbo h1 {
     font-size: 11vw; }
-  /* line 65, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/style.scss */
+  /* line 56, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_sass/style.sass */
   #jumbo p {
     font-size: 4vw; }
 
-/* line 69, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/style.scss */
+/* line 59, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_sass/style.sass */
 .bg {
   background: linear-gradient(to bottom, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.9) 30vh); }
-  /* line 71, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/style.scss */
-  .bg .wrap {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 0 10px 10vh;
-    z-index: 2; }
-    /* line 76, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/style.scss */
-    .bg .wrap h3:first-child {
-      margin-top: 0; }
 
-/* line 82, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/style.scss */
+/* line 62, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_sass/style.sass */
+footer {
+  background: rgba(255, 255, 255, 0.9);
+  color: #8b969c; }
+  /* line 65, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_sass/style.sass */
+  footer a {
+    color: #8b969c; }
+
+/* line 68, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_sass/style.sass */
+.wrap {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 10px 10vh;
+  z-index: 2; }
+  /* line 73, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_sass/style.sass */
+  .wrap h3:first-child {
+    margin-top: 0; }
+
+/* line 77, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_sass/style.sass */
 #contri img {
   height: 2.625em;
   vertical-align: middle;
   margin: 0.4375em 10px 0.4375em 0; }
-/* line 87, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/style.scss */
+/* line 81, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_sass/style.sass */
 #contri > span {
   display: inline-block;
   position: relative; }
-  /* line 90, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/style.scss */
+  /* line 84, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_sass/style.sass */
   #contri > span > span {
     display: inline-block;
     vertical-align: middle; }
-
-/* line 97, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/style.scss */
-.wrap td, .wrap th {
-  padding: 0 0 !important;
-  width: 16.66667%; }
-  /* line 100, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/style.scss */
-  .wrap td:first-child, .wrap th:first-child {
-    width: 66.66667%; }
 
 /*# sourceMappingURL=style.css.map */

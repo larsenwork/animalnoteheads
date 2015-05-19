@@ -42,9 +42,3 @@ Print, cut and put them behind the keys. Octave length on your piano divided by 
 
 ### Affilliates
 I'm interested in a company/organisation/foundation that would support the project in turn for e.g. "brought to you by ..." - I'd like to devote more time to the project and possibly make it completely free for everyone to use.
-
-### License
-© 2015 Andreas Larsen, free for private use (unless otherwise noted). The generated sheets will be [CC-BY-ND-4.0](https://creativecommons.org/licenses/by-nd/4.0/). Any other commercial use of AnimalNoteHeads requires a separate license.
-
-### Contact
-[@andreaslarsendk](https://twitter.com/andreaslarsendk) // [andreas@animalnoteheads.com](mailto:andreas@animalnoteheads.com)
