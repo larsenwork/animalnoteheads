@@ -562,4 +562,12 @@ ul, ol, p {
     display: inline-block;
     vertical-align: middle; }
 
+/* line 97, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/style.scss */
+.wrap td, .wrap th {
+  padding: 0 0 !important;
+  width: 16.66667%; }
+  /* line 100, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_scss/style.scss */
+  .wrap td:first-child, .wrap th:first-child {
+    width: 66.66667%; }
+
 /*# sourceMappingURL=style.css.map */

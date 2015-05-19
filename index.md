@@ -5,54 +5,40 @@ title: Animal Note Heads
 tag: Fun, free & easy note learning
 socialtitle: Animal Note Heads - fun, free & easy note learning
 author: Andreas Larsen
-description: Open source sheet music library, more languages, tools to create your own sheet music, iOS app and much more - all free. 
+description: Open source multilingual sheet music library, tools to create your own sheet music, iOS app and much more - all free. 
 year: 2015
 image: AnimalNoteHeadsSocial.png
 ---
 
-### Comming soon
-
-Open source sheet music library, tools to create your own sheet music, iOS app and much more - all free.
+Comming soon: Open source sheet music library, tools to create your own sheet music, iOS app and much more - all free.
 ![AnimalNoteHeadsMockup](assets/img/AnimalNoteHeadsMockup.png)
 
 ### Languages
 
-AnimalNoteHeads currently supports English, French, Spanish and Danish. I'll be adding more as you [tell me the names](https://github.com/andreaslarsen/animalnoteheads/issues/6){:target="_blank"} in your language.
+AnimalNoteHeads currently supports English, French, Spanish and Danish. I'll be adding more as you [tell me the names](https://github.com/andreaslarsen/animalnoteheads/issues/6) in your language.
 
-### [PDF](assets/pdf/){:target="_blank"} Piano Guides
+### [PDF](assets/pdf/) Piano Guides
 
 Print, cut and put them behind the keys. Octave length on your piano divided by 165mm (6.5") equals print scale - e.g. 99mm / 165mm = 60%.
 
-### Support me
+### Help/Support Me
 
-* Be my [patreon](https://www.patreon.com/andreaslarsen) and donate a small monthly amount.  
-* Buy from [redbubble.com/people/animalnoteheads/shop/](http://www.redbubble.com/people/animalnoteheads/shop/){:target="_blank"}
+* Thanks for every tweet, like, star, pin and forum post:)
+* Be my [patreon](https://www.patreon.com/andreaslarsen) for a small monthly amount.  
+* Buy from [redbubble.com/people/animalnoteheads/shop/](http://www.redbubble.com/people/animalnoteheads/shop/)
   * 4$ vinyl stickers for 2 octaves (EN, FR, ES, DK)
-  * Posters (soon)
-  * [Other ideas](https://github.com/andreaslarsen/animalnoteheads/issues/9){:target="_blank"}?
-* Hire me - I do font, icon and logo design as well as programming (web).
-
-<h3><div class="social-likes">
-  <div class="facebook" title="Share link on Facebook">Facebook</div>
-  <div class="twitter" data-via="andreaslarsendk" data-hashtags="AnimalNoteHeads" title="Share link on Twitter">Twitter</div>
-  <div class="plusone" title="Share link on Google+">Google+</div>
-  <div class="pinterest" title="Share image on Pinterest" data-media="https://raw.githubusercontent.com/andreaslarsen/animalnoteheads/gh-pages/assets/img/AnimalNoteHeadsMockup.png">Pinterest</div>
-  <div class="github" title="Star on GitHub">GitHub</div>
-</div></h3>
-
-Thanks for every tweet, like, star, pin and forum post. Follow [me]((https://twitter.com/andreaslarsendk){:target="_blank"}) for updates.
-
+  * Posters and maybe [other ideas](https://github.com/andreaslarsen/animalnoteheads/issues/9) soon.
 
 ### Contributors
 <span id="contri">
 ![You](assets/img/you.png) You? - Ideas, questions, translations, code, beta tests etc. at [GitHub](https://github.com/andreaslarsen/animalnoteheads/issues)  
-![Abraham](assets/img/abraham.png) [Abraham Lee](http://fonts.openlilylib.org){:target="_blank"} - Lilypond expert  
-![Tobias](assets/img/tobi.png) [Tobias Due Munk](https://twitter.com/tobiasdm){:target="_blank"} - iOS developer  
-![Andreas](assets/img/me.png) Andreas Larsen - I love open source [projects](https://github.com/andreaslarsen?tab=repositories){:target="_blank"}
+![Abraham](assets/img/abraham.png) [Abraham Lee](http://fonts.openlilylib.org) - Lilypond expert  
+![Tobias](assets/img/tobi.png) [Tobias Due Munk](https://twitter.com/tobiasdm) - iOS developer  
+![Andreas](assets/img/me.png) Andreas Larsen - I love open source [projects](https://github.com/andreaslarsen?tab=repositories)
 </span>
 
 ### Translators
-[Yoan Roullard](http://yoanroullard.fr){:target="_blank"} (FR), [Elijah Verdoorn](https://twitter.com/elijahverdoorn) (ES), 
+[Yoan Roullard](http://yoanroullard.fr) (FR), [Elijah Verdoorn](https://twitter.com/elijahverdoorn) (ES), 
 
 ### Affilliates
 I'm interested in a company/organisation/foundation that would support the project in turn for e.g. "brought to you by ..." - I'd like to devote more time to the project and possibly make it completely free for everyone to use.
@@ -61,4 +47,4 @@ I'm interested in a company/organisation/foundation that would support the proje
 © 2015 Andreas Larsen, free for private use (unless otherwise noted). The generated sheets will be [CC-BY-ND-4.0](https://creativecommons.org/licenses/by-nd/4.0/). Any other commercial use of AnimalNoteHeads requires a separate license.
 
 ### Contact
-[@andreaslarsendk](https://twitter.com/andreaslarsendk){:target="_blank"} // [andreas@animalnoteheads.com](mailto:andreas@animalnoteheads.com)
+[@andreaslarsendk](https://twitter.com/andreaslarsendk) // [andreas@animalnoteheads.com](mailto:andreas@animalnoteheads.com)

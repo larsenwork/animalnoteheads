@@ -1,5 +1,5 @@
 markdown:  kramdown
 pygments:  false
-permalink: pretty
 url:       http://animalnoteheads.com
 encoding:  UTF-8
+permalink: /:categories/:title/

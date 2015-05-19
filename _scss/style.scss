@@ -93,3 +93,12 @@ p {
     }
   }
 }
+.wrap {
+  td, th {
+    padding: 0 0 !important;
+    width: 1 / 6 * 100%;
+    &:first-child {
+      width: 2 / 3 * 100%;
+    }
+  }
+}
