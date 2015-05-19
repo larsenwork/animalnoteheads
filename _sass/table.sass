@@ -15,28 +15,22 @@
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
     -webkit-touch-callout: none
     cursor: pointer
-
+    
     &:after
       content: ""
       visibility: hidden
       display: inline-block
-      vertical-align: inherit
-      height: 0
-      width: 0
-      border-width: 5px
+      border-width: .25em
       border-style: solid
       border-color: transparent
-      margin-right: 1px
       margin-left: 10px
-      float: right
 
     &[data-sorted="true"]:after
       visibility: visible
 
     &[data-sorted-direction="descending"]:after
       border-top-color: inherit
-      margin-top: 8px
 
     &[data-sorted-direction="ascending"]:after
       border-bottom-color: inherit
-      margin-top: 8px - 5px
+      margin-bottom: .25em

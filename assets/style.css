@@ -376,26 +376,20 @@ body {
     content: "";
     visibility: hidden;
     display: inline-block;
-    vertical-align: inherit;
-    height: 0;
-    width: 0;
-    border-width: 5px;
+    border-width: .25em;
     border-style: solid;
     border-color: transparent;
-    margin-right: 1px;
-    margin-left: 10px;
-    float: right; }
-  /* line 33, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_sass/table.sass */
+    margin-left: 10px; }
+  /* line 28, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_sass/table.sass */
   .wrap th[data-sorted="true"]:after {
     visibility: visible; }
-  /* line 36, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_sass/table.sass */
+  /* line 31, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_sass/table.sass */
   .wrap th[data-sorted-direction="descending"]:after {
-    border-top-color: inherit;
-    margin-top: 8px; }
-  /* line 40, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_sass/table.sass */
+    border-top-color: inherit; }
+  /* line 34, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_sass/table.sass */
   .wrap th[data-sorted-direction="ascending"]:after {
     border-bottom-color: inherit;
-    margin-top: 3px; }
+    margin-bottom: .25em; }
 
 /* line 8, /Users/andreaslarsen/Git/AnimalNoteHeads webpage/_sass/style.sass */
 img {

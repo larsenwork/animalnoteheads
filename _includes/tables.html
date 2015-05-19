@@ -1,7 +1,8 @@
+<h3>English</h3>
 <table data-sortable>
   <thead>
     <tr>
-      <th><h3>English</h3></th>
+      <th>Song title</th>
       <th>Date</th>
       <th>Difficulty</th>
     </tr>
@@ -16,12 +17,16 @@
   {% endfor %}
   </tbody>
 </table>
+<h3>Français</h3>
 <table data-sortable>
-  <tr>
-    <td><h3>Français</h3></td>
-    <td>Date</td>
-    <td>Difficulty</td>
-  </tr>
+  <thead>
+    <tr>
+      <th>Song title</th>
+      <th>Date</th>
+      <th>Difficulty</th>
+    </tr>
+  </thead>
+  <tbody>
   {% for post in site.categories.french %}
     <tr>
       <td><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></td>
@@ -29,4 +34,5 @@
       <td>{{ post.difficulty }}</td>
     </tr>
   {% endfor %}
+  </tbody>
 </table>

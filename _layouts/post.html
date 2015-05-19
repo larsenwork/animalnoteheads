@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+
+<body>
+  <div class="bg">
+    <div class="wrap">
+      {{ content }}
+<!--Displaying different content based on pagecount  -->
+      {% if page.onepage %}<object data="{{ site.url }}/images{{ page.url }}black.svg" type="image/svg+xml" /></object>{% endif %}
+{% if page.twopage %}2 pages{% endif %}
+{% if page.threepage %}3 pages{% endif %}
+{% if page.fourpage %}4 pages{% endif %}
+{% if page.fivepage %}5 pages{% endif %}
+    </div>
+  </div>
+{% include scripts.html %}
+</body>
+
+</html>
