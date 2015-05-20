@@ -10,6 +10,7 @@ year: 2015
 image: AnimalNoteHeadsSocial.png
 ---
 
+{% include social.html %}
 Comming soon: Open source sheet music library, tools to create your own sheet music, iOS app and much more - all free.
 ![AnimalNoteHeadsMockup](assets/img/AnimalNoteHeadsMockup.png)
 
