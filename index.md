@@ -17,9 +17,9 @@ Comming soon: Open source sheet music library, tools to create your own sheet mu
 
 AnimalNoteHeads currently supports English, French, Spanish and Danish. I'll be adding more as you [tell me the names](https://github.com/andreaslarsen/animalnoteheads/issues/6) in your language.
 
-### [PDF](assets/pdf/) Piano Guides
+### Piano Guides
 
-Print, cut and put them behind the keys. Octave length on your piano divided by 165mm (6.5") equals print scale - e.g. 99mm / 165mm = 60%.
+[Download](assets/pdf/), print, cut and put them behind the keys. Octave length on your piano divided by 165mm (6.5") equals print scale - e.g. 99mm / 165mm = 60%.
 
 ### Help/Support Me
 

@@ -23,18 +23,17 @@
     cursor: pointer
 
     &[data-sorted-direction="descending"]:after
-      content: " ↑"
+      content: " ↓"
 
     &[data-sorted-direction="ascending"]:after
-      content: " ↓"
+      content: " ↑"
   
   tr
     -webkit-transition: 0.6s ease
     transition: 0.6s ease
 
   tr:hover
-      background-color: #f7f7f7
-      -webkit-transition: 0.3s ease
-      transition: 0.3s ease
-      color: $header-color
-  
+    background-color: #f7f7f7
+    -webkit-transition: 0.3s ease
+    transition: 0.3s ease
+    color: $header-color  
