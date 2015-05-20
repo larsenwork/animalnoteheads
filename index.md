@@ -13,10 +13,6 @@ image: AnimalNoteHeadsSocial.png
 Comming soon: Open source sheet music library, tools to create your own sheet music, iOS app and much more - all free.
 ![AnimalNoteHeadsMockup](assets/img/AnimalNoteHeadsMockup.png)
 
-### Languages
-
-AnimalNoteHeads currently supports English, French, Spanish and Danish. I'll be adding more as you [tell me the names](https://github.com/andreaslarsen/animalnoteheads/issues/6) in your language.
-
 ### Piano Guides
 
 [Download](assets/pdf/), print, cut and put them behind the keys. Octave length on your piano divided by 165mm (6.5") equals print scale - e.g. 99mm / 165mm = 60%.
@@ -24,7 +20,7 @@ AnimalNoteHeads currently supports English, French, Spanish and Danish. I'll be 
 ### Help/Support Me
 
 * Thanks for every tweet, like, star, pin and forum post:)
-* Be my [patreon](https://www.patreon.com/andreaslarsen) for a small monthly amount.  
+* Be my [patreon](https://www.patreon.com/andreaslarsen) with a small monthly amount.  
 * Buy from [redbubble.com/people/animalnoteheads/shop/](http://www.redbubble.com/people/animalnoteheads/shop/)
   * 4$ vinyl stickers for 2 octaves (EN, FR, ES, DK)
   * Posters and maybe [other ideas](https://github.com/andreaslarsen/animalnoteheads/issues/9) soon.
