@@ -1,7 +1,7 @@
 ---
 published: true
 layout: default
-title: Support
+title: Privacy Policy
 author: Andreas Larsen
 description: Open source multilingual sheet music library, tools to create your own sheet music, iOS app and much more - all free. 
 year: 2015
