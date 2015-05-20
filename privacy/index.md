@@ -8,7 +8,7 @@ year: 2015
 image: AnimalNoteHeadsSocial.png
 ---
 ### Pianimo iOS App
-I take your child's privacy seriously:
+I take your privacy seriously:
 
-Pianomo doesn't include analytics, any kind of tracking, social network features or ads, and I do not collect any personal information.
-Pianimo doesn't have any links that lead out of the app.
+* Pianomo doesn't include analytics, any kind of tracking, social network features or ads, and I do not collect any personal information.
+* Pianimo doesn't have any links that lead out of the app.
