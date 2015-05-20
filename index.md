@@ -11,6 +11,9 @@ image: AnimalNoteHeadsSocial.png
 ---
 
 {% include social.html %}
+
+### Concept
+
 A equals alligator, Re es igual ratón, C er lig med chimpanze, Fa égale fourmi, Σολ ισούται με φίδι, etc...  
 Open source sheet music library, tools to create your own sheet music, iOS app and much more is comming soon - all free.
 ![AnimalNoteHeadsMockup](assets/img/AnimalNoteHeadsMockup.png)
