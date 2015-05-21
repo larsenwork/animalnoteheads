@@ -1,12 +1,7 @@
 ### Graphics
-The graphics are copyright (c) 2015 Andreas Larsen, free for private use only.
+The graphics and items created using those are copyright (c) 2015 Andreas Larsen, free for private and educational use only.
 
-### CC-BY-ND-4.0
-Items such as the printable guides and the sheets are [CC-BY-ND-4.0](href="https://creativecommons.org/licenses/by-nd/4.0/) licensed.
-This means you can use them even for commercial purpose as long as you
-don't modify them (i.e. don't remove the license notice on them).
-
-### The code is
+### The rest is
 The MIT License (MIT)
 
 Copyright (c) 2015 Andreas Larsen and Contributors
