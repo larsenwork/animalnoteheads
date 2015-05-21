@@ -4,7 +4,7 @@
 \header {
   title = "Lille Peter Edderkop"
   arranger = "Arr. by Andreas Larsen"
-  credits = "© 2015 AnimalNoteHeads.com CC-BY-ND-4.0"
+  credits = "© 2015 AnimalNoteHeads.com"
   tagline = ""  % removed 
 }
 

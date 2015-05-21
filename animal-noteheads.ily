@@ -52,6 +52,12 @@ Gnote = \markup {
   \epsfile #X #1.2 #"G-da-color.eps" 
 }
 
+Blacknote = \markup { 
+  \with-dimensions #'(0 . 1.05) #'(0 . 0) 
+  \lower #0.6 
+  \epsfile #X #1.2 #"Black.eps" 
+}
+
 determineAnimal =
 #(lambda (grob)
      (let* ((fsz  (ly:grob-property grob 'font-size 0.0))
@@ -73,23 +79,40 @@ determineAnimal =
                    ))))
      (set! (ly:grob-property grob 'stencil)
            (ly:stencil-scale stl mult mult))))
-           
+
+determineBlack =
+#(lambda (grob)
+     (let* ((fsz  (ly:grob-property grob 'font-size 0.0))
+            (mult (* 1.25 (magstep fsz)))
+            (stl empty-stencil)
+            (dur-log (ly:grob-property grob 'duration-log))
+            (pch (ly:event-property (event-cause grob) 'pitch))
+            (nnm (ly:pitch-notename pch))
+            (stl (grob-interpret-markup grob 
+                   (case nnm
+                     (else #{ \markup \Blacknote #})
+                   ))))
+     (set! (ly:grob-property grob 'stencil)
+           (ly:stencil-scale stl mult mult))))
+
+
 animalNoteHeadsOn = {
   \override Staff.NoteHead.stencil = #determineAnimal
   \override Staff.NoteHead.stem-attachment = #'(1 . 0)
   \override Staff.Stem.layer = #0
-  \override Staff.Clef #'color = #(rgb-color 0.8 0.82 0.84)
+  \override Staff.Clef = #ff
+  \override Score.StaffSymbol.thickness = #0
+  \override Score.StaffSymbol.ledger-line-thickness = #'(0 . 0)
+  \override Stem.thickness = #0
+  \override Staff.BarLine.hair-thickness = #0
+}
+
+animalNoteHeadsOff = {
+  \override Staff.NoteHead.stencil = #determineBlack
+  \override Staff.NoteHead.stem-attachment = #'(1 . 0)
+  \override Staff.Stem.layer = #0
   \override Score.StaffSymbol.thickness = #.5
   \override Score.StaffSymbol.ledger-line-thickness = #'(0.03 . 0.03)
   \override Stem.thickness = #4.4
   \override Staff.BarLine.hair-thickness = #.8
-  \override Staff.Beam.thickness = #3
-}
-
-animalNoteHeadsOff = {
-  \revert Staff.NoteHead.stencil
-  \revert Staff.NoteHead.stem-attachment
-  \revert Staff.Stem.layer
-%  \revert Score.StaffSymbol.thickness
-%  \revert Stem.thickness
 }
