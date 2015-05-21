@@ -5,7 +5,7 @@
   title = "Lille Peter Edderkop"
   arranger = "Arr. by Andreas Larsen"
   credits = "© 2015 AnimalNoteHeads.com CC-BY-ND-4.0"
-  tagline = ""  % removed 
+  tagline = ""  % removed
 }
 
 titlePageMarkup = \markup \abs-fontsize #10 \column {
@@ -36,20 +36,30 @@ titlePageMarkup = \markup \abs-fontsize #10 \column {
             #:factor (/ staff-height pt 20))
 }
 
+\include "animal-language.ly"
 \include "animal-noteheads.ily"
-music = { c'8 c' c' d' e' e' e'4 d'8 d' d' e' c'4 c'4 e' e'8 f' g'4 g'8 g' f' f' f' g' e'4 r c'' c'' b' b'8 b' a' a' a' a' g'4 r c'8 c' c' d' e' e' e'4 d'8 d' d' e' c'4 r }
 
+music = {
+  c'8 c' c' d' e' e' e'4 |
+  d'8 d' d' e' c'4 c' |
+  e'4 e'8 f' g'4 g'8 g' |
+  f'8 f' f' g' e'4 r |
+  c''4 c'' b' b'8 b' |
+  a'8 a' a' a' g'4 r |
+  c'8 c' c' d' e' e' e'4 |
+  d'8 d' d' e' c'4 r
+}
 
-\book {
-	\pageBreak
-	\allowPageTurn
-	\score {
-      \new Staff {
-        \omit Staff.TimeSignature
-        \omit Score.BarNumber
-        \animalNoteHeadsOn
-        %<< { \music } \\ { \music } >>
-        \music
-      }
-    }
+\pageBreak
+\allowPageTurn
+\score {
+  \new Staff {
+    %<< { \music } \\ { \music } >>
+    \music
+  }
+  \layout {
+    \omit Staff.TimeSignature
+    \omit Score.BarNumber
+    \animalNoteHeadsOn
+  }
 }
