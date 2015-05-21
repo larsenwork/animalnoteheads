@@ -16,6 +16,7 @@ titlePageMarkup = \markup \abs-fontsize #10 \column {
 	\vspace #3.2
 	\fill-line { \fontsize #7 \fromproperty #'header:credits }
 }
+
 \paper {
   bookTitleMarkup = \titlePageMarkup
   #(set-paper-size "snippet")
@@ -28,8 +29,10 @@ titlePageMarkup = \markup \abs-fontsize #10 \column {
   left-margin = 0.2\in
   right-margin = 0.2\in
 }
+
 \markup\vspace #.5
 #(set-global-staff-size 125)
+
 \paper {
   fonts = #(set-global-fonts
             #:roman "Gidole"
