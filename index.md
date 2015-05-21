@@ -41,5 +41,6 @@ Open source sheet music library, tools to create your own sheet music [(unfinish
 ### Translators
 [Yoan Roullard](http://yoanroullard.fr) (FR), [Elijah Verdoorn](https://twitter.com/elijahverdoorn) (ES), 
 
+<!--
 ### Affilliates
-I'm interested in a company/organisation/foundation that would support the project in turn for e.g. "brought to you by ..." - I'd like to devote more time to the project and possibly make it completely free for everyone to use.
+I'm interested in a company/organisation/foundation that would support the project in turn for e.g. "brought to you by ..." - I'd like to devote more time to the project and possibly make it completely free for everyone to use.-->
