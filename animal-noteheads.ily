@@ -78,8 +78,14 @@ animalNoteHeadsOn = {
   \override Staff.NoteHead.stencil = #determineAnimal
   \override Staff.NoteHead.stem-attachment = #'(1 . 0)
   \override Staff.Stem.layer = #0
-  \override Score.StaffSymbol.thickness = #1
-  \override Stem.thickness = #2
+  \override Staff.Clef #'color = #(rgb-color 0.8 0.82 0.84)
+%  \override Score.StaffSymbol.color = #grey
+%  \override Staff.BarLine.color = #grey
+%  \override Staff.LedgerLineSpanner.color = #grey 
+  \override Score.StaffSymbol.thickness = #.5
+  \override Score.StaffSymbol.ledger-line-thickness = #'(0.03 . 0.03)
+  \override Stem.thickness = #4.4
+  \override Staff.BarLine.hair-thickness = #.8
 }
 
 animalNoteHeadsOff = {
