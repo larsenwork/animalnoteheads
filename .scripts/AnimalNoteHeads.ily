@@ -87,12 +87,11 @@ myClefSymbol = \markup{
   \lower #2.7
   \epsfile #Y #7.5 #".eps/G-clef.eps"
 }
-           
 
 animalNoteHeadsOn = {
+  \override Staff.NoteHead.stencil = #determineAnimal
   \override Staff.Clef #'stencil = #ly:text-interface::print 
   \override Staff.Clef #'text = #myClefSymbol 
-  \override Staff.NoteHead.stencil = #determineAnimal
   \override Staff.NoteHead.stem-attachment = #'(1 . 0)
   \override Staff.Stem.layer = #0
   \override Score.StaffSymbol.thickness = #0.3
@@ -115,9 +114,9 @@ animalNoteHeadsOn = {
 }
 
 animalNoteHeadsOff = {
+  \override Staff.NoteHead.stencil = #determineBlack
   \override Staff.Clef #'stencil = #ly:text-interface::print 
   \override Staff.Clef #'text = #myClefSymbol 
-  \override Staff.NoteHead.stencil = #determineBlack
   \override Staff.NoteHead.stem-attachment = #'(1 . 0)
   \override Staff.Stem.layer = #0
   \override Score.StaffSymbol.thickness = #0.3
@@ -140,9 +139,9 @@ animalNoteHeadsOff = {
 }
 
 animalNoteHeadsGrey = {
+  \override Staff.NoteHead.stencil = #determineGrey
   \override Staff.Clef #'stencil = #ly:text-interface::print 
   \override Staff.Clef #'text = #myClefSymbol 
-  \override Staff.NoteHead.stencil = #determineGrey
   \override Staff.NoteHead.stem-attachment = #'(1 . 0)
   \override Staff.Stem.layer = #0
   \override Score.StaffSymbol.thickness = #0.3
