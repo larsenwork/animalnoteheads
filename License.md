@@ -1,6 +1,7 @@
 AnimalNoteHeads is licensed under MIT License *except for the animal drawings* 
-which are copyright (c) 2015 Andreas Larsen, free for private and educational 
-use only. Any publication (online or print) requires a seperate license 
+that are copyright (c) 2015 Andreas Larsen, free for private and educational 
+use only.  
+Any publication (online or print) requires a seperate license 
 obtained from andreas@animalnoteheads.com.
 
 **The MIT License (MIT)**
