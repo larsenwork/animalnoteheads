@@ -1,7 +1,7 @@
-language = #"da"
-songtitle = #"Lille Peter Edderkop"
-arranger = #"Andreas Larsen"
-music = {
+language = "da"
+songtitle = "Lille Peter Edderkop"
+arranger = "Andreas Larsen"
+music = { 
   c'8 c' c' d' e' e' e'4 |
   d'8 d' d' e' c'4 c' |
   e'4 e'8 f' g'4 g'8 g' |
@@ -12,4 +12,4 @@ music = {
   d'8 d' d' e' c'4 r
 }
 
-\include "scripts/AnimalNoteHeads.ly"
+\include ".scripts/AnimalNoteHeads.ly"

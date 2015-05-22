@@ -1,17 +1,26 @@
 The script should now be production ready for pdf (svg is a bit more complicated) 
 
 ###Prerequisites  
-* You need to install [Lilypond](http://www.lilypond.org) 
+* [Lilypond](http://www.lilypond.org){:target="_blank"} 
     * Ignore the instructions about command-line 
-* Install [Gidole font](http://gidole.github.io)
+* [Gidole font](http://gidole.github.io){:target="_blank"}
     * It's the one I'm using on AnimalNoteHeads.com
     * Mac users: You have to copy it manually to `/Library/Fonts` and not `~/Library/Fonts` for Lilypond to be able to "find" it
+* [Node](https://nodejs.org){:target="_blank"}
 
 ###Making sheets
 1. Rename and open `EditMe.ly`
 1. Change what needs changing - see `Lille Peter Edderkop.ly` if you're unsure how it should look.
-1. Save or Typeset the file
-1. Create a PR with your created sheets once #10 is closed so everyone can access them
+1. Save and Typeset the file
+
+You should now have `Your Song.pdf` with 3 versions of the song - one with colored animals, one with normal note heads and one with uncolored animals.
+
+###Convert to svg
+Open terminal:
+
+* `cd` into the `pdf2svg` folder
+* `node .pdf2svg.js PATH-TO-THE-PDF`
+* You should now have the numbered svg files in the `pdf2svg` folder
 
 
 #License
