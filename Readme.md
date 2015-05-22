@@ -10,7 +10,7 @@ The script should now be production ready for pdf (svg is a bit more complicated
 ###Making sheets
 1. Rename and open `EditMe.ly`
 1. Change what needs changing - see `Lille Peter Edderkop.ly` if you're unsure how it should look.
-1. Save og Typeset the file
+1. Save or Typeset the file
 1. Create a PR with your created sheets once #10 is closed so everyone can access them
 
 

@@ -43,8 +43,6 @@ titlePageMarkup = \markup \abs-fontsize #10 \column {
             #:factor (/ staff-height pt 20))
 }
 
-music = #music
-
 \pageBreak
 \allowPageTurn
 \score {
