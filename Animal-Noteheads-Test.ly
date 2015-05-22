@@ -50,7 +50,7 @@ music = { c'8 c' c' d' e' e' e'4 d'8 d' d' e' c'4 c'4 e' e'8 f' g'4 g'8 g' f' f'
       \new Staff {
         \omit Staff.TimeSignature
         \omit Score.BarNumber
-        \animalNoteHeadsOn
+        \animalNoteHeadsOff
         %<< { \music } \\ { \music } >>
         \music
       }

@@ -101,10 +101,6 @@ animalNoteHeadsOn = {
   \override Staff.NoteHead.stem-attachment = #'(1 . 0)
   \override Staff.Stem.layer = #0
   \override Staff.Clef = #ff
-  \override Score.StaffSymbol.thickness = #0
-  \override Score.StaffSymbol.ledger-line-thickness = #'(0 . 0)
-  \override Stem.thickness = #0
-  \override Staff.BarLine.hair-thickness = #0
 }
 
 animalNoteHeadsOff = {
