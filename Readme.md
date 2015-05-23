@@ -1,12 +1,12 @@
 The script should now be production ready for pdf (svg is a bit more complicated) 
 
 ###Prerequisites  
-* [Lilypond](http://www.lilypond.org){:target="_blank"} 
+* [Lilypond](http://www.lilypond.org)
     * Ignore the instructions about command-line 
-* [Gidole font](http://gidole.github.io){:target="_blank"}
+* [Gidole font](http://gidole.github.io)
     * It's the one I'm using on AnimalNoteHeads.com
     * Mac users: You have to copy it manually to `/Library/Fonts` and not `~/Library/Fonts` for Lilypond to be able to "find" it
-* [Node](https://nodejs.org){:target="_blank"}
+* [Node](https://nodejs.org)
 
 ###Making sheets
 1. Rename and open `EditMe.ly`
