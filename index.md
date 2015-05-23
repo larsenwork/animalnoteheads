@@ -13,22 +13,16 @@ image: AnimalNoteHeadsSocial.png
 {% include social.html %}
 
 ### Concept
+Every note head is substituted and you can put a guide/stickers on your piano so that A equals alligator, Re es igual ratón, C er lig med chimpanze, Fa égale fourmi, Σολ ισούται με φίδι, etc...  
 
-A equals alligator, Re es igual ratón, C er lig med chimpanze, Fa égale fourmi, Σολ ισούται με φίδι, etc...  
-Open source sheet music library, tools to create your own sheet music [(unfinished pdf)](assets/pdf/lillepeter.pdf), iOS app and much more is comming soon - all free.
-![AnimalNoteHeadsMockup](assets/img/AnimalNoteHeadsMockup.png)
+### Sheet music
+An open source sheet music library and tools to create your own sheet music will be up very, very soon.
 
-### Piano Guides
+### Piano
+Use the free Pianimo iOS app or buy the 4$ stickers.
 
-[Download](assets/pdf/), print, cut and put them behind the keys. Octave length on your piano divided by 165mm (6.5") equals print scale - e.g. 99mm / 165mm = 60%.
-
-### Help/Support Me
-
-* Thanks for every tweet, like, star, pin and forum post:)
-* Be my [patreon](https://www.patreon.com/andreaslarsen) with a small monthly amount.  
-* Buy from [redbubble.com/people/animalnoteheads/shop/](http://www.redbubble.com/people/animalnoteheads/shop/)
-  * 4$ vinyl stickers for 2 octaves (EN, FR, ES, DK)
-  * Posters and maybe [other ideas](https://github.com/andreaslarsen/animalnoteheads/issues/9) soon.
+### Support Me
+Say thanks by being my [patreon](https://www.patreon.com/andreaslarsen) and/or buying from my [shop](http://www.redbubble.com/people/animalnoteheads/shop/)
 
 ### Contributors
 <span id="contri">

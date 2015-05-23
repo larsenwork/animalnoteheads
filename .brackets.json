@@ -1,10 +1,10 @@
 {
     "sass.enabled": false,
     "path": {
-        “assets/sass/style.sass": {
+        "assets/sass/style.sass": {
             "sass.enabled": true,
             "sass.options": {
-                "outputDir": "../assets/"
+                "outputDir": "../../assets/"
             },
             "me.drewh.jsbeautify.on_save": false,
             "mikaeljorhult.bracketsAutoprefixer.visualCascade": false,
@@ -14,7 +14,7 @@
                 "Firefox ESR",
                 "Opera 12.1"
             ],
-            "linting.collapsed": true
+            "linting.collapsed": false
         }
     }
 }

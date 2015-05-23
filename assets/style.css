@@ -297,18 +297,18 @@ td {
   font-weight: normal;
   font-style: normal; }
 
-/* line 9, /Users/andreaslarsen/Git/AnimalNoteHeads/_sass/typography.sass */
+/* line 9, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/typography.sass */
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -moz-osx-font-smoothing-font-weight: 400 !important; }
-  /* line 14, /Users/andreaslarsen/Git/AnimalNoteHeads/_sass/typography.sass */
+  /* line 14, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/typography.sass */
   body #jumbo {
     letter-spacing: -0.2em; }
-  /* line 19, /Users/andreaslarsen/Git/AnimalNoteHeads/_sass/typography.sass */
+  /* line 19, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/typography.sass */
   body p, body li, body footer {
     letter-spacing: 0.02em; }
-  /* line 23, /Users/andreaslarsen/Git/AnimalNoteHeads/_sass/typography.sass */
+  /* line 23, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/typography.sass */
   body a {
     color: inherit;
     text-decoration: none;
@@ -316,89 +316,89 @@ body {
     background: linear-gradient(to bottom, transparent 89.9%, #7ec6f7 89%, #7ec6f7 99.9%, transparent 100%);
     -webkit-transition: background .2s ease;
     transition: background .2s ease; }
-    /* line 31, /Users/andreaslarsen/Git/AnimalNoteHeads/_sass/typography.sass */
+    /* line 31, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/typography.sass */
     body a:hover {
       background-color: #7ec6f7;
       color: white; }
-  /* line 35, /Users/andreaslarsen/Git/AnimalNoteHeads/_sass/typography.sass */
+  /* line 35, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/typography.sass */
   body ::-moz-selection {
     color: white;
     background-color: #7ec6f7; }
-  /* line 39, /Users/andreaslarsen/Git/AnimalNoteHeads/_sass/typography.sass */
+  /* line 39, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/typography.sass */
   body ::selection {
     color: white;
     background-color: #7ec6f7; }
 
-/* line 3, /Users/andreaslarsen/Git/AnimalNoteHeads/_sass/social.sass */
+/* line 3, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/social.sass */
 .wrap .social-likes__icon {
   height: 1.5em;
   width: 1.5em;
   display: inline-block; }
-/* line 8, /Users/andreaslarsen/Git/AnimalNoteHeads/_sass/social.sass */
+/* line 8, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/social.sass */
 .wrap .social-likes__counter:not(.social-likes__counter_empty) {
   display: inline-block;
   -webkit-transform: translateY(-1em);
   -ms-transform: translateY(-1em);
   transform: translateY(-1em); }
-/* line 14, /Users/andreaslarsen/Git/AnimalNoteHeads/_sass/social.sass */
+/* line 14, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/social.sass */
 .wrap .social-likes__widget {
   text-decoration: none !important;
   background: none !important;
   display: inline-block;
   cursor: pointer;
   padding-right: 0.2em; }
-/* line 21, /Users/andreaslarsen/Git/AnimalNoteHeads/_sass/social.sass */
+/* line 21, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/social.sass */
 .wrap .social-likes__counter:not(.social-likes__counter_empty) {
   padding-left: 0.2em; }
-/* line 24, /Users/andreaslarsen/Git/AnimalNoteHeads/_sass/social.sass */
+/* line 24, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/social.sass */
 .wrap .social-likes__widget_twitter {
   color: #55acee; }
-/* line 27, /Users/andreaslarsen/Git/AnimalNoteHeads/_sass/social.sass */
+/* line 27, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/social.sass */
 .wrap .social-likes__icon_twitter {
   background: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxMDAgMTAwIiB2ZXJzaW9uPSIxLjEiIHhtbDpzcGFjZT0icHJlc2VydmUiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxwYXRoIGQ9Ik0xMDAgMjBjMC0xMS05LTIwLTIwLTIwbC02MCAwYy0xMSAwLTIwIDktMjAgMjBsMCA2MGMwIDExIDkgMjAgMjAgMjBsNjAgMGMxMSAwIDIwLTkgMjAtMjBsMC02MFpNMzYuNSA3OS43Yy04LjUgMC0xNi4zLTIuNS0yMy02LjcgMS4yIDAuMSAyLjQgMC4yIDMuNiAwLjIgNyAwIDEzLjUtMi40IDE4LjYtNi40IC02LjYtMC4xLTEyLjEtNC41LTE0LTEwLjQgMC45IDAuMiAxLjkgMC4zIDIuOCAwLjMgMS40IDAgMi43LTAuMiAzLjktMC41IC02LjktMS40LTEyLTcuNC0xMi0xNC43IDAtMC4xIDAtMC4xIDAtMC4yIDIgMS4xIDQuMyAxLjggNi44IDEuOSAtNC0yLjctNi43LTcuMy02LjctMTIuNSAwLTIuNyAwLjctNS4zIDItNy41IDcuNCA5LjEgMTguNCAxNSAzMC45IDE1LjYgLTAuMy0xLjEtMC40LTIuMi0wLjQtMy40IDAtOC4zIDYuNy0xNSAxNS0xNSA0LjMgMCA4LjIgMS44IDEwLjkgNC43IDMuNC0wLjcgNi42LTEuOSA5LjUtMy42IC0xLjEgMy41LTMuNSA2LjQtNi42IDguMyAzLTAuNCA1LjktMS4yIDguNi0yLjQgLTIgMy00LjUgNS42LTcuNSA3LjggMCAwLjYgMCAxLjMgMCAxLjkgMCAxOS44LTE1LjEgNDIuNi00Mi42IDQyLjZaIiBmaWxsPSIjNTVhY2VlIi8+PC9zdmc+'); }
-/* line 30, /Users/andreaslarsen/Git/AnimalNoteHeads/_sass/social.sass */
+/* line 30, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/social.sass */
 .wrap .social-likes__widget_plusone {
   color: #dd4b39; }
-/* line 33, /Users/andreaslarsen/Git/AnimalNoteHeads/_sass/social.sass */
+/* line 33, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/social.sass */
 .wrap .social-likes__icon_plusone {
   background: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxMDAgMTAwIiB2ZXJzaW9uPSIxLjEiIHhtbDpzcGFjZT0icHJlc2VydmUiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxwYXRoIGQ9Ik0xMDAgMjBjMC0xMS05LTIwLTIwLTIwbC02MCAwYy0xMSAwLTIwIDktMjAgMjBsMCA2MGMwIDExIDkgMjAgMjAgMjBsNjAgMGMxMSAwIDIwLTkgMjAtMjBsMC02MFpNNDEuNiA2MC4yYy0wLjUgMC0xLjIgMC4xLTIgMC4yIC0xLjYgMC4yLTMuMyAwLjYtNSAxLjEgLTAuNCAwLjItMSAwLjQtMS43IDAuNyAtMC43IDAuMy0xLjUgMC44LTIuMiAxLjQgLTAuNyAwLjYtMS4zIDEuNC0xLjggMi40IC0wLjYgMS0wLjkgMi4yLTAuOSAzLjYgMCAyLjggMS4zIDUuMSAzLjggNi45IDIuNCAxLjggNS43IDIuNyA5LjggMi44bDEuNC0wLjFjMy4xLTAuMiA1LjUtMSA3LjItMi40IDEuOS0xLjYgMi45LTMuNiAyLjktNi4xIDAtMi0wLjctMy44LTItNS4zIC0xLjQtMS40LTMuNS0zLjItNi41LTUuMiAtMC41LTAuMS0xLjEtMC4xLTEuOC0wLjFsLTEuMSAwWk03NS45IDUxLjhsMCA4LjMgLTQuOSAwIDAtOC4zIC04LjMgMCAwLTAuMiAtMC4xIDAgMC00LjcgOC40IDAgMC04LjUgNC45IDAgMCA4LjUgOC4zIDAgMCAwIDAuMiAwIDAgNC45IC04LjUgMFpNMzcuOCA4Mi42Yy01LjUtMC4xLTkuNy0xLjItMTIuNC0zLjUgLTIuOC0yLjItNC4xLTQuNy00LjEtNy44IDAtMS41IDAuNC0zLjEgMS4zLTQuOSAwLjktMS44IDIuNC0zLjQgNC43LTQuNyAyLjYtMS41IDUuMi0yLjQgOC4xLTIuOSAyLjgtMC40IDUuMS0wLjYgNi45LTAuNyAtMC42LTAuOC0xLjEtMS42LTEuNS0yLjQgLTAuNS0wLjgtMC44LTEuOC0wLjgtMyAwLTAuNyAwLjEtMS4zIDAuMy0xLjdsMC41LTEuNCAtMi41IDAuMmMtNC4yLTAuMS03LjQtMS40LTkuNi00IC0yLjMtMi40LTMuNS01LjItMy41LTguNSAwLTMuOSAxLjYtNy40IDQuOS0xMC42IDIuMi0xLjkgNC42LTMuMSA3LTMuNiAyLjQtMC41IDQuNi0wLjcgNi43LTAuN2wxNS44IDAgLTQuOSAyLjkgLTQuOSAwYzAuNSAwLjMgMS4xIDAuOCAxLjcgMS40IDAuNiAwLjYgMS4yIDEuNCAxLjcgMi4zIDAuNSAwLjkgMSAxLjkgMS40IDMgMC4zIDEuMiAwLjUgMi41IDAuNSA0LjEgMCAyLjgtMC43IDUuMS0xLjkgNi44IC0wLjYgMC44LTEuMiAxLjYtMS45IDIuMyAtMC43IDAuNy0xLjUgMS40LTIuMyAyLjEgLTAuNSAwLjUtMC45IDEtMS4zIDEuNyAtMC41IDAuNi0wLjcgMS40LTAuNyAyLjIgMCAwLjggMC4yIDEuNSAwLjcgMiAwLjQgMC41IDAuOCAxIDEuMiAxLjRsMi43IDIuMmMxLjcgMS40IDMuMSAyLjkgNC40IDQuNSAxLjIgMS43IDEuOCAzLjkgMS44IDYuNiAwIDMuOC0xLjcgNy4yLTUuMSAxMC4yIC0zLjEgMi43LTcuMyA0LjItMTIuOCA0LjZsLTIuNCAwLjFaTTM4LjkgMjQuOWMtMi4xIDAuMS0zLjkgMC45LTUuMyAyLjYgLTEuMiAxLjgtMS44IDMuNy0xLjcgNS45IDAgMi45IDAuOCA1LjggMi41IDguOSAwLjggMS40IDEuOSAyLjcgMy4xIDMuNyAxLjMgMSAyLjcgMS41IDQuNCAxLjVsMS41LTAuMmMxLjQtMC4zIDIuNy0xIDMuNy0yLjEgMC43LTEgMS4xLTIgMS4zLTMuMSAwLjEtMS4xIDAuMi0xLjkgMC4yLTIuNyAwLTMuMS0wLjgtNi4zLTIuNC05LjQgLTAuNy0xLjUtMS43LTIuOC0yLjktMy43IC0wLjktMC43LTItMS4xLTMuMS0xLjNsLTEuMi0wLjFaIiBmaWxsPSIjZGQ0YjM5Ii8+PC9zdmc+'); }
-/* line 36, /Users/andreaslarsen/Git/AnimalNoteHeads/_sass/social.sass */
+/* line 36, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/social.sass */
 .wrap .social-likes__widget_github {
   color: #4c4d4c; }
-/* line 39, /Users/andreaslarsen/Git/AnimalNoteHeads/_sass/social.sass */
+/* line 39, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/social.sass */
 .wrap .social-likes__icon_github {
   background: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxMDAgMTAwIiB2ZXJzaW9uPSIxLjEiIHhtbDpzcGFjZT0icHJlc2VydmUiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxwYXRoIGQ9Ik0zMy44IDEwMGwtMTMuOCAwYy0xMSAwLTIwLTktMjAtMjBsMC02MGMwLTExIDktMjAgMjAtMjBsNjAgMGMxMSAwIDIwIDkgMjAgMjBsMCA2MGMwIDExLTkgMjAtMjAgMjBsLTEzLjcgMCAwLTAuMWMtMi42IDAuNS0zLjUtMS4xLTMuNS0yLjUgMC0xLjcgMC4xLTcuMiAwLjEtMTQuMSAwLTQuOC0xLjYtNy45LTMuNS05LjUgMTEuNC0xLjMgMjMuNC01LjYgMjMuNC0yNS4zIDAtNS42LTItMTAuMi01LjMtMTMuOCAwLjUtMS4zIDIuMy02LjUtMC41LTEzLjYgMCAwLTQuMy0xLjQtMTQuMSA1LjMgLTQuMS0xLjEtOC41LTEuNy0xMi44LTEuNyAtNC40IDAtOC43IDAuNi0xMi44IDEuNyAtOS44LTYuNi0xNC4xLTUuMy0xNC4xLTUuMyAtMi44IDcuMS0xIDEyLjMtMC41IDEzLjYgLTMuMyAzLjYtNS4zIDguMi01LjMgMTMuOCAwIDE5LjYgMTIgMjQgMjMuNCAyNS4zIC0xLjUgMS4zLTIuOCAzLjUtMy4zIDYuOSAtMi45IDEuMy0xMC4zIDMuNi0xNC45LTQuMyAwIDAtMi43LTQuOS03LjktNS4zIDAgMC01LTAuMS0wLjMgMy4xIDAgMCAzLjQgMS42IDUuNyA3LjUgMCAwIDMgMTAgMTcuMyA2LjkgMCA0LjMgMC4xIDcuNSAwLjEgOC43IDAgMS40LTAuOSAyLjktMy41IDIuNWwwIDAuMVoiIGZpbGw9IiM0YzRkNGMiLz48L3N2Zz4='); }
-/* line 42, /Users/andreaslarsen/Git/AnimalNoteHeads/_sass/social.sass */
+/* line 42, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/social.sass */
 .wrap .social-likes__widget_facebook {
   color: #3b5a9b; }
-/* line 45, /Users/andreaslarsen/Git/AnimalNoteHeads/_sass/social.sass */
+/* line 45, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/social.sass */
 .wrap .social-likes__icon_facebook {
   background: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxMDAgMTAwIiB2ZXJzaW9uPSIxLjEiIHhtbDpzcGFjZT0icHJlc2VydmUiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxwYXRoIGQ9Ik01MyAxMDBIMjBDOSAxMDAgMCA5MSAwIDgwVjIwQzAgOCA4IDAgMjAgMGg2MGMxMSAwIDIwIDggMjAgMjB2NjBjMCAxMS05IDIwLTIwIDIwSDY5VjYxaDEzbDItMTVINjl2LTEwYzAtNCAxLTcgNy03bDggMFYxNmMtMSAwLTYtMS0xMi0xLTEyIDAtMTkgNy0xOSAyMHYxMUg0MHYxNWgxM1YxMDB6IiBmaWxsPSIjM2I1YTliIi8+PC9zdmc+'); }
-/* line 48, /Users/andreaslarsen/Git/AnimalNoteHeads/_sass/social.sass */
+/* line 48, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/social.sass */
 .wrap .social-likes__widget_pinterest {
   color: #bd2025; }
-/* line 51, /Users/andreaslarsen/Git/AnimalNoteHeads/_sass/social.sass */
+/* line 51, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/social.sass */
 .wrap .social-likes__icon_pinterest {
   background: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxMDAgMTAwIiB2ZXJzaW9uPSIxLjEiIHhtbDpzcGFjZT0icHJlc2VydmUiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxwYXRoIGQ9Ik0zMSAxMDBsLTExIDBjLTExIDAtMjAtOS0yMC0yMGwwLTYwYzAtMTEgOS0yMCAyMC0yMGw2MCAwYzExIDAgMjAgOSAyMCAyMGwwIDYwYzAgMTEtOSAyMC0yMCAyMGwtNDUuNCAwYzIuMS0zLjUgNS4zLTkuMSA2LjQtMTMuNiAwLjYtMi41IDMuMy0xMi41IDMuMy0xMi41IDEuNyAzLjMgNi43IDYgMTIgNiAxNS44IDAgMjcuMi0xNC42IDI3LjItMzIuNyAwLTE3LjMtMTQuMi0zMC4zLTMyLjQtMzAuMyAtMjIuNyAwLTM0LjcgMTUuMi0zNC43IDMxLjggMCA3LjcgNC4xIDE3LjMgMTAuNyAyMC4zIDEgMC41IDEuNSAwLjMgMS44LTAuNyAwLjItMC43IDEuMS00LjMgMS41LTYgMC4xLTAuNSAwLjEtMS0wLjQtMS41IC0yLjItMi42LTMuOS03LjUtMy45LTEyIDAtMTEuNiA4LjgtMjIuOCAyMy43LTIyLjggMTIuOSAwIDIxLjkgOC44IDIxLjkgMjEuNCAwIDE0LjItNy4yIDI0LTE2LjUgMjQgLTUuMiAwLTktNC4zLTcuOC05LjUgMS41LTYuMiA0LjMtMTMgNC4zLTE3LjUgMC00LTIuMi03LjQtNi42LTcuNCAtNS4zIDAtOS41IDUuNS05LjUgMTIuOCAwIDQuNyAxLjYgNy44IDEuNiA3LjggMCAwLTUuMiAyMi02LjIgMjYuMSAtMS4xIDQuNy0wLjUgMTEuOS0wLjEgMTYuMloiIGZpbGw9IiNiZDIwMjUiLz48L3N2Zz4='); }
 
-/* line 3, /Users/andreaslarsen/Git/AnimalNoteHeads/_sass/table.sass */
+/* line 3, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/table.sass */
 .wrap table a {
   background: none;
   width: 100%;
   display: block; }
-  /* line 7, /Users/andreaslarsen/Git/AnimalNoteHeads/_sass/table.sass */
+  /* line 7, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/table.sass */
   .wrap table a:hover {
     background: none;
     color: inherit; }
-/* line 10, /Users/andreaslarsen/Git/AnimalNoteHeads/_sass/table.sass */
+/* line 10, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/table.sass */
 .wrap td, .wrap th {
   padding: 0 0 !important;
   width: 16.66667%;
   font-weight: 400; }
-  /* line 14, /Users/andreaslarsen/Git/AnimalNoteHeads/_sass/table.sass */
+  /* line 14, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/table.sass */
   .wrap td:first-child, .wrap th:first-child {
     width: 66.66667%; }
-/* line 17, /Users/andreaslarsen/Git/AnimalNoteHeads/_sass/table.sass */
+/* line 17, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/table.sass */
 .wrap th {
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -408,17 +408,17 @@ body {
   -webkit-tap-highlight-color: transparent;
   -webkit-touch-callout: none;
   cursor: pointer; }
-  /* line 27, /Users/andreaslarsen/Git/AnimalNoteHeads/_sass/table.sass */
+  /* line 27, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/table.sass */
   .wrap th[data-sorted-direction="descending"]:after {
     content: " ↓"; }
-  /* line 30, /Users/andreaslarsen/Git/AnimalNoteHeads/_sass/table.sass */
+  /* line 30, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/table.sass */
   .wrap th[data-sorted-direction="ascending"]:after {
     content: " ↑"; }
-/* line 33, /Users/andreaslarsen/Git/AnimalNoteHeads/_sass/table.sass */
+/* line 33, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/table.sass */
 .wrap tr {
   -webkit-transition: 0.6s ease;
   transition: 0.6s ease; }
-/* line 37, /Users/andreaslarsen/Git/AnimalNoteHeads/_sass/table.sass */
+/* line 37, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/table.sass */
 .wrap tr:hover {
   background-color: #f7f7f7;
   -webkit-transition: 0.3s ease;
@@ -426,7 +426,7 @@ body {
   color: black; }
 
 /* Slider */
-/* line 3, /Users/andreaslarsen/Git/AnimalNoteHeads/_sass/slick.sass */
+/* line 3, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/slick.sass */
 .slick-slider {
   position: relative;
   display: block;
@@ -442,22 +442,22 @@ body {
   touch-action: pan-y;
   -webkit-tap-highlight-color: transparent; }
 
-/* line 18, /Users/andreaslarsen/Git/AnimalNoteHeads/_sass/slick.sass */
+/* line 18, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/slick.sass */
 .slick-list {
   position: relative;
   overflow: hidden;
   display: block;
   margin: 0;
   padding: 0; }
-  /* line 24, /Users/andreaslarsen/Git/AnimalNoteHeads/_sass/slick.sass */
+  /* line 24, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/slick.sass */
   .slick-list:focus {
     outline: none; }
-  /* line 26, /Users/andreaslarsen/Git/AnimalNoteHeads/_sass/slick.sass */
+  /* line 26, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/slick.sass */
   .slick-list.dragging {
     cursor: pointer;
     cursor: hand; }
 
-/* line 31, /Users/andreaslarsen/Git/AnimalNoteHeads/_sass/slick.sass */
+/* line 31, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/slick.sass */
 .slick-slider .slick-track, .slick-slider .slick-list {
   -webkit-transform: translate3d(0, 0, 0);
   -moz-transform: translate3d(0, 0, 0);
@@ -465,79 +465,79 @@ body {
   -o-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0); }
 
-/* line 38, /Users/andreaslarsen/Git/AnimalNoteHeads/_sass/slick.sass */
+/* line 38, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/slick.sass */
 .slick-track {
   position: relative;
   left: 0;
   top: 0;
   display: block; }
-  /* line 44, /Users/andreaslarsen/Git/AnimalNoteHeads/_sass/slick.sass */
+  /* line 44, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/slick.sass */
   .slick-track:before, .slick-track:after {
     content: "";
     display: table; }
-  /* line 47, /Users/andreaslarsen/Git/AnimalNoteHeads/_sass/slick.sass */
+  /* line 47, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/slick.sass */
   .slick-track:after {
     clear: both; }
-  /* line 49, /Users/andreaslarsen/Git/AnimalNoteHeads/_sass/slick.sass */
+  /* line 49, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/slick.sass */
   .slick-loading .slick-track {
     visibility: hidden; }
 
-/* line 52, /Users/andreaslarsen/Git/AnimalNoteHeads/_sass/slick.sass */
+/* line 52, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/slick.sass */
 .slick-slide {
   float: left;
   height: 100%;
   min-height: 1px;
   display: none; }
-  /* line 56, /Users/andreaslarsen/Git/AnimalNoteHeads/_sass/slick.sass */
+  /* line 56, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/slick.sass */
   [dir="rtl"] .slick-slide {
     float: right; }
-  /* line 58, /Users/andreaslarsen/Git/AnimalNoteHeads/_sass/slick.sass */
+  /* line 58, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/slick.sass */
   .slick-slide img {
     display: block; }
-  /* line 60, /Users/andreaslarsen/Git/AnimalNoteHeads/_sass/slick.sass */
+  /* line 60, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/slick.sass */
   .slick-slide.slick-loading img {
     display: none; }
-  /* line 63, /Users/andreaslarsen/Git/AnimalNoteHeads/_sass/slick.sass */
+  /* line 63, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/slick.sass */
   .slick-slide.dragging img {
     pointer-events: none; }
-  /* line 65, /Users/andreaslarsen/Git/AnimalNoteHeads/_sass/slick.sass */
+  /* line 65, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/slick.sass */
   .slick-initialized .slick-slide {
     display: block; }
-  /* line 67, /Users/andreaslarsen/Git/AnimalNoteHeads/_sass/slick.sass */
+  /* line 67, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/slick.sass */
   .slick-loading .slick-slide {
     visibility: hidden; }
-  /* line 69, /Users/andreaslarsen/Git/AnimalNoteHeads/_sass/slick.sass */
+  /* line 69, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/slick.sass */
   .slick-vertical .slick-slide {
     display: block;
     height: auto;
     border: 1px solid transparent; }
 
-/* line 9, /Users/andreaslarsen/Git/AnimalNoteHeads/_sass/style.sass */
+/* line 9, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/style.sass */
 img {
   max-width: 100%; }
 
-/* line 12, /Users/andreaslarsen/Git/AnimalNoteHeads/_sass/style.sass */
+/* line 12, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/style.sass */
 ol {
   list-style: decimal; }
-  /* line 15, /Users/andreaslarsen/Git/AnimalNoteHeads/_sass/style.sass */
+  /* line 15, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/style.sass */
   ol > li:nth-child(1) {
     text-decoration: line-through; }
-  /* line 15, /Users/andreaslarsen/Git/AnimalNoteHeads/_sass/style.sass */
+  /* line 15, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/style.sass */
   ol > li:nth-child(2) {
     text-decoration: line-through; }
 
-/* line 18, /Users/andreaslarsen/Git/AnimalNoteHeads/_sass/style.sass */
+/* line 18, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/style.sass */
 ul {
   list-style: disc; }
-  /* line 20, /Users/andreaslarsen/Git/AnimalNoteHeads/_sass/style.sass */
+  /* line 20, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/style.sass */
   ul ul {
     list-style: circle; }
 
-/* line 25, /Users/andreaslarsen/Git/AnimalNoteHeads/_sass/style.sass */
+/* line 25, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/style.sass */
 ul, ol, p {
   margin-bottom: 0; }
 
-/* line 28, /Users/andreaslarsen/Git/AnimalNoteHeads/_sass/style.sass */
+/* line 28, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/style.sass */
 #jumbobg {
   top: 0;
   left: 0;
@@ -554,7 +554,7 @@ ul, ol, p {
   background-repeat: no-repeat;
   z-index: -1; }
 
-/* line 44, /Users/andreaslarsen/Git/AnimalNoteHeads/_sass/style.sass */
+/* line 44, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/style.sass */
 #jumbo {
   height: 70vh;
   padding-top: 10vh;
@@ -575,49 +575,52 @@ ul, ol, p {
   align-items: center;
   color: black;
   background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.7) 100%); }
-  /* line 53, /Users/andreaslarsen/Git/AnimalNoteHeads/_sass/style.sass */
+  /* line 53, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/style.sass */
   #jumbo div * {
     margin: 0; }
-  /* line 55, /Users/andreaslarsen/Git/AnimalNoteHeads/_sass/style.sass */
+  /* line 55, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/style.sass */
   #jumbo h1 {
     font-size: 11vw; }
-  /* line 57, /Users/andreaslarsen/Git/AnimalNoteHeads/_sass/style.sass */
+  /* line 57, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/style.sass */
   #jumbo p {
     font-size: 4vw; }
 
-/* line 60, /Users/andreaslarsen/Git/AnimalNoteHeads/_sass/style.sass */
+/* line 60, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/style.sass */
 .bg {
   background: linear-gradient(to bottom, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.9) 30vh); }
 
-/* line 63, /Users/andreaslarsen/Git/AnimalNoteHeads/_sass/style.sass */
+/* line 63, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/style.sass */
 .wrap {
   max-width: 800px;
   margin: 0 auto;
-  padding: 10px 10px 10vh;
-  z-index: 2; }
-  /* line 68, /Users/andreaslarsen/Git/AnimalNoteHeads/_sass/style.sass */
+  padding: 10px 10px 10vh; }
+  /* line 67, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/style.sass */
   .wrap h3:first-child {
     margin-top: 0; }
 
-/* line 71, /Users/andreaslarsen/Git/AnimalNoteHeads/_sass/style.sass */
+/* line 70, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/style.sass */
+#fullscreen {
+  background-color: white;
+  height: 100%;
+  width: 100%; }
+
+/* line 75, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/style.sass */
 #viewer {
   width: 100%;
-  height: 100%;
-  background-color: white;
-  z-index: 2; }
-  /* line 76, /Users/andreaslarsen/Git/AnimalNoteHeads/_sass/style.sass */
+  height: 100%; }
+  /* line 78, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/style.sass */
   #viewer > div {
     width: 100%; }
-  /* line 78, /Users/andreaslarsen/Git/AnimalNoteHeads/_sass/style.sass */
+  /* line 80, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/style.sass */
   #viewer img {
     margin: 0 auto;
     max-height: 100%; }
-  /* line 81, /Users/andreaslarsen/Git/AnimalNoteHeads/_sass/style.sass */
+  /* line 83, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/style.sass */
   #viewer button {
     margin: 0;
     padding: 0; }
 
-/* line 85, /Users/andreaslarsen/Git/AnimalNoteHeads/_sass/style.sass */
+/* line 87, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/style.sass */
 .slick-dots {
   display: -webkit-box;
   display: -webkit-flex;
@@ -641,41 +644,30 @@ ul, ol, p {
   padding: 0;
   line-height: 0;
   text-align: center; }
-  /* line 96, /Users/andreaslarsen/Git/AnimalNoteHeads/_sass/style.sass */
+  /* line 98, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/style.sass */
   .slick-dots li {
     cursor: pointer;
     display: block;
-    background-color: white;
-    -webkit-box-flex: 1;
-    -webkit-flex-grow: 1;
-    -moz-flex-grow: 1;
-    -ms-flex-positive: 1;
-    flex-grow: 1;
-    -webkit-flex-shrink: 1;
-    -moz-flex-shrink: 1;
-    -ms-flex-negative: 1;
-    flex-shrink: 1;
-    -webkit-flex-basis: auto;
-    -moz-flex-basis: auto;
-    -ms-flex-preferred-size: auto;
-    flex-basis: auto; }
-    /* line 103, /Users/andreaslarsen/Git/AnimalNoteHeads/_sass/style.sass */
+    background-color: #525b60;
+    border-radius: 10px;
+    margin: 20px 5px; }
+    /* line 104, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/style.sass */
     .slick-dots li.slick-active, .slick-dots li:hover {
       background-color: #7ec6f7; }
-    /* line 105, /Users/andreaslarsen/Git/AnimalNoteHeads/_sass/style.sass */
+    /* line 106, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/style.sass */
     .slick-dots li button {
-      width: 100%;
+      width: 10px;
       font-size: 0;
-      height: 1.5vh;
+      height: 10px;
       color: transparent;
       border: 0;
       outline: none;
       background-color: transparent; }
-      /* line 113, /Users/andreaslarsen/Git/AnimalNoteHeads/_sass/style.sass */
+      /* line 114, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/style.sass */
       .slick-dots li button:hover, .slick-dots li button:focus {
         outline: none; }
 
-/* line 116, /Users/andreaslarsen/Git/AnimalNoteHeads/_sass/style.sass */
+/* line 117, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/style.sass */
 #toggle {
   position: fixed;
   top: 0;
@@ -683,31 +675,30 @@ ul, ol, p {
   width: 40px;
   height: 40px;
   cursor: pointer;
-  visibility: hidden;
-  z-index: 3; }
-  /* line 125, /Users/andreaslarsen/Git/AnimalNoteHeads/_sass/style.sass */
+  visibility: hidden; }
+  /* line 125, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/style.sass */
   #toggle.visible {
     visibility: visible; }
 
-/* line 129, /Users/andreaslarsen/Git/AnimalNoteHeads/_sass/style.sass */
+/* line 129, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/style.sass */
 #contri img {
   height: 2.4em;
   vertical-align: middle;
   margin: 0.4em 10px 0.4em 0; }
-/* line 133, /Users/andreaslarsen/Git/AnimalNoteHeads/_sass/style.sass */
+/* line 133, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/style.sass */
 #contri > span {
   display: inline-block;
   position: relative; }
-  /* line 136, /Users/andreaslarsen/Git/AnimalNoteHeads/_sass/style.sass */
+  /* line 136, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/style.sass */
   #contri > span > span {
     display: inline-block;
     vertical-align: middle; }
 
-/* line 140, /Users/andreaslarsen/Git/AnimalNoteHeads/_sass/style.sass */
+/* line 140, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/style.sass */
 footer {
   background: rgba(255, 255, 255, 0.9);
   color: #9fa7ad; }
-  /* line 143, /Users/andreaslarsen/Git/AnimalNoteHeads/_sass/style.sass */
+  /* line 143, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/style.sass */
   footer a {
     color: #9fa7ad; }
 

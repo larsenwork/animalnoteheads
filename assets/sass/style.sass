@@ -1,5 +1,5 @@
-@import ../assets/bower_components/reset-scss/reset.scss
-@import ../assets/bower_components/sass-flex-mixin/_flexbox
+@import ../../assets/bower_components/reset-scss/reset.scss
+@import ../../assets/bower_components/sass-flex-mixin/_flexbox
 @import variables
 @import typography
 @import social
@@ -64,15 +64,17 @@ p
   max-width: 800px
   margin: 0 auto
   padding: 10px 10px 10vh
-  z-index: 2
   h3:first-child
     margin-top: 0
+
+#fullscreen
+  background-color: white
+  height: 100%
+  width: 100%
 
 #viewer
     width: 100%
     height: 100%
-    background-color: white
-    z-index: 2
     > div 
         width: 100%
     img
@@ -96,16 +98,15 @@ p
     li
         cursor: pointer
         display: block
-        background-color: white
-        +flex-grow(1)
-        +flex-shrink(1)
-        +flex-basis(auto)
+        background-color: $body-color
+        border-radius: 10px
+        margin: 20px 5px 
         &.slick-active, &:hover
             background-color: $href-color
         button
-            width: 100%
+            width: 10px
             font-size: 0
-            height: 1.5vh
+            height: 10px
             color: transparent
             border: 0
             outline: none
@@ -121,7 +122,6 @@ p
     height: 40px
     cursor: pointer
     visibility: hidden
-    z-index: 3
     &.visible
         visibility: visible
 
