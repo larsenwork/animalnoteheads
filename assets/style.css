@@ -3,7 +3,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-/* line 86, /Users/andreaslarsen/Git/AnimalNoteHeads/bower_components/reset-scss/reset.scss */
+/* line 86, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/bower_components/reset-scss/reset.scss */
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   margin: 0;
   padding: 0;
@@ -13,29 +13,29 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   vertical-align: baseline; }
 
 /* HTML5 display-role reset for older browsers */
-/* line 106, /Users/andreaslarsen/Git/AnimalNoteHeads/bower_components/reset-scss/reset.scss */
+/* line 106, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/bower_components/reset-scss/reset.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
   display: block; }
 
-/* line 111, /Users/andreaslarsen/Git/AnimalNoteHeads/bower_components/reset-scss/reset.scss */
+/* line 111, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/bower_components/reset-scss/reset.scss */
 ol, ul {
   list-style: none; }
 
-/* line 116, /Users/andreaslarsen/Git/AnimalNoteHeads/bower_components/reset-scss/reset.scss */
+/* line 116, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/bower_components/reset-scss/reset.scss */
 blockquote, q {
   quotes: none; }
 
-/* line 123, /Users/andreaslarsen/Git/AnimalNoteHeads/bower_components/reset-scss/reset.scss */
+/* line 123, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/bower_components/reset-scss/reset.scss */
 blockquote:before, blockquote:after, q:before, q:after {
   content: '';
   content: none; }
 
-/* line 128, /Users/andreaslarsen/Git/AnimalNoteHeads/bower_components/reset-scss/reset.scss */
+/* line 128, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/bower_components/reset-scss/reset.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-/* line 594, /Users/andreaslarsen/Git/AnimalNoteHeads/bower_components/typographic/scss/typographic.scss */
+/* line 594, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/bower_components/typographic/scss/typographic.scss */
 html {
   font-family: "gidoleregular", "sans-serif";
   font-weight: 400;
@@ -49,23 +49,23 @@ html {
     html {
       font-size: 20px; } }
 
-/* line 605, /Users/andreaslarsen/Git/AnimalNoteHeads/bower_components/typographic/scss/typographic.scss */
+/* line 605, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/bower_components/typographic/scss/typographic.scss */
 h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
   margin: 0;
   padding: 0; }
 
-/* line 612, /Users/andreaslarsen/Git/AnimalNoteHeads/bower_components/typographic/scss/typographic.scss */
+/* line 612, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/bower_components/typographic/scss/typographic.scss */
 p, blockquote, pre, address, dl, ol, ul, table {
   margin-bottom: 1.6em; }
 
-/* line 616, /Users/andreaslarsen/Git/AnimalNoteHeads/bower_components/typographic/scss/typographic.scss */
+/* line 616, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/bower_components/typographic/scss/typographic.scss */
 h1, h2, h3, h4, h5, h6 {
   font-family: "gidoleregular", "sans-serif";
   font-weight: 500;
   color: black;
   clear: both; }
 
-/* line 620, /Users/andreaslarsen/Git/AnimalNoteHeads/bower_components/typographic/scss/typographic.scss */
+/* line 620, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/bower_components/typographic/scss/typographic.scss */
 h1 {
   font-size: 32.852px;
   margin-top: 0.73055em;
@@ -81,7 +81,7 @@ h1 {
       line-height: 0.87666em;
       margin-bottom: 0.14611em; } }
 
-/* line 624, /Users/andreaslarsen/Git/AnimalNoteHeads/bower_components/typographic/scss/typographic.scss */
+/* line 624, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/bower_components/typographic/scss/typographic.scss */
 h2 {
   font-size: 26.85874px;
   margin-top: 0.89356em;
@@ -97,7 +97,7 @@ h2 {
       line-height: 1.07228em;
       margin-bottom: 0.19069em; } }
 
-/* line 628, /Users/andreaslarsen/Git/AnimalNoteHeads/bower_components/typographic/scss/typographic.scss */
+/* line 628, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/bower_components/typographic/scss/typographic.scss */
 h3 {
   font-size: 21.95885px;
   margin-top: 1.09295em;
@@ -113,7 +113,7 @@ h3 {
       line-height: 1.31154em;
       margin-bottom: 0.23651em; } }
 
-/* line 632, /Users/andreaslarsen/Git/AnimalNoteHeads/bower_components/typographic/scss/typographic.scss */
+/* line 632, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/bower_components/typographic/scss/typographic.scss */
 h4 {
   font-size: 17.95285px;
   margin-top: 1.33683em;
@@ -129,7 +129,7 @@ h4 {
       line-height: 1.6042em;
       margin-bottom: 0.29417em; } }
 
-/* line 636, /Users/andreaslarsen/Git/AnimalNoteHeads/bower_components/typographic/scss/typographic.scss */
+/* line 636, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/bower_components/typographic/scss/typographic.scss */
 h5 {
   font-size: 14.67768px;
   margin-top: 1.63514em;
@@ -145,7 +145,7 @@ h5 {
       line-height: 1.96216em;
       margin-bottom: 0.32703em; } }
 
-/* line 640, /Users/andreaslarsen/Git/AnimalNoteHeads/bower_components/typographic/scss/typographic.scss */
+/* line 640, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/bower_components/typographic/scss/typographic.scss */
 h6 {
   font-size: 12px;
   margin-top: 2em;
@@ -161,55 +161,55 @@ h6 {
       line-height: 2.4em;
       margin-bottom: 0.43333em; } }
 
-/* line 644, /Users/andreaslarsen/Git/AnimalNoteHeads/bower_components/typographic/scss/typographic.scss */
+/* line 644, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/bower_components/typographic/scss/typographic.scss */
 blockquote {
   font-style: italic; }
-  /* line 459, /Users/andreaslarsen/Git/AnimalNoteHeads/bower_components/typographic/scss/typographic.scss */
+  /* line 459, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/bower_components/typographic/scss/typographic.scss */
   blockquote cite {
     display: block;
     font-style: normal; }
 
-/* line 648, /Users/andreaslarsen/Git/AnimalNoteHeads/bower_components/typographic/scss/typographic.scss */
+/* line 648, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/bower_components/typographic/scss/typographic.scss */
 pre {
   padding: 0.8em;
   margin-bottom: 1.6em; }
-  /* line 468, /Users/andreaslarsen/Git/AnimalNoteHeads/bower_components/typographic/scss/typographic.scss */
+  /* line 468, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/bower_components/typographic/scss/typographic.scss */
   pre code {
     padding: 0; }
 
-/* line 652, /Users/andreaslarsen/Git/AnimalNoteHeads/bower_components/typographic/scss/typographic.scss */
+/* line 652, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/bower_components/typographic/scss/typographic.scss */
 code {
   font-family: 'Courier New', 'Courier', 'Lucida Sans Typewriter', 'Lucida Typewriter', 'monospace';
   padding: 0.08em 0.24em;
   line-height: 0; }
 
-/* line 656, /Users/andreaslarsen/Git/AnimalNoteHeads/bower_components/typographic/scss/typographic.scss */
+/* line 656, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/bower_components/typographic/scss/typographic.scss */
 big, small, sub, sup {
   line-height: 0; }
 
-/* line 660, /Users/andreaslarsen/Git/AnimalNoteHeads/bower_components/typographic/scss/typographic.scss */
+/* line 660, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/bower_components/typographic/scss/typographic.scss */
 abbr, acronym {
   border-bottom: 1px dotted currentColor;
   cursor: help; }
 
-/* line 664, /Users/andreaslarsen/Git/AnimalNoteHeads/bower_components/typographic/scss/typographic.scss */
+/* line 664, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/bower_components/typographic/scss/typographic.scss */
 address {
   font-style: normal; }
 
-/* line 668, /Users/andreaslarsen/Git/AnimalNoteHeads/bower_components/typographic/scss/typographic.scss */
+/* line 668, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/bower_components/typographic/scss/typographic.scss */
 dt {
   color: black;
   font-weight: bold; }
 
-/* line 672, /Users/andreaslarsen/Git/AnimalNoteHeads/bower_components/typographic/scss/typographic.scss */
+/* line 672, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/bower_components/typographic/scss/typographic.scss */
 ul {
   padding-left: 1.1em; }
 
-/* line 676, /Users/andreaslarsen/Git/AnimalNoteHeads/bower_components/typographic/scss/typographic.scss */
+/* line 676, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/bower_components/typographic/scss/typographic.scss */
 ol {
   padding-left: 1.4em; }
 
-/* line 680, /Users/andreaslarsen/Git/AnimalNoteHeads/bower_components/typographic/scss/typographic.scss */
+/* line 680, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/bower_components/typographic/scss/typographic.scss */
 fieldset {
   padding: 0.8em 1.6em 1.6em;
   border-width: 1px;
@@ -219,16 +219,16 @@ fieldset {
   @media (min-width: 820px) {
     fieldset {
       margin-bottom: 1.9em; } }
-  /* line 498, /Users/andreaslarsen/Git/AnimalNoteHeads/bower_components/typographic/scss/typographic.scss */
+  /* line 498, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/bower_components/typographic/scss/typographic.scss */
   fieldset button, fieldset input[type="submit"] {
     margin-bottom: 0; }
 
-/* line 684, /Users/andreaslarsen/Git/AnimalNoteHeads/bower_components/typographic/scss/typographic.scss */
+/* line 684, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/bower_components/typographic/scss/typographic.scss */
 legend {
   color: black;
   font-weight: bold; }
 
-/* line 688, /Users/andreaslarsen/Git/AnimalNoteHeads/bower_components/typographic/scss/typographic.scss */
+/* line 688, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/bower_components/typographic/scss/typographic.scss */
 input[type="text"], input[type="email"], input[type="password"], textarea {
   display: block;
   max-width: 100%;
@@ -243,7 +243,7 @@ input[type="text"], input[type="email"], input[type="password"], textarea {
       font-size: 20px;
       margin-bottom: 0.47em; } }
 
-/* line 692, /Users/andreaslarsen/Git/AnimalNoteHeads/bower_components/typographic/scss/typographic.scss */
+/* line 692, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/bower_components/typographic/scss/typographic.scss */
 input[type="submit"], button {
   display: block;
   cursor: pointer;
@@ -258,13 +258,13 @@ input[type="submit"], button {
       font-size: 20px;
       margin-bottom: 1.2em; } }
 
-/* line 696, /Users/andreaslarsen/Git/AnimalNoteHeads/bower_components/typographic/scss/typographic.scss */
+/* line 696, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/bower_components/typographic/scss/typographic.scss */
 label {
   display: block;
   padding-bottom: 0.2em;
   margin-bottom: -0.2em; }
 
-/* line 700, /Users/andreaslarsen/Git/AnimalNoteHeads/bower_components/typographic/scss/typographic.scss */
+/* line 700, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/bower_components/typographic/scss/typographic.scss */
 table {
   width: 100%;
   border-spacing: 0;
@@ -274,7 +274,7 @@ table {
     table {
       margin-bottom: 1.84em; } }
 
-/* line 704, /Users/andreaslarsen/Git/AnimalNoteHeads/bower_components/typographic/scss/typographic.scss */
+/* line 704, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/bower_components/typographic/scss/typographic.scss */
 th {
   text-align: left;
   color: black;
@@ -283,7 +283,7 @@ th {
     th {
       padding: 0.4em 0.8em; } }
 
-/* line 708, /Users/andreaslarsen/Git/AnimalNoteHeads/bower_components/typographic/scss/typographic.scss */
+/* line 708, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/bower_components/typographic/scss/typographic.scss */
 td {
   padding: 0.8em;
   padding: 0.2em 0.8em; }
