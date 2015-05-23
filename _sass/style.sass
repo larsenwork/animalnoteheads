@@ -4,6 +4,7 @@
 @import typography
 @import social
 @import table
+@import slick
 
 img
   max-width: 100%
@@ -59,12 +60,6 @@ p
 .bg
   background: linear-gradient(to bottom, hsla(0, 0%, 100%, 0.7) 0%, hsla(0, 0%, 100%, 0.9) 30vh)
 
-footer
-  background: hsla(0, 0%, 100%, 0.9)
-  color: lighten($body-color, 30%)
-  a
-    color: lighten($body-color, 30%)
-
 .wrap
   max-width: 800px
   margin: 0 auto
@@ -72,6 +67,63 @@ footer
   z-index: 2
   h3:first-child
     margin-top: 0
+
+#viewer
+    width: 100%
+    height: 100%
+    background-color: white
+    z-index: 2
+    > div 
+        width: 100%
+    img
+        margin: 0 auto
+        max-height: 100%
+    button 
+        margin: 0
+        padding: 0
+        
+.slick-dots
+    +flexbox
+    +justify-content(center)
+    +align-items(center)
+    position: fixed
+    bottom: 0
+    left: 0
+    right: 0
+    padding: 0
+    line-height: 0
+    text-align: center
+    li
+        cursor: pointer
+        display: block
+        background-color: white
+        +flex-grow(1)
+        +flex-shrink(1)
+        +flex-basis(auto)
+        &.slick-active, &:hover
+            background-color: $href-color
+        button
+            width: 100%
+            font-size: 0
+            height: 1.5vh
+            color: transparent
+            border: 0
+            outline: none
+            background-color: transparent
+            &:hover, &:focus
+                outline: none
+    
+#toggle
+    position: fixed
+    top: 0
+    left: 0
+    width: 40px
+    height: 40px
+    cursor: pointer
+    visibility: hidden
+    z-index: 3
+    &.visible
+        visibility: visible
 
 #contri
   img
@@ -84,3 +136,11 @@ footer
     > span
       display: inline-block
       vertical-align: middle
+    
+footer
+  background: hsla(0, 0%, 100%, 0.9)
+  color: lighten($body-color, 30%)
+  a
+    color: lighten($body-color, 30%)
+
+    

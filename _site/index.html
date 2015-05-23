@@ -15,7 +15,7 @@
   <meta name="twitter:site" content="">
   <meta name="twitter:title" content="Animal Note Heads - fun, free & easy note learning">
   <meta name="twitter:description" content="Open source multilingual sheet music library, tools to create your own sheet music, iOS app and much more - all free.">
-  <meta name="twitter:image:src" content="http://animalnoteheads.com/assets/img/AnimalNoteHeadsSocial.png">
+  <meta name="twitter:image:src" content="/assets/img/AnimalNoteHeadsSocial.png">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <meta property="og:title" content="Animal Note Heads">
@@ -23,7 +23,7 @@
   <meta property="og:url" content="http://animalnoteheads.com">
   <meta property="og:description" content="Open source multilingual sheet music library, tools to create your own sheet music, iOS app and much more - all free.">
   <meta property="og:type" content="website">
-  <meta property="og:image" content="http://animalnoteheads.com/assets/img/AnimalNoteHeadsSocial.png">
+  <meta property="og:image" content="/assets/img/AnimalNoteHeadsSocial.png">
 
   <link rel="stylesheet" href="/assets/style.css">
 <!--  <link rel="stylesheet" href="../assets/style.css">-->
@@ -99,16 +99,34 @@ I'm interested in a company/organisation/foundation that would support the proje
   </div>
 <script src="/assets/js/jquery.v2.1.min.js"></script>
 <script src="/assets/js/social.min.js"></script>
+<script src="/assets/js/slick.min.js"></script>
+<script src="/bower_components/screenfull/dist/screenfull.js"></script>
+<script src="/bower_components/fastclick/lib/fastclick.js"></script>
 <script>
-  var socialLikesButtons = {
-    github: {
-      counterUrl: 'https://api.github.com/repos/andreaslarsen/animalnoteheads?callback=?',
-      convertNumber: function (data) {
-        return data.data.watchers_count;
-      },
-      clickUrl: 'https://github.com/andreaslarsen/animalnoteheads/'
-    }
-  };
+    $(function () {
+        FastClick.attach(document.body);
+        $('#viewer').slick({
+            arrows: false,
+            dots: true,
+            lazyLoad: 'ondemand',
+            slidesToScroll: 1
+        });
+        if (screenfull.enabled) {
+            $('#toggle').addClass('visible')
+            $('#toggle').click(function () {
+                screenfull.toggle($('#viewer')[0]);
+            });
+        };
+        var socialLikesButtons = {
+            github: {
+                counterUrl: 'https://api.github.com/repos/andreaslarsen/animalnoteheads?callback=?',
+                convertNumber: function (data) {
+                    return data.data.watchers_count;
+                },
+                clickUrl: 'https://github.com/andreaslarsen/animalnoteheads/'
+            }
+        };
+    });
 </script>
 <footer>
   <div class="wrap">

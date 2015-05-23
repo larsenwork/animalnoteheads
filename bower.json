@@ -6,6 +6,8 @@
     "typographic": "~2.9.3",
     "sass-flex-mixin": "~1.0.1",
     "reset-scss": "*",
-    "sortable": "~0.6.0"
+    "sortable": "~0.6.0",
+    "screenfull": "~2.0.0",
+    "fastclick": "~1.0.6"
   }
 }
