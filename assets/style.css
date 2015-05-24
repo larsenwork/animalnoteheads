@@ -678,38 +678,44 @@ ul, ol, p {
   height: 50px;
   cursor: pointer;
   visibility: hidden; }
-  /* line 125, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/style.sass */
+  /* line 118, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/style.sass */
+  #toggle #back {
+    display: none; }
+    /* line 120, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/style.sass */
+    #toggle #back.visible {
+      display: block; }
+  /* line 130, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/style.sass */
   #toggle.visible {
     visibility: visible; }
-  /* line 127, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/style.sass */
+  /* line 132, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/style.sass */
   #toggle div {
     display: none; }
-    /* line 129, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/style.sass */
+    /* line 134, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/style.sass */
     #toggle div.visible {
       display: block; }
-    /* line 131, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/style.sass */
+    /* line 136, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/style.sass */
     #toggle div path {
       fill: #7ec6f7; }
 
-/* line 135, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/style.sass */
+/* line 140, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/style.sass */
 #contri img {
   height: 2.4em;
   vertical-align: middle;
   margin: 0.4em 10px 0.4em 0; }
-/* line 139, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/style.sass */
+/* line 144, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/style.sass */
 #contri > span {
   display: inline-block;
   position: relative; }
-  /* line 142, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/style.sass */
+  /* line 147, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/style.sass */
   #contri > span > span {
     display: inline-block;
     vertical-align: middle; }
 
-/* line 146, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/style.sass */
+/* line 151, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/style.sass */
 footer {
   background: rgba(255, 255, 255, 0.9);
   color: #9fa7ad; }
-  /* line 149, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/style.sass */
+  /* line 154, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/style.sass */
   footer a {
     color: #9fa7ad; }
 
