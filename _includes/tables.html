@@ -45,6 +45,29 @@
 </table>
 
 <br>
+<h3>Español</h3>
+<table data-sortable>
+  <thead>
+    <tr>
+      <th>Canción</th>
+      <th>Fecha</th>
+      <th>Dificultad</th>
+      <th>Descargar</th>            
+    </tr>
+  </thead>
+  <tbody>
+  {% for post in site.categories.francais %}
+    <tr>
+      <td><a href="/{{ post.url }}">{{ post.title }}</a></td>
+      <td>{{ post.date | date: "%Y.%d.%m" }}</td>
+      <td>{{ post.difficulty }}</td>
+      <td><a href="/sheets{{ post.url }}{{ post.title }}.pdf">PDF</a></td>      
+    </tr>
+  {% endfor %}
+  </tbody>
+</table>
+
+<br>
 <h3>Français</h3>
 <table data-sortable>
   <thead>
@@ -66,3 +89,4 @@
   {% endfor %}
   </tbody>
 </table>
+
