@@ -10,5 +10,5 @@ image: AnimalNoteHeadsSocial.png
 ---
 Sheets created using animal note heads - more information and resources on the [front page](http://animalnoteheads.com).  
 
-You can [create](https://github.com/andreaslarsen/animalnoteheads/tree/Lilypond) (currently a bit technical) or [request](http://www.reddit.com/r/AnimalNoteHeads/) new sheets.<br><br>  
-{% include social.html %}<br>
+You can [create](https://github.com/andreaslarsen/animalnoteheads/tree/Lilypond) (currently a bit technical) or [request](http://www.reddit.com/r/AnimalNoteHeads/) new sheets.<br><br>
+{% include social.html %}
