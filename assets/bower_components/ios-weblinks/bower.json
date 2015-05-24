@@ -1,0 +1,32 @@
+{
+  "name": "ios-weblinks",
+  "version": "1.0.2",
+  "homepage": "https://github.com/stylr/iosweblinks",
+  "authors": [
+    "Robin van Baalen <robin@neverwoods.com>"
+  ],
+  "description": "Make iOS web app links open in web app view.",
+  "main": "dist/webapplinks.js",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "ios",
+    "webview",
+    "anchors",
+    "external",
+    "links",
+    "links"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~1"
+  }
+}

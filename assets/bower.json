@@ -9,6 +9,10 @@
     "sortable": "~0.6.0",
     "screenfull": "~2.0.0",
     "fastclick": "~1.0.6",
-    "snap.svg": "~0.4.1"
+    "snap.svg": "~0.4.1",
+    "slick-carousel": "~1.5.5"
+  },
+  "devDependencies": {
+    "ios-weblinks": "stylr/iosweblinks#~1.0.2"
   }
 }
