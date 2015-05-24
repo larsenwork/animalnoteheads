@@ -29,7 +29,7 @@
     }
     if (screenfull.enabled) {
       $('#toggle').addClass('visible')
-      $('#toggle').click(function () {
+      $('#bigger, #smaller').click(function () {
         screenfull.toggle($('#fullscreen')[0]);
         if (screenfull.isFullscreen) {
           $('#smaller').addClass('visible')
