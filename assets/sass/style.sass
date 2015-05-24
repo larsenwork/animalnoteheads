@@ -115,26 +115,27 @@ p
                 outline: none
     
 #toggle
-    #back
-      display: none
-      &.visible
-        display: block
-
-    position: fixed
-    top: 0
-    left: 0
-    width: 50px
-    height: 50px
-    cursor: pointer
-    visibility: hidden
+  #back
+    display: none
     &.visible
-        visibility: visible
+      display: block
+
+  position: fixed
+  top: 0
+  left: 0
+  width: 50px
+  height: 50px
+  cursor: pointer
+  &.visible
     div
-      display: none
-      &.visible
-        display: block
-      path
-        fill: $href-color
+      visibility: visible
+  div
+    visibility: hidden
+    display: none
+    &.visible
+      display: block
+    path
+      fill: $href-color
 
 #contri
   img
