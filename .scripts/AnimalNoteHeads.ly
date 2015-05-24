@@ -22,7 +22,7 @@ arranger = #(string-append "Arr.: " arranger)
 }
 
 titlePageMarkup = \markup \abs-fontsize #10 \column {
-	\vspace #2.5
+  \vspace #2.5
 	\fill-line { \fontsize #18 \bold \fromproperty #'header:title }
 	\vspace #0.3
 	\fill-line { \fontsize #11.2 \fromproperty #'header:arranger }
