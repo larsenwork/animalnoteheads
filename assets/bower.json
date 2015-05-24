@@ -8,6 +8,7 @@
     "reset-scss": "*",
     "sortable": "~0.6.0",
     "screenfull": "~2.0.0",
-    "fastclick": "~1.0.6"
+    "fastclick": "~1.0.6",
+    "snap.svg": "~0.4.1"
   }
 }

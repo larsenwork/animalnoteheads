@@ -3,90 +3,72 @@
 {% include head.html %}
 
 <body>
-    <div id="fullscreen">
-        <div id="viewer">
-            {% if page.pagecount == 1 %}
-                <div><img data-lazy="/sheets{{ page.url }}{{ i }}.svg" /></div>  
-            {% endif %}
-            {% if page.pagecount == 2 %}
-                {% for i in (1..2) %}
-                    <div><img data-lazy="/sheets{{ page.url }}{{ i }}.svg" /></div>
-                {% endfor %}        
-            {% endif %}
-            {% if page.pagecount == 3 %}
-                {% for i in (1..3) %}
-                    <div><img data-lazy="/sheets{{ page.url }}{{ i }}.svg" /></div>
-                {% endfor %}        
-            {% endif %}
-            {% if page.pagecount == 4 %}
-                {% for i in (1..4) %}
-                    <div><img data-lazy="/sheets{{ page.url }}{{ i }}.svg" /></div>
-                {% endfor %}        
-            {% endif %}
-            {% if page.pagecount == 5 %}
-                {% for i in (1..5) %}
-                    <div><img data-lazy="/sheets{{ page.url }}{{ i }}.svg" /></div>
-                {% endfor %}        
-            {% endif %}
-            {% if page.pagecount == 6 %}
-                {% for i in (1..6) %}
-                    <div><img data-lazy="/sheets{{ page.url }}{{ i }}.svg" /></div>
-                {% endfor %}
-            {% endif %}
-            {% if page.pagecount == 7 %}
-                {% for i in (1..7) %}
-                    <div><img data-lazy="/sheets{{ page.url }}{{ i }}.svg" /></div>
-                {% endfor %}
-            {% endif %}
-            {% if page.pagecount == 8 %}
-                {% for i in (1..8) %}
-                    <div><img data-lazy="/sheets{{ page.url }}{{ i }}.svg" /></div>
-                {% endfor %}
-            {% endif %}
-            {% if page.pagecount == 9 %}
-                {% for i in (1..9) %}
-                    <div><img data-lazy="/sheets{{ page.url }}{{ i }}.svg" /></div>
-                {% endfor %}
-            {% endif %}
-            {% if page.pagecount == 10 %}
-                {% for i in (1..10) %}
-                    <div><img data-lazy="/sheets{{ page.url }}{{ i }}.svg" /></div>
-                {% endfor %}
-            {% endif %}
-            {% if page.pagecount == 11 %}
-                {% for i in (1..11) %}
-                    <div><img data-lazy="/sheets{{ page.url }}{{ i }}.svg" /></div>
-                {% endfor %}
-            {% endif %}
-            {% if page.pagecount == 12 %}
-                {% for i in (1..12) %}
-                    <div><img data-lazy="/sheets{{ page.url }}{{ i }}.svg" /></div>
-                {% endfor %}
-            {% endif %}
-            {% if page.pagecount == 13 %}
-                {% for i in (1..13) %}
-                    <div><img data-lazy="/sheets{{ page.url }}{{ i }}.svg" /></div>
-                {% endfor %}
-            {% endif %}
-            {% if page.pagecount == 14 %}
-                {% for i in (1..14) %}
-                    <div><img data-lazy="/sheets{{ page.url }}{{ i }}.svg" /></div>
-                {% endfor %}
-            {% endif %}
-            {% if page.pagecount == 15 %}
-                {% for i in (1..15) %}
-                    <div><img data-lazy="/sheets{{ page.url }}{{ i }}.svg" /></div>
-                {% endfor %}
-            {% endif %}
-            {% if page.pagecount == 16 %}
-                {% for i in (1..16) %}
-                    <div><img data-lazy="/sheets{{ page.url }}{{ i }}.svg" /></div>
-                {% endfor %}
-            {% endif %}
-        </div>
-        <div id="toggle">FullScreenToggle</div>
+  <div id="fullscreen">
+    <div id="viewer">
+      {% if page.pagecount == 1 %}
+      <div><img data-lazy="/sheets{{ page.url }}{{ i }}.svg" />
+      </div>
+      {% endif %} {% if page.pagecount == 2 %} {% for i in (1..2) %}
+      <div><img data-lazy="/sheets{{ page.url }}{{ i }}.svg" />
+      </div>
+      {% endfor %} {% endif %} {% if page.pagecount == 3 %} {% for i in (1..3) %}
+      <div><img data-lazy="/sheets{{ page.url }}{{ i }}.svg" />
+      </div>
+      {% endfor %} {% endif %} {% if page.pagecount == 4 %} {% for i in (1..4) %}
+      <div><img data-lazy="/sheets{{ page.url }}{{ i }}.svg" />
+      </div>
+      {% endfor %} {% endif %} {% if page.pagecount == 5 %} {% for i in (1..5) %}
+      <div><img data-lazy="/sheets{{ page.url }}{{ i }}.svg" />
+      </div>
+      {% endfor %} {% endif %} {% if page.pagecount == 6 %} {% for i in (1..6) %}
+      <div><img data-lazy="/sheets{{ page.url }}{{ i }}.svg" />
+      </div>
+      {% endfor %} {% endif %} {% if page.pagecount == 7 %} {% for i in (1..7) %}
+      <div><img data-lazy="/sheets{{ page.url }}{{ i }}.svg" />
+      </div>
+      {% endfor %} {% endif %} {% if page.pagecount == 8 %} {% for i in (1..8) %}
+      <div><img data-lazy="/sheets{{ page.url }}{{ i }}.svg" />
+      </div>
+      {% endfor %} {% endif %} {% if page.pagecount == 9 %} {% for i in (1..9) %}
+      <div><img data-lazy="/sheets{{ page.url }}{{ i }}.svg" />
+      </div>
+      {% endfor %} {% endif %} {% if page.pagecount == 10 %} {% for i in (1..10) %}
+      <div><img data-lazy="/sheets{{ page.url }}{{ i }}.svg" />
+      </div>
+      {% endfor %} {% endif %} {% if page.pagecount == 11 %} {% for i in (1..11) %}
+      <div><img data-lazy="/sheets{{ page.url }}{{ i }}.svg" />
+      </div>
+      {% endfor %} {% endif %} {% if page.pagecount == 12 %} {% for i in (1..12) %}
+      <div><img data-lazy="/sheets{{ page.url }}{{ i }}.svg" />
+      </div>
+      {% endfor %} {% endif %} {% if page.pagecount == 13 %} {% for i in (1..13) %}
+      <div><img data-lazy="/sheets{{ page.url }}{{ i }}.svg" />
+      </div>
+      {% endfor %} {% endif %} {% if page.pagecount == 14 %} {% for i in (1..14) %}
+      <div><img data-lazy="/sheets{{ page.url }}{{ i }}.svg" />
+      </div>
+      {% endfor %} {% endif %} {% if page.pagecount == 15 %} {% for i in (1..15) %}
+      <div><img data-lazy="/sheets{{ page.url }}{{ i }}.svg" />
+      </div>
+      {% endfor %} {% endif %} {% if page.pagecount == 16 %} {% for i in (1..16) %}
+      <div><img data-lazy="/sheets{{ page.url }}{{ i }}.svg" />
+      </div>
+      {% endfor %} {% endif %}
     </div>
-{% include scripts.html %}
+    <div id="toggle">
+      <div id="bigger" class="visible">
+        <svg viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
+          <path d="M17.192 13.808l3.808 3.808-3.385 3.385-3.808-3.808-3.808 3.808v-11h11l-3.808 3.808zM32.808 13.808l-3.808 3.808 3.385 3.385 3.808-3.808 3.808 3.808v-11h-11l3.808 3.808zM32.808 36.192l-3.808-3.808 3.385-3.385 3.808 3.808 3.808-3.808v11h-11l3.808-3.808zM17.192 36.192l3.808-3.808-3.385-3.385-3.808 3.808-3.808-3.808v11h11l-3.808-3.808z" />
+        </svg>
+      </div>
+      <div id="smaller">
+        <svg viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
+          <path d="M37.192 33.808l3.808 3.808-3.385 3.385-3.808-3.808-3.808 3.808v-11h11l-3.808 3.808.001-.001zM12.808 33.808l-3.808 3.808 3.385 3.385 3.808-3.808 3.808 3.808v-11h-11l3.808 3.808-.001-.001zM12.808 16.192l-3.808-3.808 3.385-3.385 3.808 3.808 3.808-3.808v11h-11l3.808-3.808-.001.001zM37.192 16.192l3.808-3.808-3.385-3.385-3.808 3.808-3.808-3.808v11h11l-3.808-3.808.001.001z" />
+        </svg>
+      </div>
+    </div>
+  </div>
+  {% include scripts.html %}
 </body>
 
 </html>

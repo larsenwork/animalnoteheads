@@ -25,6 +25,13 @@
       $('#toggle').addClass('visible')
       $('#toggle').click(function () {
         screenfull.toggle($('#fullscreen')[0]);
+        if (screenfull.isFullscreen) {
+          $('#smaller').addClass('visible')
+          $('#bigger').removeClass('visible')
+        } else {
+          $('#bigger').addClass('visible')
+          $('#smaller').removeClass('visible')
+        }
       });
     };
   });

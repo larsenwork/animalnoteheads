@@ -13,16 +13,16 @@ image: AnimalNoteHeadsSocial.png
 {% include social.html %}
 
 ### Concept
-Every note head is substituted and you can put a guide/stickers on your piano so that A equals alligator, Re es igual ratón, C er lig med chimpanze, Fa égale fourmi, Σολ ισούται με φίδι, etc...  
+A crowdsourced project where every note head is substituted so that A equals alligator, Re es igual ratón, C er lig med chimpanze, Fa égale fourmi, Σολ ισούται με φίδι, etc...  
 
-### Sheet music
-An open source sheet music library and tools to create your own sheet music will be up very, very soon.
+### Sheets
+The sheets come in animal, normal and color yourself versions. You can create your own and/or view other peoples submissions on [animalnoteheads.com/sheets](http://animalnoteheads.com/sheets).
 
 ### Piano
-Use the free Pianimo iOS app or buy the 4$ stickers.
+Use the free Pianimo iOS app (pending Apple review) or buy the 4$ stickers (see below).
 
 ### Support Me
-Say thanks by being my [patreon](https://www.patreon.com/andreaslarsen) and/or buying from my [shop](http://www.redbubble.com/people/animalnoteheads/shop/)
+Be my [patreon](https://www.patreon.com/andreaslarsen) and/or buy from my [shop](http://www.redbubble.com/people/animalnoteheads/shop/) where I sell the stickers.
 
 ### Contributors
 <span id="contri">
