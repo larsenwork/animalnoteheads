@@ -26,7 +26,7 @@ titlePageMarkup = \markup \abs-fontsize #10 \column {
 	\fill-line { \fontsize #18 \bold \fromproperty #'header:title }
 	\vspace #0.3
 	\fill-line { \fontsize #11.2 \fromproperty #'header:arranger }
-	\vspace #2
+	\vspace #2.8
 	\fill-line { \fontsize #7 \fromproperty #'header:credits }
 }
 
@@ -39,13 +39,12 @@ titlePageMarkup = \markup \abs-fontsize #10 \column {
   indent = 0
   top-margin = 35\mm
   bottom-margin = 35\mm
-  left-margin = 0\mm
-  right-margin = 6\mm
+  left-margin = 5\mm
+  right-margin = 5\mm
   fonts = #(set-global-fonts
             #:roman "Gidole"
             #:factor (/ staff-height pt 20))
 }
-
 
 \pageBreak
 \allowPageTurn

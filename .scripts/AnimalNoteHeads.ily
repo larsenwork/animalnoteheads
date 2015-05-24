@@ -91,9 +91,15 @@ determineBlack =
      (ly:grob-set-property! grob 'stencil
            (ly:stencil-scale stl mult mult))))
 
+
+langClef = #(string-append ".eps/G-clef-" language ".eps")
 myClefSymbol = \markup{
-  \lower #2.7
-  \epsfile #Y #7.5 #".eps/G-clef.eps"
+  \lower #2.85
+  \epsfile #Y #7.5 #langClef
+}
+defaultClefSymbol = \markup{
+  \lower #2.85
+  \epsfile #Y #7.5 #".eps/G-clef-black.eps"
 }
 
 animalNoteHeadsOn = {
@@ -124,7 +130,7 @@ animalNoteHeadsOn = {
 animalNoteHeadsOff = {
   \override Staff.NoteHead.stencil = #determineBlack
   \override Staff.Clef #'stencil = #ly:text-interface::print
-  \override Staff.Clef #'text = #myClefSymbol
+  \override Staff.Clef #'text = #defaultClefSymbol
   \override Staff.NoteHead.stem-attachment = #'(1 . 0)
   \override Staff.Stem.layer = #0
   \override Score.StaffSymbol.thickness = #0.3
