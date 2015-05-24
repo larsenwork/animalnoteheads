@@ -10,16 +10,19 @@ determineAnimal =
             (mult (* 1.25 (magstep fsz)))
             (stl empty-stencil)
             (dur-log (ly:grob-property grob 'duration-log))
+            (dur-ext (case dur-log
+                   ((2) "")
+                   (else "-half")))
             (pch (ly:event-property (event-cause grob) 'pitch))
             (nnm (ly:pitch-notename pch))
             (file (case nnm
-                    ((0) (string-append ".eps/C-" language "-color.eps"))
-                    ((1) (string-append ".eps/D-" language "-color.eps"))
-                    ((2) (string-append ".eps/E-" language "-color.eps"))
-                    ((3) (string-append ".eps/F-" language "-color.eps"))
-                    ((4) (string-append ".eps/G-" language "-color.eps"))
-                    ((5) (string-append ".eps/A-" language "-color.eps"))
-                    ((6) (string-append ".eps/H-" language "-color.eps"))
+                    ((0) (string-append ".eps/C-" language "-color" dur-ext ".eps"))
+                    ((1) (string-append ".eps/D-" language "-color" dur-ext ".eps"))
+                    ((2) (string-append ".eps/E-" language "-color" dur-ext ".eps"))
+                    ((3) (string-append ".eps/F-" language "-color" dur-ext ".eps"))
+                    ((4) (string-append ".eps/G-" language "-color" dur-ext ".eps"))
+                    ((5) (string-append ".eps/A-" language "-color" dur-ext ".eps"))
+                    ((6) (string-append ".eps/H-" language "-color" dur-ext ".eps"))
                     (else ".eps/Black.eps")))
             (stl (grob-interpret-markup grob
                    #{ \markup {
@@ -38,16 +41,19 @@ determineGrey =
             (mult (* 1.25 (magstep fsz)))
             (stl empty-stencil)
             (dur-log (ly:grob-property grob 'duration-log))
+            (dur-ext (case dur-log
+                   ((2) "")
+                   (else "-half")))
             (pch (ly:event-property (event-cause grob) 'pitch))
             (nnm (ly:pitch-notename pch))
             (file (case nnm
-                    ((0) (string-append ".eps/C-" language "-bw.eps"))
-                    ((1) (string-append ".eps/D-" language "-bw.eps"))
-                    ((2) (string-append ".eps/E-" language "-bw.eps"))
-                    ((3) (string-append ".eps/F-" language "-bw.eps"))
-                    ((4) (string-append ".eps/G-" language "-bw.eps"))
-                    ((5) (string-append ".eps/A-" language "-bw.eps"))
-                    ((6) (string-append ".eps/H-" language "-bw.eps"))
+                    ((0) (string-append ".eps/C-" language "-bw" dur-ext ".eps"))
+                    ((1) (string-append ".eps/D-" language "-bw" dur-ext ".eps"))
+                    ((2) (string-append ".eps/E-" language "-bw" dur-ext ".eps"))
+                    ((3) (string-append ".eps/F-" language "-bw" dur-ext ".eps"))
+                    ((4) (string-append ".eps/G-" language "-bw" dur-ext ".eps"))
+                    ((5) (string-append ".eps/A-" language "-bw" dur-ext ".eps"))
+                    ((6) (string-append ".eps/H-" language "-bw" dur-ext ".eps"))
                     (else ".eps/Black.eps")))
             (stl (grob-interpret-markup grob
                    #{ \markup {
@@ -59,19 +65,21 @@ determineGrey =
             )
      (ly:grob-set-property! grob 'stencil
            (ly:stencil-scale stl mult mult))))
-           
-           
-           
+
+
+
 determineBlack =
 #(lambda (grob)
      (let* ((fsz  (ly:grob-property grob 'font-size 0.0))
             (mult (* 1.25 (magstep fsz)))
             (stl empty-stencil)
             (dur-log (ly:grob-property grob 'duration-log))
+            (dur-ext (case dur-log
+                   ((2) "")
+                   (else "-half")))
             (pch (ly:event-property (event-cause grob) 'pitch))
             (nnm (ly:pitch-notename pch))
-            (file (case nnm
-                    (else ".eps/Black.eps")))
+            (file (string-append ".eps/Black" dur-ext ".eps"))
             (stl (grob-interpret-markup grob
                    #{ \markup {
                         \with-dimensions #'(0.15 . 1.05) #'(0 . 0)
@@ -83,15 +91,15 @@ determineBlack =
      (ly:grob-set-property! grob 'stencil
            (ly:stencil-scale stl mult mult))))
 
-myClefSymbol = \markup{ 
+myClefSymbol = \markup{
   \lower #2.7
   \epsfile #Y #7.5 #".eps/G-clef.eps"
 }
 
 animalNoteHeadsOn = {
   \override Staff.NoteHead.stencil = #determineAnimal
-  \override Staff.Clef #'stencil = #ly:text-interface::print 
-  \override Staff.Clef #'text = #myClefSymbol 
+  \override Staff.Clef #'stencil = #ly:text-interface::print
+  \override Staff.Clef #'text = #myClefSymbol
   \override Staff.NoteHead.stem-attachment = #'(1 . 0)
   \override Staff.Stem.layer = #0
   \override Score.StaffSymbol.thickness = #0.3
@@ -115,8 +123,8 @@ animalNoteHeadsOn = {
 
 animalNoteHeadsOff = {
   \override Staff.NoteHead.stencil = #determineBlack
-  \override Staff.Clef #'stencil = #ly:text-interface::print 
-  \override Staff.Clef #'text = #myClefSymbol 
+  \override Staff.Clef #'stencil = #ly:text-interface::print
+  \override Staff.Clef #'text = #myClefSymbol
   \override Staff.NoteHead.stem-attachment = #'(1 . 0)
   \override Staff.Stem.layer = #0
   \override Score.StaffSymbol.thickness = #0.3
@@ -140,8 +148,8 @@ animalNoteHeadsOff = {
 
 animalNoteHeadsGrey = {
   \override Staff.NoteHead.stencil = #determineGrey
-  \override Staff.Clef #'stencil = #ly:text-interface::print 
-  \override Staff.Clef #'text = #myClefSymbol 
+  \override Staff.Clef #'stencil = #ly:text-interface::print
+  \override Staff.Clef #'text = #myClefSymbol
   \override Staff.NoteHead.stem-attachment = #'(1 . 0)
   \override Staff.Stem.layer = #0
   \override Score.StaffSymbol.thickness = #0.3
