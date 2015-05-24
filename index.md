@@ -13,10 +13,12 @@ image: AnimalNoteHeadsSocial.png
 {% include social.html %}
 
 ### Concept
-A crowdsourced project where every note head is substituted so that A equals alligator, Re es igual ratón, C er lig med chimpanze, Fa égale fourmi, Σολ ισούται με φίδι, etc...  
+A crowdsourced project where every note head is substituted so that A equals alligator, Re es igual ratón, C er lig med chimpanze, Fa égale fourmi, Σολ ισούται με φίδι, etc...
+
+
 
 ### Sheets
-The sheets come in animal, normal and color yourself versions. You can create your own and/or view other peoples submissions on [animalnoteheads.com/sheets](http://animalnoteheads.com/sheets).
+The sheets come in animal, normal and color yourself versions. Once your kid (or you) can play the melodi following the animals  You can create your own and/or browse the library on [animalnoteheads.com/sheets](http://animalnoteheads.com/sheets).
 
 ### Piano
 Use the free Pianimo iOS app (pending Apple review) or buy the 4$ stickers (see below).
@@ -24,9 +26,11 @@ Use the free Pianimo iOS app (pending Apple review) or buy the 4$ stickers (see 
 ### Support Me
 Be my [patreon](https://www.patreon.com/andreaslarsen) and/or buy from my [shop](http://www.redbubble.com/people/animalnoteheads/shop/) where I sell the stickers.
 
+### Crowdsource
+I didn't create all of this by myself. I put it on [github.com/andreaslarsen/animalnoteheads](https://github.com/andreaslarsen/animalnoteheads) where your questions, feedback and contributions are more than welcome.
+
 ### Contributors
 <span id="contri">
-![You](assets/img/you.png) You? - Ideas, questions, translations, code, beta tests etc. at [GitHub](https://github.com/andreaslarsen/animalnoteheads/issues)  
 ![Abraham](assets/img/abraham.png) [Abraham Lee](http://fonts.openlilylib.org) - Lilypond expert  
 ![Tobias](assets/img/tobi.png) [Tobias Due Munk](https://twitter.com/tobiasdm) - iOS developer  
 ![Andreas](assets/img/me.png) Andreas Larsen - I love open source [projects](https://github.com/andreaslarsen?tab=repositories)
