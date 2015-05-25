@@ -33,11 +33,18 @@
      * fix jQuery reference error.
      * see https://github.com/atom/electron/issues/345
      */
-    try {
-        $ = jQuery = module.exports;
-    } catch(e) {}
-</script>
-  <script src="./js/materialize.min.js"></script>
+      try {
+          $ = jQuery = module.exports;
+      } catch(e) {}
+  </script>
+  <script src="./js/hammer.min.js"></script>
+  <script>
+      //fix Hammer reference error.
+      try {
+          Hammer = module.exports;
+      } catch(e) {}
+  </script>
+  <script src="./js/materialize.js"></script>
 </head>
 
 <body>
