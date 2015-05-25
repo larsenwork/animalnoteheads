@@ -15,10 +15,8 @@ image: AnimalNoteHeadsSocial.png
 ### Concept
 A crowdsourced project where every note head is substituted so that A equals alligator, Re es igual ratón, C er lig med chimpanze, Fa égale fourmi, Σολ ισούται με φίδι, etc...
 
-
-
 ### Sheets
-The sheets come in animal, normal and color yourself versions. Once your kid (or you) can play the melodi following the animals  You can create your own and/or browse the library on [animalnoteheads.com/sheets](http://animalnoteheads.com/sheets).
+The sheets come in animal, normal and color yourself versions. You can create your own and/or browse the library on [animalnoteheads.com/sheets](http://animalnoteheads.com/sheets).
 
 ### Piano
 Use the free Pianimo iOS app (pending Apple review) or buy the 4$ stickers (see below).
@@ -37,7 +35,7 @@ I didn't create all of this by myself. I put it on [github.com/andreaslarsen/ani
 </span>
 
 ### Translators
-[Yoan Roullard](http://yoanroullard.fr) (FR), [Elijah Verdoorn](https://twitter.com/elijahverdoorn) (ES), 
+[Yoan Roullard](http://yoanroullard.fr) (FR), [Elijah Verdoorn](https://twitter.com/elijahverdoorn) (ES), Ελευθερία Χατζηαργυρίου (EL),
 
 <!--
 ### Affilliates

@@ -16,7 +16,8 @@
     <div class="wrap">
       {% if page.title != "Animal Note Heads" %}<h1>{{ page.title }}</h1>{% endif %}
       {{ content }}
-      {% if page.title == "Animal Note Heads Sheets" %}{% include tables.html %}{% endif %}
+      {% if page.title == "Animal Note Heads Sheets" %}{% include tables.html %}<div id="status"></div>
+      {% endif %}
     </div>
   </div>
 {% include scripts.html %}
