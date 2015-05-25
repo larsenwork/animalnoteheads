@@ -52,6 +52,7 @@ titlePageMarkup = \markup \abs-fontsize #10 \column {
   \new Staff {
     \music
   }
+  \midi { \music }
   \layout {
     \omit Staff.TimeSignature
     \omit Score.BarNumber
