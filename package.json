@@ -1,0 +1,9 @@
+{
+  "name": "AnimalSheet",
+  "version": "0.0.1",
+  "main": "main.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/andreaslarsen/animalnoteheads.git"
+  }
+}

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>AnimalSheet</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <link type="text/css" rel="stylesheet" href="./css/materialize.min.css" media="screen,projection" />
+  <style>
+    [type="radio"]:not(:checked)+label,
+    [type="radio"]:checked+label {
+      padding-left: 28px;
+    }
+  </style>
+  <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="./js/materialize.min.js"></script>
+</head>
+
+<body>
+  <div class="row">
+    <form class="col s12">
+      <div class="row">
+        <div class="input-field col s12">
+          <input id="title" type="text">
+          <label for="title">Song title</label>
+        </div>
+        <div class="input-field col s12">
+          <input id="arranger" type="text">
+          <label for="arranger">Your name</label>
+        </div>
+        <div class="input-field col s12">
+          <textarea id="music" class="materialize-textarea"></textarea>
+          <label for="music">Music</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12">
+          <p>Key</p>
+        </div>
+        <div class="input-field col s1">
+          <input class="with-gap" name="key1" type="radio" id="c" checked />
+          <label for="c">C</label>
+        </div>
+        <div class="input-field col s1">
+          <input class="with-gap" name="key1" type="radio" id="d" />
+          <label for="d">D</label>
+        </div>
+        <div class="input-field col s1">
+          <input class="with-gap" name="key1" type="radio" id="e" />
+          <label for="e">E</label>
+        </div>
+        <div class="input-field col s1">
+          <input class="with-gap" name="key1" type="radio" id="f" />
+          <label for="f">F</label>
+        </div>
+        <div class="input-field col s1">
+          <input class="with-gap" name="key1" type="radio" id="g" />
+          <label for="g">G</label>
+        </div>
+        <div class="input-field col s1">
+          <input class="with-gap" name="key1" type="radio" id="a" />
+          <label for="a">A</label>
+        </div>
+        <div class="input-field col s1">
+          <input class="with-gap" name="key1" type="radio" id="h" />
+          <label for="h">B</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s2">
+          <input class="with-gap" name="key2" type="radio" id="neutral" checked />
+          <label for="neutral">Neutral</label>
+        </div>
+        <div class="input-field col s2">
+          <input class="with-gap" name="key2" type="radio" id="flat" />
+          <label for="flat">♭</label>
+        </div>
+        <div class="input-field col s2">
+          <input class="with-gap" name="key2" type="radio" id="sharp" />
+          <label for="sharp">♯</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s2">
+          <input class="with-gap" name="key3" type="radio" id="major" checked />
+          <label for="major">Major</label>
+        </div>
+        <div class="input-field col s2">
+          <input class="with-gap" name="key3" type="radio" id="minor" />
+          <label for="monir">Minor</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12">
+          <p>Language</p>
+        </div>
+        <div class="input-field col s2">
+          <input class="with-gap" name="language" type="radio" id="da" />
+          <label for="da">Dansk</label>
+        </div>
+        <div class="input-field col s2">
+          <input class="with-gap" name="language" type="radio" id="en" checked />
+          <label for="en">English</label>
+        </div>
+        <div class="input-field col s2">
+          <input class="with-gap" name="language" type="radio" id="es" />
+          <label for="es">Español</label>
+        </div>
+        <div class="input-field col s2">
+          <input class="with-gap" name="language" type="radio" id="fr" />
+          <label for="fr">Français</label>
+        </div>
+        <div class="input-field col s2">
+          <input class="with-gap" name="language" type="radio" id="el" />
+          <label for="el">Greek</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12">
+          <p>Difficulty</p>
+        </div>
+        <div class="input-field col s1">
+          <input class="with-gap" name="language" type="radio" id="level1" checked />
+          <label for="level1">1</label>
+        </div>
+        <div class="input-field col s1">
+          <input class="with-gap" name="language" type="radio" id="level2" />
+          <label for="level2">2</label>
+        </div>
+        <div class="input-field col s1">
+          <input class="with-gap" name="language" type="radio" id="level3" />
+          <label for="level3">3</label>
+        </div>
+        <div class="input-field col s1">
+          <input class="with-gap" name="language" type="radio" id="level4" />
+          <label for="level4">4</label>
+        </div>
+        <div class="input-field col s1">
+          <input class="with-gap" name="language" type="radio" id="level5" />
+          <label for="level5">5</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12">
+          <p></p>
+        </div>
+        <div class="col s12">
+          <a class="waves-effect waves-light btn-large"><i class="mdi-av-queue-music right"></i>Go</a>
+        </div>
+      </div>
+    </form>
+  </div>
+</body>
+
+</html>

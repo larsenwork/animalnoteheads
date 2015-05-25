@@ -14,6 +14,9 @@ app.on('window-all-closed', function() {
     app.quit();
 });
 
+// Load jQuery as per https://github.com/atom/electron/issues/254
+// Window.$ = Window.jQuery = require('jquery');
+
 // This method will be called when Electron has done everything
 // initialization and ready for creating browser windows.
 app.on('ready', function() {
