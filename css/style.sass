@@ -1,0 +1,78 @@
+$body-color: hsl(204, 4%, 48%)
+$dark-color: darken($body-color, 30%)
+$href-color: lighten(saturate($body-color, 80%), 20%)
+$light-href: lighten(saturate($body-color, 100%), 48%)
+
+
+@font-face
+  font-family: 'Gidole Regular'
+  src: url("../font/Gidole-Regular.woff") format("woff"), url("../font/Gidole-Regular.ttf") format("ttf")
+  font-weight: normal
+  font-style: normal
+
+body
+  max-width: 50em
+  margin: 0 auto
+  p
+    color: $dark-color
+    margin-top: 0.75em
+
+  label
+    display: inline block
+    cursor: pointer
+    -webkit-user-select: none
+
+  input[type=radio]
+    display: none
+
+  input[type=radio]:checked + label
+    color: $href-color 
+
+  input[type=text]
+    height: 1.5em
+
+  input[type=text], textarea
+    width: 100%
+    border: 1px solid $body-color
+  
+  input[type=submit]
+    cursor: pointer
+    background-color: $href-color
+    color: white
+    padding: 0 0.2em
+    border-radius: 0.4em
+    font-size: 1.6em
+    
+  textarea
+    height: 60vh
+    
+  .flexy
+    display: -webkit-flex
+    -webkit-flex-flow: row wrap
+    
+    > div:first-child
+        -webkit-flex: 3 auto
+        padding: 0 1em
+    > div 
+        -webkit-flex: 1 auto
+        padding: 0 1em      
+    
+  .texty
+    padding: 0 1em
+  
+*
+  margin: 0
+  padding: 0
+  border: none
+  font-family: 'Gidole Regular'
+  font-weight: normal !important
+  font-size: 1em
+  line-height: 1.5em
+  letter-spacing: 0.04em
+  color: $body-color
+  box-sizing: border-box
+  resize:none
+
+:focus
+  outline: 0
+  border: 1px solid $href-color !important

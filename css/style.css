@@ -1,0 +1,79 @@
+@font-face {
+  font-family: 'Gidole Regular';
+  src: url("../font/Gidole-Regular.woff") format("woff"), url("../font/Gidole-Regular.ttf") format("ttf");
+  font-weight: normal;
+  font-style: normal; }
+
+/* line 13, /Users/andreaslarsen/Git/AnimalNoteHeads/css/style.sass */
+body {
+  max-width: 50em;
+  margin: 0 auto; }
+  /* line 16, /Users/andreaslarsen/Git/AnimalNoteHeads/css/style.sass */
+  body p {
+    color: #2c2e30;
+    margin-top: 0.75em; }
+  /* line 20, /Users/andreaslarsen/Git/AnimalNoteHeads/css/style.sass */
+  body label {
+    display: inline block;
+    cursor: pointer;
+    -webkit-user-select: none; }
+  /* line 25, /Users/andreaslarsen/Git/AnimalNoteHeads/css/style.sass */
+  body input[type=radio] {
+    display: none; }
+  /* line 28, /Users/andreaslarsen/Git/AnimalNoteHeads/css/style.sass */
+  body input[type=radio]:checked + label {
+    color: #69bbf2; }
+  /* line 31, /Users/andreaslarsen/Git/AnimalNoteHeads/css/style.sass */
+  body input[type=text] {
+    height: 1.5em; }
+  /* line 34, /Users/andreaslarsen/Git/AnimalNoteHeads/css/style.sass */
+  body input[type=text], body textarea {
+    width: 100%;
+    border: 1px solid #767b7f; }
+  /* line 38, /Users/andreaslarsen/Git/AnimalNoteHeads/css/style.sass */
+  body input[type=submit] {
+    cursor: pointer;
+    background-color: #69bbf2;
+    color: white;
+    padding: 0 0.2em;
+    border-radius: 0.4em;
+    font-size: 1.6em; }
+  /* line 46, /Users/andreaslarsen/Git/AnimalNoteHeads/css/style.sass */
+  body textarea {
+    height: 60vh; }
+  /* line 49, /Users/andreaslarsen/Git/AnimalNoteHeads/css/style.sass */
+  body .flexy {
+    display: -webkit-flex;
+    -webkit-flex-flow: row wrap; }
+    /* line 53, /Users/andreaslarsen/Git/AnimalNoteHeads/css/style.sass */
+    body .flexy > div:first-child {
+      -webkit-flex: 3 auto;
+      padding: 0 1em; }
+    /* line 56, /Users/andreaslarsen/Git/AnimalNoteHeads/css/style.sass */
+    body .flexy > div {
+      -webkit-flex: 1 auto;
+      padding: 0 1em; }
+  /* line 60, /Users/andreaslarsen/Git/AnimalNoteHeads/css/style.sass */
+  body .texty {
+    padding: 0 1em; }
+
+/* line 63, /Users/andreaslarsen/Git/AnimalNoteHeads/css/style.sass */
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  font-family: 'Gidole Regular';
+  font-weight: normal !important;
+  font-size: 1em;
+  line-height: 1.5em;
+  letter-spacing: 0.04em;
+  color: #767b7f;
+  box-sizing: border-box;
+  resize: none; }
+
+/* line 76, /Users/andreaslarsen/Git/AnimalNoteHeads/css/style.sass */
+:focus {
+  outline: 0;
+  border: 1px solid #69bbf2 !important; }
+
+/*# sourceMappingURL=style.css.map */
