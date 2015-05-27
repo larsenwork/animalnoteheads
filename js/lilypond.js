@@ -29,7 +29,9 @@ var compile = function(music,metadata){
   try{
     var title = metadata.title || 'output';
     var musicToCompile = _appendTitleAndArranger(music,metadata);
+    mkdir('./.tmp');
     musicToCompile.to('./.tmp/'+title+'.ly');
+    mkdir('./output');
     exec('lilypond -o ./output/'+title+' ./.tmp/'+title+'.ly');
   }
   catch(e){
