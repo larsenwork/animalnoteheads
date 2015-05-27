@@ -5,5 +5,8 @@
   "repository": {
     "type": "git",
     "url": "git://github.com/andreaslarsen/animalnoteheads.git"
+  },
+  "dependencies": {
+    "shelljs": "^0.5.0"
   }
 }

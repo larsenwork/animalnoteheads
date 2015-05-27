@@ -80,9 +80,43 @@
       <label for="twofour">2/4</label>
       <br>
       <br>
-      <input type="submit" value="Generate sheets">
+      <!-- onclick='return false;' prevent form to be submitted-->
+      <input id="submit" type="submit" onclick="return false;" value="Generate sheets">
     </div>
   </form>
+
+  <script>
+    //require our lilypond module
+    var lilypond = require('./js/lilypond');
+    //our DOM elements
+    var $generateBtn = document.querySelector('#submit'),
+        $title = document.querySelector('#title'),
+        $arranger = document.querySelector('#arranger'),
+        $lillypondInput = document.querySelector('#music');
+
+    //we stock here the sheet metadata 'title,arranger,difficulty...'
+    var metadata = {};
+
+    //setup our event listener
+    //FIXME : to be move somewhere else
+    $title.addEventListener('change',function(){
+      metadata.title = $title.value;
+      console.log(metadata);
+    });
+    $arranger.addEventListener('change',function(){
+      metadata.arranger = $arranger.value;
+      console.log(metadata);
+    });
+
+
+
+
+
+
+    $generateBtn.addEventListener('click',function(){
+      lilypond.compile($lillypondInput.value,metadata);
+    });
+  </script>
 </body>
 
 </html>
