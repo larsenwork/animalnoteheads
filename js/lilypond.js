@@ -32,7 +32,7 @@ var compile = function(music,metadata){
     mkdir('./.tmp');
     musicToCompile.to('./.tmp/'+title+'.ly');
     mkdir('./output');
-    exec('lilypond -o ./output/'+title+' ./.tmp/'+title+'.ly');
+    exec('lilypond -o ./output/'+title+' ./.tmp/'+title+'.ly',{async:true});
   }
   catch(e){
     console.error(e);
