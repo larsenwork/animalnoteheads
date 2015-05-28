@@ -24,7 +24,7 @@
   <meta property="og:description" content="{{ page.description }}">
   <meta property="og:type" content="website">
   <meta property="og:image" content="/assets/img/{{ page.image }}">
-  
+
 <!--  WEB APP  -->
   <meta name="apple-touch-fullscreen" content="yes">
   <meta name="mobile-web-app-capable" content="yes">
@@ -38,11 +38,8 @@
   <link rel="icon" type="image/png" href="/assets/img/favicon-16x16.png" sizes="16x16" />
 
   <link rel="stylesheet" href="/assets/style.css">
-  <!--  <link rel="stylesheet" href="../assets/style.css">-->
+  {% if page.title == "Animal Note Heads Sheets" %}
   <script src="/assets/bower_components/sortable/js/sortable.min.js"></script>
-  <!--[if lt IE 9]>
-<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
-<![endif]-->
+  {% endif %}
   <link rel="shortcut icon" href="">
 </head>
