@@ -346,7 +346,7 @@ body {
   background: none !important;
   display: inline-block;
   cursor: pointer;
-  padding-right: 0.2em; }
+  padding-right: 0.5em; }
 /* line 21, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/social.sass */
 .wrap .social-likes__counter:not(.social-likes__counter_empty) {
   padding-left: 0.2em; }
@@ -585,44 +585,45 @@ ul, ol, p {
     font-size: 11vw; }
   /* line 57, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/style.sass */
   #jumbo p {
-    font-size: 4vw; }
+    font-size: 4vw;
+    margin-top: 0.2em; }
 
-/* line 60, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/style.sass */
+/* line 61, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/style.sass */
 .bg {
   background: linear-gradient(to bottom, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.9) 30vh); }
 
-/* line 63, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/style.sass */
+/* line 64, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/style.sass */
 .wrap {
   max-width: 800px;
   margin: 0 auto;
   padding: 10px 10px 10vh; }
-  /* line 67, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/style.sass */
+  /* line 68, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/style.sass */
   .wrap h3:first-child {
     margin-top: 0; }
 
-/* line 70, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/style.sass */
+/* line 71, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/style.sass */
 #fullscreen {
   background-color: white;
   height: 100%;
   width: 100%; }
 
-/* line 75, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/style.sass */
+/* line 76, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/style.sass */
 #viewer {
   width: 100%;
   height: 100%; }
-  /* line 78, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/style.sass */
+  /* line 79, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/style.sass */
   #viewer > div {
     width: 100%; }
-  /* line 80, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/style.sass */
+  /* line 81, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/style.sass */
   #viewer img {
     margin: 0 auto;
     max-height: 100%; }
-  /* line 83, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/style.sass */
+  /* line 84, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/style.sass */
   #viewer button {
     margin: 0;
     padding: 0; }
 
-/* line 86, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/style.sass */
+/* line 87, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/style.sass */
 .flexy {
   height: 100vh;
   width: 100%;
@@ -642,27 +643,27 @@ ul, ol, p {
   -webkit-align-items: center;
   -moz-align-items: center;
   align-items: center; }
-  /* line 93, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/style.sass */
+  /* line 94, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/style.sass */
   .flexy * {
     margin: 0; }
-  /* line 95, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/style.sass */
+  /* line 96, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/style.sass */
   .flexy h1 {
     margin-top: 30vh;
     font-size: 10vh; }
-  /* line 98, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/style.sass */
+  /* line 99, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/style.sass */
   .flexy h3 {
     font-size: 5vh;
     margin-top: 2vh; }
-  /* line 101, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/style.sass */
+  /* line 102, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/style.sass */
   .flexy p {
     margin-top: 30vh;
     font-size: 2.5vh; }
 
-/* line 105, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/style.sass */
+/* line 106, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/style.sass */
 * {
   -webkit-tap-highlight-color: transparent; }
 
-/* line 109, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/style.sass */
+/* line 110, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/style.sass */
 .webapp #status {
   position: fixed;
   top: 0;
@@ -671,7 +672,7 @@ ul, ol, p {
   height: 20px;
   background-color: #e4e9ec; }
 
-/* line 117, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/style.sass */
+/* line 118, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/style.sass */
 .slick-dots {
   display: -webkit-box;
   display: -webkit-flex;
@@ -695,17 +696,17 @@ ul, ol, p {
   padding: 0;
   line-height: 0;
   text-align: center; }
-  /* line 128, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/style.sass */
+  /* line 129, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/style.sass */
   .slick-dots li {
     cursor: pointer;
     display: block;
     background-color: #525b60;
     border-radius: 10px;
     margin: 20px 5px; }
-    /* line 134, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/style.sass */
+    /* line 135, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/style.sass */
     .slick-dots li.slick-active, .slick-dots li:hover {
       background-color: #7ec6f7; }
-    /* line 136, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/style.sass */
+    /* line 137, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/style.sass */
     .slick-dots li button {
       width: 10px;
       font-size: 0;
@@ -714,11 +715,11 @@ ul, ol, p {
       border: 0;
       outline: none;
       background-color: transparent; }
-      /* line 144, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/style.sass */
+      /* line 145, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/style.sass */
       .slick-dots li button:hover, .slick-dots li button:focus {
         outline: none; }
 
-/* line 147, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/style.sass */
+/* line 148, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/style.sass */
 #back {
   position: fixed;
   top: 0;
@@ -726,24 +727,24 @@ ul, ol, p {
   width: 50px;
   height: 50px;
   cursor: pointer; }
-  /* line 154, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/style.sass */
+  /* line 155, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/style.sass */
   #back path {
     fill: #7ec6f7; }
 
-/* line 158, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/style.sass */
+/* line 159, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/style.sass */
 .webapp #back {
   top: 20px; }
-/* line 160, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/style.sass */
+/* line 161, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/style.sass */
 .webapp .social-likes {
   display: none; }
-/* line 163, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/style.sass */
+/* line 164, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/style.sass */
 .webapp th:last-child, .webapp td:last-child {
   display: none; }
-/* line 166, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/style.sass */
+/* line 167, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/style.sass */
 .webapp .wrap h1, .webapp .wrap p {
   display: none; }
 
-/* line 169, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/style.sass */
+/* line 170, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/style.sass */
 #toggle {
   position: fixed;
   top: 0;
@@ -751,45 +752,45 @@ ul, ol, p {
   width: 50px;
   height: 50px;
   cursor: pointer; }
-  /* line 177, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/style.sass */
+  /* line 178, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/style.sass */
   #toggle.visible div {
     visibility: visible; }
-  /* line 179, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/style.sass */
+  /* line 180, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/style.sass */
   #toggle div {
     visibility: hidden;
     display: none; }
-    /* line 182, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/style.sass */
+    /* line 183, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/style.sass */
     #toggle div.visible {
       display: block; }
-    /* line 184, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/style.sass */
+    /* line 185, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/style.sass */
     #toggle div path {
       fill: #7ec6f7; }
-  /* line 186, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/style.sass */
+  /* line 187, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/style.sass */
   #toggle #back {
     display: none; }
-    /* line 188, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/style.sass */
+    /* line 189, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/style.sass */
     #toggle #back.visible {
       display: block; }
 
-/* line 192, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/style.sass */
+/* line 193, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/style.sass */
 #contri img {
   height: 2.4em;
   vertical-align: middle;
   margin: 0.4em 10px 0.4em 0; }
-/* line 196, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/style.sass */
+/* line 197, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/style.sass */
 #contri > span {
   display: inline-block;
   position: relative; }
-  /* line 199, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/style.sass */
+  /* line 200, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/style.sass */
   #contri > span > span {
     display: inline-block;
     vertical-align: middle; }
 
-/* line 203, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/style.sass */
+/* line 204, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/style.sass */
 footer {
   background: rgba(255, 255, 255, 0.9);
   color: #9fa7ad; }
-  /* line 206, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/style.sass */
+  /* line 207, /Users/andreaslarsen/Git/AnimalNoteHeads/assets/sass/style.sass */
   footer a {
     color: #9fa7ad; }
 
