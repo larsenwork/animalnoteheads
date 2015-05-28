@@ -7,35 +7,37 @@
   font-style: normal
 
 body
-	-webkit-font-smoothing: antialiased
-	-moz-osx-font-smoothing: grayscale
+  -webkit-font-smoothing: antialiased
+  -moz-osx-font-smoothing: grayscale
   font-weight: 400 !important
 
-	#jumbo
-		letter-spacing: -0.2em
+  #jumbo
+    letter-spacing: -0.2em
 
-	p,
-	li,
-	footer,
+  p,
+  li,
+  footer,
   table
-		letter-spacing: 0.02em
+    letter-spacing: 0.03em
 
-	a
-		color: inherit
-		text-decoration: none
-		background: -webkit-linear-gradient(top, $transparent 89.9%, $href-color 89%, $href-color 99.9%, $transparent 100%)
-		background: linear-gradient(to bottom, $transparent 89.9%, $href-color 89%, $href-color 99.9%, $transparent 100%)
-		-webkit-transition: background .2s ease
-		transition: background .2s ease
-	
-		&:hover
-			background-color: $href-color
-			color: white
+  a
+    margin: 0 -0.1em
+    padding: 0 0.1em
+    color: inherit
+    text-decoration: none
+    background: -webkit-linear-gradient(top, $transparent 70%, $href-color 70.1%, $href-color 100%, $transparent 100%)
+    background: linear-gradient(to bottom, $transparent 70%, $href-color 70.1%, $href-color 100%, $transparent 100%)
+    -webkit-transition: background .2s ease
+    transition: background .2s ease
 
-	::-moz-selection
-		color: white
-		background-color: $href-color
+    &:hover
+      background-color: $href-color
+      color: white
 
-	::selection
-		color: white
-		background-color: $href-color
+::-moz-selection
+  color: white
+  background-color: $href-color
+
+::selection
+  color: white
+  background-color: $href-color

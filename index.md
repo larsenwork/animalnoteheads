@@ -22,11 +22,11 @@ The sheets come in animal, normal and color yourself versions. You can create yo
 Use the free Pianimo iOS app (soon) or [buy](http://www.redbubble.com/people/animalnoteheads/shop/) the 4$ vinyl sticker sets.
 
 ### Contributors
-[Github.com/larsenwork/animalnoteheads](https://github.com/larsenwork/animalnoteheads) is where your questions, ideas and contributions are more than welcome.  
+Join us at [GitHub](https://github.com/larsenwork/animalnoteheads). You don't have to be a programmer - everyone's welcome:)  
 <span id="contri">
 ![Abraham](assets/img/abraham.png) [Abraham Lee](http://fonts.openlilylib.org) - Lilypond expert  
 ![Tobias](assets/img/tobi.png) [Tobias Due Munk](https://twitter.com/tobiasdm) - iOS developer  
-![Andreas](assets/img/me.png) Andreas Larsen - Be my [patreon](https://www.patreon.com/andreaslarsen), I love open source [projects](https://github.com/andreaslarsen?tab=repositories)
+![Andreas](assets/img/me.png) Andreas Larsen - Be my [patreon](https://www.patreon.com/larsenwork), I love open source [projects](https://github.com/larsenwork?tab=repositories)
 </span>
 
 ### Translators
