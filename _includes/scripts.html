@@ -5,18 +5,8 @@
 <script src="/assets/bower_components/screenfull/dist/screenfull.js"></script>
 <script src="/assets/bower_components/fastclick/lib/fastclick.js"></script>
 <script src="/assets/bower_components/ios-weblinks/dist/webapplinks.js"></script>
-{% endif %}
 <script>
-  var socialLikesButtons = {
-    github: {
-      counterUrl: 'https://api.github.com/repos/andreaslarsen/animalnoteheads?callback=?',
-      convertNumber: function (data) {
-        return data.data.watchers_count;
-      },
-      clickUrl: 'https://github.com/andreaslarsen/animalnoteheads/'
-    }
-  };
-  $(function () {
+  $(function() {
     FastClick.attach(document.body);
     $('#viewer').slick({
       arrows: false,
@@ -24,17 +14,17 @@
       lazyLoad: 'progressive',
       slidesToScroll: 1,
       infinite: false,
-      speed: 0
+      speed: 400
     });
     if (window.navigator.standalone) {
       $('html').addClass('webapp');
     }
     $("#back").click(function() {
-        history.back(1);
+      history.back(1);
     });
     if (screenfull.enabled) {
       $('#toggle').addClass('visible')
-      $('#bigger, #smaller').click(function () {
+      $('#bigger, #smaller').click(function() {
         screenfull.toggle($('#fullscreen')[0]);
         if (screenfull.isFullscreen) {
           $('#smaller').addClass('visible')
@@ -46,4 +36,16 @@
       });
     };
   });
+</script>
+{% endif %}
+<script>
+  var socialLikesButtons = {
+    github: {
+      counterUrl: 'https://api.github.com/repos/andreaslarsen/animalnoteheads?callback=?',
+      convertNumber: function(data) {
+        return data.data.watchers_count;
+      },
+      clickUrl: 'https://github.com/andreaslarsen/animalnoteheads/'
+    }
+  };
 </script>
