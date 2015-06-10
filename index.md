@@ -22,7 +22,7 @@ Because we love music and want kids af all ages to learn musical notation.
 The sheets come in animal, normal and color yourself versions. You can [create your own](https://github.com/larsenwork/animalnoteheads/tree/Lilypond) and/or browse the library on [animalnoteheads.com/sheets](/sheets)
 
 ### Piano
-Use the free [Pianimo](https://itunes.apple.com/US/app/id995991116?mt=8) iOS app or get the the 0% commision 2$ [vinyl sticker set](http://www.redbubble.com/people/animalnoteheads/shop/) and put them on your piano/keyboard like shown [here](assets/img/stickers.jpg).
+Use the free [Pianimo](https://itunes.apple.com/US/app/id995991116?mt=8) iOS app or get the the 0% commision 2$ [vinyl sticker set](http://www.redbubble.com/people/animalnoteheads/shop/) and put them on your piano/keyboard like the danish ones shown [here](assets/img/stickers.jpg).
 
 ### Contributors
 Join us at [GitHub](https://github.com/larsenwork/animalnoteheads). You don't have to be a programmer - everyone is welcome and we are still working on many things:  
