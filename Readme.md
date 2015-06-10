@@ -1,4 +1,5 @@
-The script should now be production ready for pdf (svg is a bit more complicated) 
+#Creating Sheets
+Please note that creating sheets is currently a bit technical requiring you to know how to use command line. We are making an app (also open sourced) that will make it easier to create your own sheets. Follow [@larsenwork](http://twitter.com/larsenwork) on twitter to get notified about releases.
 
 ###Prerequisites  
 * [Lilypond](http://www.lilypond.org)
