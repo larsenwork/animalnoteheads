@@ -25,4 +25,4 @@ Open terminal:
 
 
 #License
-See license.md in the master branch.
+[LICENSE.md](https://github.com/larsenwork/animalnoteheads/blob/master/LICENSE.md)
