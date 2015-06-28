@@ -1,0 +1,15 @@
+@import "../../assets/bower_components/typographic/scss/typographic.scss";
+
+$body-font: "gidoleregular", "sans-serif";
+$header-font: "gidoleregular", "sans-serif";
+$body-color: hsl(204, 8%, 30%);
+$header-color: darken($body-color, 35%);
+$href-color: hsl(204, 100%, 85%);
+$transparent: hsla(0, 0%, 0%, 0);
+$min-font: 12px;
+$max-font: 20px;
+$line-height-ratio: 1.6;
+$header-ratio: $minor-seventh;
+$body-font-weight: 400;
+$min-width: 400px;
+$max-width: 820px;

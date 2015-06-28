@@ -25,17 +25,10 @@ The sheets come in animal, normal and color yourself versions. You can [create y
 Use the free [Pianimo](https://itunes.apple.com/US/app/id995991116?mt=8) iOS app or get the the 0% commision 2$ [vinyl sticker set](http://www.redbubble.com/people/animalnoteheads/shop/) and put them on your piano/keyboard like the danish ones shown [here](assets/img/stickers.jpg).
 
 ### Contributors
-Join us at [GitHub](https://github.com/larsenwork/animalnoteheads). You don't have to be a programmer - everyone is welcome and we are still working on many things:  
-
-» app (win/mac/linux) to make sheet creation easy  
-» turn one animal "off" at a time  
-» midi/sound playback  
-» posters  
-» animated instructional videos  
-» maybe you have a great idea?  
+Join us at [GitHub](https://github.com/larsenwork/animalnoteheads). You don't have to be a programmer - everyone is welcome! We are adding more languages and features to make it even better and easier to use.
 
 <span id="contri">
-![Abraham](assets/img/abraham.png) [Abraham Lee](http://fonts.openlilylib.org) - Lilypond expert  
+![Abraham](assets/img/abraham.png) [Abraham Lee](http://leighverlag.blogspot.com/) - Lilypond expert  
 ![Tobias](assets/img/tobi.png) [Tobias Due Munk](https://twitter.com/tobiasdm) - iOS developer  
 ![Andreas](assets/img/me.png) Andreas Larsen - Open Source fanatic. Be my [patreon](https://www.patreon.com/larsenwork)
 </span>

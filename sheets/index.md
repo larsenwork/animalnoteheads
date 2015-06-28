@@ -8,7 +8,7 @@ description: Open source multilingual sheet music library, tools to create your 
 year: 2015
 image: AnimalNoteHeadsSocial.png
 ---
-Sheets created using animal note heads. Bookmark this page to your homescreen on your smartphone/tablet for a fullscreen app-like interface.
+Bookmark to your homescreen for a fullscreen app-like interface.
 
-You can [create](https://github.com/andreaslarsen/animalnoteheads/tree/Lilypond) (currently a bit technical) and/or [request](http://www.reddit.com/r/AnimalNoteHeads/) new sheets.<br><br>
+You can [create](https://github.com/andreaslarsen/animalnoteheads/tree/Lilypond) your own sheets (currently a bit technical)<br><br>
 {% include social.html %}
