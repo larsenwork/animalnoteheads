@@ -8,5 +8,8 @@
   },
   "dependencies": {
     "shelljs": "^0.5.0"
+  },
+  "devDependencies": {
+    "electron-prebuilt": "^0.28.3"
   }
 }
