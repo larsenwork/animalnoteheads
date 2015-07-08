@@ -30,7 +30,7 @@ Join us at [GitHub](https://github.com/larsenwork/animalnoteheads). You don't ha
 <span id="contri">
 ![Abraham](assets/img/abraham.png) [Abraham Lee](http://leighverlag.blogspot.com/) - Lilypond expert  
 ![Tobias](assets/img/tobi.png) [Tobias Due Munk](https://twitter.com/tobiasdm) - iOS developer  
-![Andreas](assets/img/me.png) [Me](https://twitter.com/larsenwork) - Open Source fanatic.
+![Andreas](assets/img/me.png) [Me](https://twitter.com/larsenwork) - Multifaceted open source fanatic
 <!-- Be my [patreon](https://www.patreon.com/larsenwork) -->
 </span>
 
