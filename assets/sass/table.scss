@@ -10,7 +10,8 @@
       }
     }
   }
-  td, th {
+  td,
+  th {
     padding: 0 0 !important;
     width: 1 / 6 * 100%;
     font-weight: 400;
@@ -21,6 +22,7 @@
     }
   }
   th {
+    font-weight: $header-font-weight;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;

@@ -1,23 +1,26 @@
 @include typographic;
-@font-face {
-  font-family: "gidoleregular";
-  src: url("fonts/gidole-regular.woff2") format("woff2"), url("fonts/gidole-regular.woff") format("woff"), url("fonts/gidole-regular.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
+// @font-face {
+//   font-family: "gidoleregular";
+//   src: url("fonts/gidole-regular.woff2") format("woff2"), url("fonts/gidole-regular.woff") format("woff"), url("fonts/gidole-regular.ttf") format("truetype");
+//   font-weight: normal;
+//   font-style: normal;
+// }
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 400 !important;
   #jumbo {
     letter-spacing: -0.2em;
+    p {
+      letter-spacing: 0.1em;      
+    }
   }
-  p,
-  li,
-  footer,
-  table {
-    letter-spacing: 0.03em;
-  }
+  // p,
+  // li,
+  // footer,
+  // table {
+  //   letter-spacing: 0.03em;
+  // }
   a {
     margin: 0 -0.1em;
     padding: 0 0.1em;

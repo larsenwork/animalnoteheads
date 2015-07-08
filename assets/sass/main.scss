@@ -1,3 +1,4 @@
+// out: ../style.css
 @import "../../assets/bower_components/reset-scss/reset.scss";
 @import "../../assets/bower_components/sass-flex-mixin/_flexbox.scss";
 @import "variables.scss";
@@ -5,11 +6,9 @@
 @import "social.scss";
 @import "table.scss";
 @import "slick.scss";
-
 img {
   max-width: 100%;
 }
-
 ol {
   list-style: decimal;
   @for $i from 1 through 2 {
@@ -18,20 +17,18 @@ ol {
     }
   }
 }
-
 ul {
   list-style: disc;
   ul {
     list-style: circle;
   }
 }
-
 ul,
 ol,
 p {
   margin-bottom: 0;
+  font-weight: $body-font-weight;
 }
-
 #jumbobg {
   top: 0;
   left: 0;
@@ -48,7 +45,6 @@ p {
   background-repeat: no-repeat;
   z-index: -1;
 }
-
 #jumbo {
   height: 70vh;
   padding-top: 10vh;
@@ -63,18 +59,16 @@ p {
     }
   }
   h1 {
-    font-size: 11vw;
+    font-size: 9vw;
   }
   p {
-    font-size: 4vw;
-    margin-top: 0.2em;
+    font-size: 3.6vw;
+    margin-top: 0.1em;
   }
 }
-
 .bg {
   background: linear-gradient(to bottom, hsla(0, 0%, 100%, 0.75) 0%, hsla(0, 0%, 100%, 1) 30vh);
 }
-
 .wrap {
   max-width: 800px;
   margin: 0 auto;
@@ -83,13 +77,11 @@ p {
     margin-top: 0;
   }
 }
-
 #fullscreen {
   background-color: white;
   height: 100%;
   width: 100%;
 }
-
 #viewer {
   width: 100%;
   height: 100%;
@@ -105,7 +97,6 @@ p {
     padding: 0;
   }
 }
-
 .flexy {
   height: 100vh;
   width: 100%;
@@ -129,11 +120,9 @@ p {
     font-size: 2.5vh;
   }
 }
-
 * {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
-
 .webapp {
   #status {
     position: fixed;
@@ -144,7 +133,6 @@ p {
     background-color: desaturate(lighten($href-color, 18%), 70%);
   }
 }
-
 .slick-dots {
   @include flexbox;
   @include justify-content(center);
@@ -162,7 +150,8 @@ p {
     background-color: $body-color;
     border-radius: 10px;
     margin: 20px 5px;
-    &.slick-active, &:hover {
+    &.slick-active,
+    &:hover {
       background-color: $href-color;
     }
     button {
@@ -173,13 +162,13 @@ p {
       border: 0;
       outline: none;
       background-color: transparent;
-      &:hover, &:focus {
+      &:hover,
+      &:focus {
         outline: none;
       }
     }
   }
 }
-
 #back {
   position: fixed;
   top: 0;
@@ -191,7 +180,6 @@ p {
     fill: $href-color;
   }
 }
-
 .webapp {
   #back {
     top: 20px;
@@ -199,18 +187,19 @@ p {
   .social-likes {
     display: none;
   }
-  th, td {
+  th,
+  td {
     &:last-child {
       display: none;
     }
   }
   .wrap {
-    h1, p {
+    h1,
+    p {
       display: none;
     }
   }
 }
-
 #toggle {
   position: fixed;
   top: 0;
@@ -240,7 +229,6 @@ p {
     }
   }
 }
-
 #contri {
   img {
     height: vr-block(1.5);
@@ -256,7 +244,6 @@ p {
     }
   }
 }
-
 footer {
   background: white;
   p {
