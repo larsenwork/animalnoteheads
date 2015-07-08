@@ -63,7 +63,7 @@ p {
   }
   p {
     font-size: 3.6vw;
-    margin-top: 0.1em;
+    margin-top: 0.25em;
   }
 }
 .bg {
@@ -247,6 +247,8 @@ p {
 footer {
   background: white;
   p {
-    opacity: 0.66;
+    text-align: center;
+    color: lighten($body-color, 40%);
+    font-weight: $header-font-weight;
   }
 }

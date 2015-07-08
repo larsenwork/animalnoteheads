@@ -1,4 +1,5 @@
 @include typographic;
+
 // @font-face {
 //   font-family: "gidoleregular";
 //   src: url("fonts/gidole-regular.woff2") format("woff2"), url("fonts/gidole-regular.woff") format("woff"), url("fonts/gidole-regular.ttf") format("truetype");
@@ -10,11 +11,14 @@ body {
   -moz-osx-font-smoothing: grayscale;
   font-weight: 400 !important;
   #jumbo {
-    letter-spacing: -0.2em;
+    h1 {
+      letter-spacing: -0.02em;
+    }
     p {
-      letter-spacing: 0.1em;      
+      letter-spacing: 0.05em;
     }
   }
+
   // p,
   // li,
   // footer,
@@ -26,8 +30,7 @@ body {
     padding: 0 0.1em;
     color: inherit;
     text-decoration: none;
-    border-bottom: 1px solid $href-color;
-    box-shadow: inset 0 -5px 0 $href-color;
+    box-shadow: inset 0 -0.3em 0 $href-color;
     -webkit-transition: 0.5s ease;
     transition: 0.5s ease;
     &:hover {
