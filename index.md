@@ -29,7 +29,7 @@ I'm creating posters that you can print and hang up. They're currently available
 I'm making a wooden puzzle prototype to pitch the idea for toy producers here in Europe. If that doesn't pan out I'll probably create a Kickstarter to start my own puzzle production. [Follow](https://twitter.com/larsenwork) me for updates.
 
 ### Piano
-Use the free [Pianimo](https://itunes.apple.com/US/app/id995991116?mt=8) iOS app and/or get the [2$ vinyl sticker set](http://www.redbubble.com/people/animalnoteheads/shop/) to put on your keys like the danish ones shown [here](assets/img/stickers.jpg).
+Use the free [Pianimo](https://itunes.apple.com/US/app/id995991116?mt=8) iOS app and/or get the [1.7$ vinyl sticker set](http://www.redbubble.com/people/animalnoteheads/shop/) to put on your keys like these [danish stickers](assets/img/stickers.jpg). Getting bulk discount and using 25% coupon makes the price [2.7$ for 6 sets]()
 
 ### Contributors
 Everyone is welcome to join us at [GitHub](https://github.com/larsenwork/animalnoteheads) - you don't have to be a programmer. We're adding more languages and features to make it even better and easier to use.
